@@ -40,6 +40,10 @@ function StatsTable({ stats, side, teamName, scoreA, scoreB }) {
             return (
               <tr key={s.playerId}>
                 <td className="player-cell">
+                  {p && p.avatar && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img className="mini-av" src={p.avatar} alt={p.nickname} />
+                  )}
                   {p ? <Link href={`/players/${p.id}`}>{p.nickname}</Link> : s.playerId}
                 </td>
                 <td className="num">{s.kills}</td>
@@ -94,6 +98,10 @@ function HalfTimeTable({ stats, side, teamName }) {
             return (
               <tr key={s.playerId}>
                 <td className="player-cell">
+                  {p && p.avatar && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img className="mini-av" src={p.avatar} alt={p.nickname} />
+                  )}
                   {p ? <Link href={`/players/${p.id}`}>{p.nickname}</Link> : s.playerId}
                 </td>
                 <td className="num">{ct.kills ?? "-"}</td>

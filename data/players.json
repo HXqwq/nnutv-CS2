@@ -53,7 +53,9 @@
     "realName": "",
     "team": "老年人",
     "role": "",
-    "joined": "2026-03"
+    "joined": "2026-03",
+    "steamId": "76561198812144462",
+    "avatar": "/avatars/76561198812144462.png"
   },
   {
     "id": "p12",
@@ -61,7 +63,9 @@
     "realName": "",
     "team": "老年人",
     "role": "",
-    "joined": "2026-03"
+    "joined": "2026-03",
+    "steamId": "76561198409730263",
+    "avatar": "/avatars/76561198409730263.png"
   },
   {
     "id": "p13",
@@ -69,7 +73,9 @@
     "realName": "",
     "team": "老年人",
     "role": "",
-    "joined": "2026-03"
+    "joined": "2026-03",
+    "steamId": "76561198203154359",
+    "avatar": "/avatars/76561198203154359.png"
   },
   {
     "id": "p14",
@@ -85,7 +91,9 @@
     "realName": "",
     "team": "老年人",
     "role": "",
-    "joined": "2026-03"
+    "joined": "2026-03",
+    "steamId": "76561199492553076",
+    "avatar": "/avatars/76561199492553076.png"
   },
   {
     "id": "p16",
@@ -105,7 +113,7 @@
   },
   {
     "id": "p18",
-    "nickname": "\u2726CaIm",
+    "nickname": "✦CaIm",
     "realName": "",
     "team": "香香软软小蛋糕",
     "role": "",
@@ -126,5 +134,273 @@
     "team": "香香软软小蛋糕",
     "role": "",
     "joined": "2026-03"
+  },
+  {
+    "id": "p21",
+    "nickname": "uR n1ghtmaRe",
+    "realName": "",
+    "team": "Bizon",
+    "role": "",
+    "joined": "2026-03"
+  },
+  {
+    "id": "p22",
+    "nickname": "Katrina\\",
+    "realName": "",
+    "team": "Bizon",
+    "role": "",
+    "joined": "2026-03"
+  },
+  {
+    "id": "p23",
+    "nickname": "yusen",
+    "realName": "",
+    "team": "Bizon",
+    "role": "AWP",
+    "joined": "2026-03"
+  },
+  {
+    "id": "p24",
+    "nickname": "+^Cの",
+    "realName": "",
+    "team": "Bizon",
+    "role": "",
+    "joined": "2026-03"
+  },
+  {
+    "id": "p25",
+    "nickname": "Thru",
+    "realName": "",
+    "team": "Bizon",
+    "role": "",
+    "joined": "2026-03"
+  },
+  {
+    "id": "p26",
+    "nickname": "Apple_Pie",
+    "realName": "",
+    "team": "Bizon",
+    "role": "",
+    "joined": "2026-03",
+    "steamId": "76561199634975878",
+    "avatar": "/avatars/76561199634975878.jpg"
+  },
+  {
+    "id": "p27",
+    "nickname": "轮转羊肉重度残疾",
+    "realName": "",
+    "team": "Bizon",
+    "role": "",
+    "joined": "2026-03",
+    "steamId": "76561199039049314",
+    "avatar": "/avatars/76561199039049314.jpg"
+  },
+  {
+    "id": "p28",
+    "nickname": "b1g B",
+    "realName": "",
+    "team": "Bizon",
+    "role": "",
+    "joined": "2026-03",
+    "steamId": "76561199389930183",
+    "avatar": "/avatars/76561199389930183.jpg"
+  },
+  {
+    "id": "p29",
+    "nickname": "BIGBANBOOOOOOOO",
+    "realName": "",
+    "team": "Bizon",
+    "role": "",
+    "joined": "2026-03",
+    "steamId": "76561198780475705",
+    "avatar": "/avatars/76561198780475705.jpg"
+  },
+  {
+    "id": "p30",
+    "nickname": "_C1el",
+    "realName": "",
+    "team": "天天禄",
+    "role": "",
+    "joined": "2026-03"
+  },
+  {
+    "id": "p31",
+    "nickname": "psyqhical1",
+    "realName": "psyqhical1",
+    "team": "Bizon",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561198849440229",
+    "avatar": "/avatars/76561198849440229.jpg"
+  },
+  {
+    "id": "p32",
+    "nickname": "InBlxxm",
+    "realName": "InBlxxm",
+    "team": "Bizon",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561199101199705",
+    "avatar": "/avatars/76561199101199705.jpg"
+  },
+  {
+    "id": "p33",
+    "nickname": "皮克斯儿",
+    "realName": "皮克斯儿",
+    "team": "常务副够特",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561198428130607",
+    "avatar": "/avatars/76561198428130607.jpg"
+  },
+  {
+    "id": "p34",
+    "nickname": "唯爱批李",
+    "realName": "唯爱批李",
+    "team": "常务副够特",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561198397276582",
+    "avatar": "/avatars/76561198397276582.jpg"
+  },
+  {
+    "id": "p35",
+    "nickname": "WhiteSilent",
+    "realName": "WhiteSilent",
+    "team": "常务副够特",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561198843669551",
+    "avatar": "/avatars/76561198843669551.jpg"
+  },
+  {
+    "id": "p36",
+    "nickname": "MoNoxide",
+    "realName": "MoNoxide",
+    "team": "常务副够特",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561198428218607",
+    "avatar": "/avatars/76561198428218607.jpg"
+  },
+  {
+    "id": "p37",
+    "nickname": "K1smetღ",
+    "realName": "K1smetღ",
+    "team": "常务副够特",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561198438856199",
+    "avatar": "/avatars/76561198438856199.jpg"
+  },
+  {
+    "id": "p38",
+    "nickname": "超 级 大 鼻 涕",
+    "realName": "超 级 大 鼻 涕",
+    "team": "Black Horizon",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561198847140133",
+    "avatar": "/avatars/76561198847140133.jpg"
+  },
+  {
+    "id": "p39",
+    "nickname": "Zym0o_",
+    "realName": "Zym0o_",
+    "team": "Black Horizon",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561199384004048",
+    "avatar": "/avatars/76561199384004048.jpg"
+  },
+  {
+    "id": "p40",
+    "nickname": "𝓝𝓽𝓯𝓲𝓼𝓱",
+    "realName": "𝓝𝓽𝓯𝓲𝓼𝓱",
+    "team": "Black Horizon",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561199558492535",
+    "avatar": "/avatars/76561199558492535.jpg"
+  },
+  {
+    "id": "p41",
+    "nickname": "βlues",
+    "realName": "βlues",
+    "team": "Black Horizon",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561198409816787",
+    "avatar": "/avatars/76561198409816787.jpg"
+  },
+  {
+    "id": "p42",
+    "nickname": "沙鲨",
+    "realName": "沙鲨",
+    "team": "Black Horizon",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561198970394281",
+    "avatar": "/avatars/76561198970394281.jpg"
+  },
+  {
+    "id": "p43",
+    "nickname": "⚡️AT⚡️",
+    "realName": "⚡️AT⚡️",
+    "team": "ADS",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561199139494422",
+    "avatar": "/avatars/76561199139494422.jpg"
+  },
+  {
+    "id": "p44",
+    "nickname": "star sky星空",
+    "realName": "star sky星空",
+    "team": "ADS",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561198874626685",
+    "avatar": "/avatars/76561198874626685.jpg"
+  },
+  {
+    "id": "p45",
+    "nickname": "沈纳尔躲",
+    "realName": "沈纳尔躲（副本）",
+    "team": "ADS",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561199824811064",
+    "avatar": "/avatars/76561199824811064.jpg"
+  },
+  {
+    "id": "p46",
+    "nickname": "Ruingalaxy",
+    "realName": "Ruingalaxy",
+    "team": "ADS",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561199756327305",
+    "avatar": "/avatars/76561199756327305.png"
+  },
+  {
+    "id": "p47",
+    "nickname": "Luminoth",
+    "realName": "Luminoth",
+    "team": "ADS",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561199031388793",
+    "avatar": "/avatars/76561199031388793.png"
+  },
+  {
+    "id": "p48",
+    "nickname": "别动咪的小饼干",
+    "realName": "别动咪的小饼干",
+    "team": "老年人",
+    "role": "",
+    "joined": "2026-04",
+    "steamId": "76561199179080375",
+    "avatar": "/avatars/76561199179080375.png"
   }
 ]

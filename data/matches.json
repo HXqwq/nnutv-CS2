@@ -328,5 +328,265 @@
         ]
       }
     ]
+  },
+  {
+    "id": "m3",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "Bizon",
+    "teamB": "天天禄",
+    "scoreA": 13,
+    "scoreB": 6,
+    "maps": [
+      {
+        "map": "炙热沙城Ⅱ",
+        "scoreA": 13,
+        "scoreB": 6,
+        "stats": [
+          {
+            "playerId": "p21",
+            "side": "A",
+            "kills": 11,
+            "deaths": 10,
+            "assists": 11,
+            "adr": 75,
+            "hs": 64,
+            "rating": 1.08,
+            "ctStats": { "kills": 3, "deaths": 6, "assists": 5, "adr": 79, "hs": 67, "rating": 0.94 },
+            "tStats":  { "kills": 8, "deaths": 4, "assists": 6, "adr": 72, "hs": 63, "rating": 1.16 },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 12.82,
+            "we": 9.3,
+            "performance": null,
+            "h2h": {
+              "p26": { "killed": 2, "death": 1 },
+              "p27": { "killed": 2, "death": 1 },
+              "p28": { "killed": 3, "death": 4 },
+              "p29": { "killed": 3, "death": 2 },
+              "p30": { "killed": 1, "death": 2 }
+            }
+          },
+          {
+            "playerId": "p22",
+            "side": "A",
+            "kills": 11,
+            "deaths": 12,
+            "assists": 7,
+            "adr": 65,
+            "hs": 55,
+            "rating": 0.96,
+            "ctStats": { "kills": 3, "deaths": 7, "assists": 1, "adr": 48, "hs": 67, "rating": 0.67 },
+            "tStats":  { "kills": 8, "deaths": 5, "assists": 6, "adr": 75, "hs": 50, "rating": 1.13 },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 9.60,
+            "we": 9.6,
+            "performance": null,
+            "h2h": {
+              "p26": { "killed": 2, "death": 5 },
+              "p27": { "killed": 2, "death": 3 },
+              "p28": { "killed": 3, "death": 0 },
+              "p29": { "killed": 1, "death": 2 },
+              "p30": { "killed": 3, "death": 2 }
+            }
+          },
+          {
+            "playerId": "p23",
+            "side": "A",
+            "kills": 12,
+            "deaths": 10,
+            "assists": 4,
+            "adr": 67,
+            "hs": 63,
+            "rating": 0.95,
+            "ctStats": { "kills": 1, "deaths": 7, "assists": 2, "adr": 44, "hs": 0, "rating": 0.45 },
+            "tStats":  { "kills": 11, "deaths": 3, "assists": 2, "adr": 81, "hs": 71, "rating": 1.24 },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 15.67,
+            "we": 10.2,
+            "performance": null,
+            "h2h": {
+              "p26": { "killed": 3, "death": 6 },
+              "p27": { "killed": 3, "death": 3 },
+              "p28": { "killed": 1, "death": 0 },
+              "p29": { "killed": 2, "death": 1 },
+              "p30": { "killed": 3, "death": 0 }
+            }
+          },
+          {
+            "playerId": "p24",
+            "side": "A",
+            "kills": 12,
+            "deaths": 8,
+            "assists": 4,
+            "adr": 59,
+            "hs": 33,
+            "rating": 0.94,
+            "ctStats": { "kills": 5, "deaths": 3, "assists": 1, "adr": 63, "hs": 0, "rating": 1.03 },
+            "tStats":  { "kills": 7, "deaths": 5, "assists": 3, "adr": 56, "hs": 57, "rating": 0.89 },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 8.18,
+            "we": 10.1,
+            "performance": null,
+            "h2h": {
+              "p26": { "killed": 4, "death": 2 },
+              "p27": { "killed": 2, "death": 2 },
+              "p28": { "killed": 1, "death": 1 },
+              "p29": { "killed": 4, "death": 2 },
+              "p30": { "killed": 1, "death": 1 }
+            }
+          },
+          {
+            "playerId": "p25",
+            "side": "A",
+            "kills": 10,
+            "deaths": 10,
+            "assists": 4,
+            "adr": 60,
+            "hs": 33,
+            "rating": 0.81,
+            "ctStats": { "kills": 3, "deaths": 5, "assists": 0, "adr": 53, "hs": 0, "rating": 0.60 },
+            "tStats":  { "kills": 7, "deaths": 5, "assists": 4, "adr": 64, "hs": 40, "rating": 0.94 },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 9.53,
+            "we": 9.1,
+            "performance": null,
+            "h2h": {
+              "p26": { "killed": 4, "death": 2 },
+              "p27": { "killed": 1, "death": 2 },
+              "p28": { "killed": 0, "death": 3 },
+              "p29": { "killed": 3, "death": 0 },
+              "p30": { "killed": 2, "death": 3 }
+            }
+          },
+          {
+            "playerId": "p26",
+            "side": "B",
+            "kills": 16,
+            "deaths": 15,
+            "assists": 2,
+            "adr": 88,
+            "hs": 50,
+            "rating": 1.08,
+            "ctStats": { "kills": 5, "deaths": 11, "assists": 1, "adr": 51, "hs": 60, "rating": 0.67 },
+            "tStats":  { "kills": 11, "deaths": 4, "assists": 1, "adr": 151, "hs": 45, "rating": 1.96 },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 8.25,
+            "we": 7.9,
+            "performance": null,
+            "h2h": {
+              "p21": { "killed": 1, "death": 2 },
+              "p22": { "killed": 5, "death": 2 },
+              "p23": { "killed": 6, "death": 3 },
+              "p24": { "killed": 2, "death": 4 },
+              "p25": { "killed": 2, "death": 4 }
+            }
+          },
+          {
+            "playerId": "p27",
+            "side": "B",
+            "kills": 11,
+            "deaths": 10,
+            "assists": 1,
+            "adr": 59,
+            "hs": 64,
+            "rating": 0.78,
+            "ctStats": { "kills": 8, "deaths": 8, "assists": 0, "adr": 66, "hs": 63, "rating": 0.35 },
+            "tStats":  { "kills": 3, "deaths": 2, "assists": 1, "adr": 46, "hs": 67, "rating": 0.66 },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 5.47,
+            "we": 8.2,
+            "performance": null,
+            "h2h": {
+              "p21": { "killed": 1, "death": 2 },
+              "p22": { "killed": 3, "death": 2 },
+              "p23": { "killed": 3, "death": 3 },
+              "p24": { "killed": 2, "death": 2 },
+              "p25": { "killed": 2, "death": 1 }
+            }
+          },
+          {
+            "playerId": "p28",
+            "side": "B",
+            "kills": 8,
+            "deaths": 8,
+            "assists": 1,
+            "adr": 55,
+            "hs": 50,
+            "rating": 0.71,
+            "ctStats": { "kills": 4, "deaths": 6, "assists": 1, "adr": 50, "hs": 75, "rating": 0.63 },
+            "tStats":  { "kills": 4, "deaths": 2, "assists": 0, "adr": 65, "hs": 25, "rating": 0.84 },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 5.60,
+            "we": 8.2,
+            "performance": null,
+            "h2h": {
+              "p21": { "killed": 4, "death": 3 },
+              "p22": { "killed": 0, "death": 3 },
+              "p23": { "killed": 0, "death": 1 },
+              "p24": { "killed": 1, "death": 1 },
+              "p25": { "killed": 3, "death": 0 }
+            }
+          },
+          {
+            "playerId": "p29",
+            "side": "B",
+            "kills": 7,
+            "deaths": 13,
+            "assists": 1,
+            "adr": 44,
+            "hs": 57,
+            "rating": 0.65,
+            "ctStats": { "kills": 3, "deaths": 9, "assists": 1, "adr": 39, "hs": 100, "rating": 0.57 },
+            "tStats":  { "kills": 4, "deaths": 4, "assists": 0, "adr": 53, "hs": 25, "rating": 0.77 },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 2.37,
+            "we": 6.5,
+            "performance": null,
+            "h2h": {
+              "p21": { "killed": 2, "death": 3 },
+              "p22": { "killed": 2, "death": 1 },
+              "p23": { "killed": 1, "death": 2 },
+              "p24": { "killed": 2, "death": 4 },
+              "p25": { "killed": 0, "death": 3 }
+            }
+          },
+          {
+            "playerId": "p30",
+            "side": "B",
+            "kills": 8,
+            "deaths": 10,
+            "assists": 0,
+            "adr": 49,
+            "hs": 63,
+            "rating": 0.61,
+            "ctStats": { "kills": 2, "deaths": 7, "assists": 0, "adr": 28, "hs": 50, "rating": 0.29 },
+            "tStats":  { "kills": 6, "deaths": 3, "assists": 0, "adr": 86, "hs": 67, "rating": 1.16 },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 3.57,
+            "we": 7.1,
+            "performance": null,
+            "h2h": {
+              "p21": { "killed": 2, "death": 1 },
+              "p22": { "killed": 2, "death": 3 },
+              "p23": { "killed": 0, "death": 3 },
+              "p24": { "killed": 1, "death": 1 },
+              "p25": { "killed": 3, "death": 2 }
+            }
+          }
+        ]
+      }
+    ]
   }
 ]

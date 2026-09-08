@@ -1,12 +1,20 @@
 import Link from "next/link";
-import { aggregateAll, fmt } from "../../lib/data";
+import { loadPlayers, aggregateAll, fmt } from "../../lib/data";
 
 export default function PlayersPage() {
-  const rows = aggregateAll().sort(
-    (a, b) =>
-      a.player.team.localeCompare(b.player.team) ||
-      (b.avgRating ?? 0) - (a.avgRating ?? 0)
-  );
+  const players = loadPlayers();
+  const statsById = new Map(aggregateAll().map((a) => [a.player.id, a]));
+
+  // 全部选手都展示（没打过比赛的排在有数据的之后），有数据的按评分排
+  const rows = players
+    .map((p) => ({ player: p, stats: statsById.get(p.id) || null }))
+    .sort(
+      (a, b) =>
+        a.player.team.localeCompare(b.player.team) ||
+        Number(Boolean(b.stats)) - Number(Boolean(a.stats)) ||
+        (b.stats?.avgRating ?? 0) - (a.stats?.avgRating ?? 0) ||
+        a.player.nickname.localeCompare(b.player.nickname)
+    );
 
   return (
     <div>
@@ -24,20 +32,27 @@ export default function PlayersPage() {
               <div className="player-row">
                 <span className="rank">{i + 1}</span>
                 <div className="avatar">
-                  {r.player.nickname.slice(0, 2).toUpperCase()}
+                  {r.player.avatar ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={r.player.avatar} alt={r.player.nickname} />
+                  ) : (
+                    r.player.nickname.slice(0, 2).toUpperCase()
+                  )}
                 </div>
                 <div className="info">
                   <span className="nick">{r.player.nickname}</span>
                   <span className="team">
-                    {r.player.team} · {r.player.role}
+                    {r.player.team}
+                    {r.player.role ? ` · ${r.player.role}` : ""}
+                    {!r.stats ? " · 暂无比赛" : ""}
                   </span>
                 </div>
                 <div className="kpis">
-                  <span className="kpi">图数<b>{r.maps}</b></span>
-                  <span className="kpi">K/D<b>{fmt(r.kd)}</b></span>
-                  <span className="kpi">ADR<b>{fmt(r.avgAdr, 1)}</b></span>
-                  <span className="kpi">HS%<b>{fmt(r.avgHs, 1)}</b></span>
-                  <span className="kpi">Rating<b className={(r.avgRating ?? 0) >= 1.05 ? "rating-high" : ""}>{fmt(r.avgRating)}</b></span>
+                  <span className="kpi">图数<b>{r.stats?.maps ?? "-"}</b></span>
+                  <span className="kpi">K/D<b>{r.stats ? fmt(r.stats.kd) : "-"}</b></span>
+                  <span className="kpi">ADR<b>{r.stats ? fmt(r.stats.avgAdr, 1) : "-"}</b></span>
+                  <span className="kpi">HS%<b>{r.stats ? fmt(r.stats.avgHs, 1) : "-"}</b></span>
+                  <span className="kpi">Rating<b className={(r.stats?.avgRating ?? 0) >= 1.05 ? "rating-high" : ""}>{r.stats ? fmt(r.stats.avgRating) : "-"}</b></span>
                 </div>
               </div>
             </Link>

@@ -115,7 +115,14 @@ export default async function PlayerDetailPage({ params }) {
   return (
     <div>
       <div className="player-head">
-        <div className="avatar">{player.nickname.slice(0, 2).toUpperCase()}</div>
+        <div className="avatar">
+          {player.avatar ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={player.avatar} alt={player.nickname} />
+          ) : (
+            player.nickname.slice(0, 2).toUpperCase()
+          )}
+        </div>
         <div>
           <h1>{player.nickname}</h1>
           <div className="sub">
@@ -123,6 +130,17 @@ export default async function PlayerDetailPage({ params }) {
             {player.realName ? ` · ${player.realName}` : ""}
             {player.joined ? ` · 入社 ${player.joined}` : ""}
           </div>
+          {player.steamId && (
+            <div className="steam-id">
+              <a
+                href={`https://steamcommunity.com/profiles/${player.steamId}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Steam {player.steamId}
+              </a>
+            </div>
+          )}
         </div>
       </div>
 
