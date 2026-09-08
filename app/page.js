@@ -31,25 +31,29 @@ export default function HomePage() {
             {matches.map((m) => {
               const aWon = m.scoreA > m.scoreB;
               const bWon = m.scoreB > m.scoreA;
-              const same = m.scoreA === m.scoreB;
               return (
                 <div className="match-row" key={m.id}>
                   <Link className="match-link" href={`/matches/${m.id}`}>
-                    <span className="match-date">{m.date.slice(5)}</span>
+                    <span className="match-meta">
+                      <span className="match-date">{m.date.slice(5)}</span>
+                      <span className="dot">·</span>
+                      <span>{m.format}</span>
+                      <span className="dot">·</span>
+                      <span className="match-event">{m.event}</span>
+                    </span>
                     <span className="match-main">
-                      <span className={`match-team ${aWon ? "winner" : same ? "" : "loser"}`}>
+                      <span className={`match-team ${aWon ? "winner" : "loser"}`}>
                         <span className="team-name">{m.teamA}</span>
                       </span>
                       <span className="match-score">
-                        <span className={aWon ? "win" : ""}>{aWon ? m.scoreA : m.scoreB}</span>
+                        <span className={aWon ? "win" : ""}>{m.scoreA}</span>
                         {" : "}
-                        <span className={aWon ? "" : bWon ? "win" : ""}>{aWon ? m.scoreB : m.scoreA}</span>
+                        <span className={bWon ? "win" : ""}>{m.scoreB}</span>
                       </span>
-                      <span className={`match-team ${bWon ? "winner" : same ? "" : "loser"}`}>
+                      <span className={`match-team ${bWon ? "winner" : "loser"}`}>
                         <span className="team-name">{m.teamB}</span>
                       </span>
                     </span>
-                    <span className="match-event">{m.event}</span>
                   </Link>
                 </div>
               );
