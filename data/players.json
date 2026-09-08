@@ -1,162 +1,162 @@
 [
   {
     "id": "p1",
-    "nickname": "ropz",
+    "nickname": "Arestrust",
     "realName": "",
-    "team": "NJNU·Alpha",
-    "role": "狙击手",
+    "team": "NU Esports",
+    "role": "AWP",
     "joined": "2026-03"
   },
   {
     "id": "p2",
-    "nickname": "Kaze",
+    "nickname": "Big Bamboo",
     "realName": "",
-    "team": "NJNU·Alpha",
-    "role": "突破手",
+    "team": "Bizon",
+    "role": "OPENER",
     "joined": "2026-03"
   },
   {
     "id": "p3",
-    "nickname": "lynx",
+    "nickname": "AppleP1e",
     "realName": "",
-    "team": "NJNU·Alpha",
-    "role": "指挥",
+    "team": "Bizon",
+    "role": "IGL",
     "joined": "2026-03"
   },
   {
     "id": "p4",
-    "nickname": "mochi",
+    "nickname": "H1pnoss",
     "realName": "",
-    "team": "NJNU·Alpha",
-    "role": "自由人",
+    "team": "Bizon",
+    "role": "CLOSER",
     "joined": "2026-04"
   },
   {
     "id": "p5",
-    "nickname": "drift",
+    "nickname": "BigB",
     "realName": "",
-    "team": "NJNU·Alpha",
-    "role": "支援",
+    "team": "Bizon",
+    "role": "SUPPORT",
     "joined": "2026-04"
   },
   {
     "id": "p6",
-    "nickname": "Nova",
+    "nickname": "Psyqhical",
     "realName": "",
-    "team": "NJNU·Bravo",
-    "role": "狙击手",
+    "team": "Bizon",
+    "role": "BENCHED",
     "joined": "2026-03"
   },
   {
     "id": "p7",
-    "nickname": "Zed",
+    "nickname": "",
     "realName": "",
-    "team": "NJNU·Bravo",
-    "role": "突破手",
+    "team": "",
+    "role": "",
     "joined": "2026-03"
   },
   {
     "id": "p8",
-    "nickname": "echo",
+    "nickname": "",
     "realName": "",
-    "team": "NJNU·Bravo",
-    "role": "指挥",
+    "team": "",
+    "role": "",
     "joined": "2026-03"
   },
   {
     "id": "p9",
-    "nickname": "tank",
+    "nickname": "",
     "realName": "",
-    "team": "NJNU·Bravo",
-    "role": "突破手",
+    "team": "",
+    "role": "",
     "joined": "2026-05"
   },
   {
     "id": "p10",
-    "nickname": "Fyze",
+    "nickname": "",
     "realName": "",
-    "team": "NJNU·Bravo",
-    "role": "自由人",
+    "team": "",
+    "role": "",
     "joined": "2026-05"
   },
   {
     "id": "p11",
-    "nickname": "blaze",
+    "nickname": "",
     "realName": "",
-    "team": "NJNU·Phoenix",
-    "role": "突破手",
+    "team": "",
+    "role": "",
     "joined": "2026-03"
   },
   {
     "id": "p12",
-    "nickname": "frost",
+    "nickname": "",
     "realName": "",
-    "team": "NJNU·Phoenix",
-    "role": "狙击手",
+    "team": "",
+    "role": "",
     "joined": "2026-03"
   },
   {
     "id": "p13",
-    "nickname": "orbit",
+    "nickname": "",
     "realName": "",
-    "team": "NJNU·Phoenix",
-    "role": "指挥",
+    "team": "",
+    "role": "",
     "joined": "2026-04"
   },
   {
     "id": "p14",
-    "nickname": "pixl",
+    "nickname": "",
     "realName": "",
-    "team": "NJNU·Phoenix",
-    "role": "自由人",
+    "team": "",
+    "role": "",
     "joined": "2026-04"
   },
   {
     "id": "p15",
-    "nickname": "surge",
+    "nickname": "",
     "realName": "",
-    "team": "NJNU·Phoenix",
-    "role": "支援",
+    "team": "",
+    "role": "",
     "joined": "2026-05"
   },
   {
     "id": "p16",
-    "nickname": "havoc",
+    "nickname": "",
     "realName": "",
-    "team": "NJNU·Viper",
-    "role": "突破手",
+    "team": "",
+    "role": "",
     "joined": "2026-03"
   },
   {
     "id": "p17",
-    "nickname": "smog",
+    "nickname": "",
     "realName": "",
-    "team": "NJNU·Viper",
-    "role": "狙击手",
+    "team": "",
+    "role": "",
     "joined": "2026-03"
   },
   {
     "id": "p18",
-    "nickname": "raptor",
+    "nickname": "",
     "realName": "",
-    "team": "NJNU·Viper",
-    "role": "指挥",
+    "team": "",
+    "role": "",
     "joined": "2026-04"
   },
   {
     "id": "p19",
-    "nickname": "quill",
+    "nickname": "",
     "realName": "",
-    "team": "NJNU·Viper",
-    "role": "自由人",
+    "team": "",
+    "role": "",
     "joined": "2026-05"
   },
   {
     "id": "p20",
-    "nickname": "wisp",
+    "nickname": "",
     "realName": "",
-    "team": "NJNU·Viper",
-    "role": "支援",
+    "team": "",
+    "role": "",
     "joined": "2026-05"
   }
 ]

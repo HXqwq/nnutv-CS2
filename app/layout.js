@@ -2,8 +2,8 @@ import "./globals.css";
 import Link from "next/link";
 
 export const metadata = {
-  title: "NJNU CS2 社团数据站",
-  description: "校内 CS2 社团选手与比赛数据统计",
+  title: "NNUTV ",
+  description: "Nanjing Normal University Counter-Strike News",
 };
 
 export default function RootLayout({ children }) {
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         </header>
         <main className="container">{children}</main>
         <footer className="site-footer">
-          数据来源：完美世界电竞平台 · 社团数据组维护 · 示例数据仅用于演示
+          联系作者：QQ(3605177574)
         </footer>
       </body>
     </html>
