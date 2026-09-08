@@ -1,53 +1,5 @@
 [
   {
-    "id": "p1",
-    "nickname": "Arestrust",
-    "realName": "",
-    "team": "NU Esports",
-    "role": "AWP",
-    "joined": "2026-03"
-  },
-  {
-    "id": "p2",
-    "nickname": "Big Bamboo",
-    "realName": "",
-    "team": "Bizon",
-    "role": "OPENER",
-    "joined": "2026-03"
-  },
-  {
-    "id": "p3",
-    "nickname": "AppleP1e",
-    "realName": "",
-    "team": "Bizon",
-    "role": "IGL",
-    "joined": "2026-03"
-  },
-  {
-    "id": "p4",
-    "nickname": "H1pnoss",
-    "realName": "",
-    "team": "Bizon",
-    "role": "CLOSER",
-    "joined": "2026-04"
-  },
-  {
-    "id": "p5",
-    "nickname": "BigB",
-    "realName": "",
-    "team": "Bizon",
-    "role": "SUPPORT",
-    "joined": "2026-04"
-  },
-  {
-    "id": "p6",
-    "nickname": "Psyqhical",
-    "realName": "",
-    "team": "Bizon",
-    "role": "BENCHED",
-    "joined": "2026-03"
-  },
-  {
     "id": "p11",
     "nickname": "用户*2144462",
     "realName": "",
@@ -187,7 +139,7 @@
   },
   {
     "id": "p27",
-    "nickname": "轮转羊肉重度残疾",
+    "nickname": "轮椅羊肉重度残疾",
     "realName": "",
     "team": "Bizon",
     "role": "",
