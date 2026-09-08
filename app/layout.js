@@ -2,7 +2,7 @@ import "./globals.css";
 import Link from "next/link";
 
 export const metadata = {
-  title: "NNUTV CS2 · Counter-Strike News",
+  title: "NNUTV CS2 · Counter-Strike News & Coverage",
   description: "南京师范大学 CS2 · BLION 电竞社",
 };
 
