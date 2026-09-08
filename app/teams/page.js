@@ -27,7 +27,7 @@ export default function TeamsPage() {
         all.map((t) => {
           const roster = players.filter((p) => p.team === t.name);
           return (
-            <div className="team-card" key={t.name}>
+            <div className="team-card" key={t.name} id={t.id || undefined}>
               <div className="team-card-head">
                 <div className="team-badge">
                   {(t.shortName || t.name).slice(0, 3).toUpperCase()}

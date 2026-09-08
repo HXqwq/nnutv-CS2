@@ -1,5 +1,6 @@
 import "./globals.css";
 import Link from "next/link";
+import SearchBox from "../components/SearchBox";
 
 export const metadata = {
   title: "NNUTV CS2 · Counter-Strike News & Coverage",
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
                 </Link>
               ))}
             </nav>
+            <SearchBox />
           </div>
         </header>
         <main className="container">{children}</main>
