@@ -1,0 +1,7 @@
+node_modules
+.next
+out
+*.log
+
+# 环境变量（以后接数据库等用）
+.env*

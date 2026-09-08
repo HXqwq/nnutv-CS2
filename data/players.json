@@ -1,0 +1,162 @@
+[
+  {
+    "id": "p1",
+    "nickname": "ropz",
+    "realName": "",
+    "team": "NJNU·Alpha",
+    "role": "狙击手",
+    "joined": "2026-03"
+  },
+  {
+    "id": "p2",
+    "nickname": "Kaze",
+    "realName": "",
+    "team": "NJNU·Alpha",
+    "role": "突破手",
+    "joined": "2026-03"
+  },
+  {
+    "id": "p3",
+    "nickname": "lynx",
+    "realName": "",
+    "team": "NJNU·Alpha",
+    "role": "指挥",
+    "joined": "2026-03"
+  },
+  {
+    "id": "p4",
+    "nickname": "mochi",
+    "realName": "",
+    "team": "NJNU·Alpha",
+    "role": "自由人",
+    "joined": "2026-04"
+  },
+  {
+    "id": "p5",
+    "nickname": "drift",
+    "realName": "",
+    "team": "NJNU·Alpha",
+    "role": "支援",
+    "joined": "2026-04"
+  },
+  {
+    "id": "p6",
+    "nickname": "Nova",
+    "realName": "",
+    "team": "NJNU·Bravo",
+    "role": "狙击手",
+    "joined": "2026-03"
+  },
+  {
+    "id": "p7",
+    "nickname": "Zed",
+    "realName": "",
+    "team": "NJNU·Bravo",
+    "role": "突破手",
+    "joined": "2026-03"
+  },
+  {
+    "id": "p8",
+    "nickname": "echo",
+    "realName": "",
+    "team": "NJNU·Bravo",
+    "role": "指挥",
+    "joined": "2026-03"
+  },
+  {
+    "id": "p9",
+    "nickname": "tank",
+    "realName": "",
+    "team": "NJNU·Bravo",
+    "role": "突破手",
+    "joined": "2026-05"
+  },
+  {
+    "id": "p10",
+    "nickname": "Fyze",
+    "realName": "",
+    "team": "NJNU·Bravo",
+    "role": "自由人",
+    "joined": "2026-05"
+  },
+  {
+    "id": "p11",
+    "nickname": "blaze",
+    "realName": "",
+    "team": "NJNU·Phoenix",
+    "role": "突破手",
+    "joined": "2026-03"
+  },
+  {
+    "id": "p12",
+    "nickname": "frost",
+    "realName": "",
+    "team": "NJNU·Phoenix",
+    "role": "狙击手",
+    "joined": "2026-03"
+  },
+  {
+    "id": "p13",
+    "nickname": "orbit",
+    "realName": "",
+    "team": "NJNU·Phoenix",
+    "role": "指挥",
+    "joined": "2026-04"
+  },
+  {
+    "id": "p14",
+    "nickname": "pixl",
+    "realName": "",
+    "team": "NJNU·Phoenix",
+    "role": "自由人",
+    "joined": "2026-04"
+  },
+  {
+    "id": "p15",
+    "nickname": "surge",
+    "realName": "",
+    "team": "NJNU·Phoenix",
+    "role": "支援",
+    "joined": "2026-05"
+  },
+  {
+    "id": "p16",
+    "nickname": "havoc",
+    "realName": "",
+    "team": "NJNU·Viper",
+    "role": "突破手",
+    "joined": "2026-03"
+  },
+  {
+    "id": "p17",
+    "nickname": "smog",
+    "realName": "",
+    "team": "NJNU·Viper",
+    "role": "狙击手",
+    "joined": "2026-03"
+  },
+  {
+    "id": "p18",
+    "nickname": "raptor",
+    "realName": "",
+    "team": "NJNU·Viper",
+    "role": "指挥",
+    "joined": "2026-04"
+  },
+  {
+    "id": "p19",
+    "nickname": "quill",
+    "realName": "",
+    "team": "NJNU·Viper",
+    "role": "自由人",
+    "joined": "2026-05"
+  },
+  {
+    "id": "p20",
+    "nickname": "wisp",
+    "realName": "",
+    "team": "NJNU·Viper",
+    "role": "支援",
+    "joined": "2026-05"
+  }
+]
