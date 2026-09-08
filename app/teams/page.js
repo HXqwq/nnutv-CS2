@@ -52,9 +52,7 @@ export default function TeamsPage() {
                         // eslint-disable-next-line @next/next/no-img-element
                         <img className="mini-av" src={p.avatar} alt={p.nickname} />
                       ) : (
-                        <span className="mini-av avatar" style={{ display: "inline-flex" }}>
-                          {p.nickname.slice(0, 1)}
-                        </span>
+                        <span className="mini-av av-fallback" />
                       )}
                       {p.nickname}
                     </Link>

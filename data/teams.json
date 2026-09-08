@@ -54,5 +54,59 @@
     "shortName": "老年人",
     "country": "中华人民共和国",
     "panelId": "AFcs4SrDO"
+  },
+  {
+    "id": "t9",
+    "name": "天天禄",
+    "shortName": "TLL",
+    "country": "中华人民共和国"
+  },
+  {
+    "id": "t10",
+    "name": "TeamGold",
+    "shortName": "TG",
+    "country": "中华人民共和国"
+  },
+  {
+    "id": "t11",
+    "name": "麦恩莉",
+    "shortName": "MNL",
+    "country": "中华人民共和国"
+  },
+  {
+    "id": "t12",
+    "name": "C++",
+    "shortName": "C++",
+    "country": "中华人民共和国"
+  },
+  {
+    "id": "t13",
+    "name": "牢霸道了",
+    "shortName": "LBD",
+    "country": "中华人民共和国"
+  },
+  {
+    "id": "t14",
+    "name": "JK games",
+    "shortName": "JK",
+    "country": "中华人民共和国"
+  },
+  {
+    "id": "t15",
+    "name": "惊天五条区",
+    "shortName": "JTW",
+    "country": "中华人民共和国"
+  },
+  {
+    "id": "t16",
+    "name": "总被炸",
+    "shortName": "ZBZ",
+    "country": "中华人民共和国"
+  },
+  {
+    "id": "t17",
+    "name": "My Go Clan",
+    "shortName": "MGC",
+    "country": "中华人民共和国"
   }
 ]

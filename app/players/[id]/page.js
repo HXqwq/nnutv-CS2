@@ -115,12 +115,12 @@ export default async function PlayerDetailPage({ params }) {
   return (
     <div>
       <div className="player-head">
-        <div className="avatar">
+        <div className={player.avatar ? "avatar" : "avatar av-fallback"}>
           {player.avatar ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img src={player.avatar} alt={player.nickname} />
           ) : (
-            player.nickname.slice(0, 2).toUpperCase()
+            ""
           )}
         </div>
         <div>

@@ -31,12 +31,12 @@ export default function PlayersPage() {
             >
               <div className="player-row">
                 <span className="rank">{i + 1}</span>
-                <div className="avatar">
+                <div className={r.player.avatar ? "avatar" : "avatar av-fallback"}>
                   {r.player.avatar ? (
                     // eslint-disable-next-line @next/next/no-img-element
                     <img src={r.player.avatar} alt={r.player.nickname} />
                   ) : (
-                    r.player.nickname.slice(0, 2).toUpperCase()
+                    ""
                   )}
                 </div>
                 <div className="info">

@@ -517,6 +517,10 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   margin-right: 7px;
   border: 1px solid #4a6090;
 }
+/* 缺头像占位：白色色块（叠加在 .mini-av / .avatar 上） */
+.av-fallback {
+  background: #fff;
+}
 
 /* ===== SteamID 展示 ===== */
 .steam-id { color: var(--muted); font-size: 11px; font-family: Consolas, Menlo, monospace; }

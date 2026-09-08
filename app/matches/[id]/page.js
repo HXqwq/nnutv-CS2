@@ -13,6 +13,18 @@ function StatsTable({ stats, side, teamName, scoreA, scoreB }) {
     .sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
   const teamScore = side === "A" ? scoreA : scoreB;
 
+  if (rows.length === 0) {
+    return (
+      <div>
+        <div className="map-team-label">
+          <span>{teamName}</span>
+          <span className="team-score-mini">{teamScore} 分</span>
+        </div>
+        <div className="empty">选手数据待补充（占位，后续补充）</div>
+      </div>
+    );
+  }
+
   return (
     <div>
       <div className="map-team-label">
@@ -40,9 +52,13 @@ function StatsTable({ stats, side, teamName, scoreA, scoreB }) {
             return (
               <tr key={s.playerId}>
                 <td className="player-cell">
-                  {p && p.avatar && (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img className="mini-av" src={p.avatar} alt={p.nickname} />
+                  {p && (
+                    p.avatar ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img className="mini-av" src={p.avatar} alt={p.nickname} />
+                    ) : (
+                      <span className="mini-av av-fallback" />
+                    )
                   )}
                   {p ? <Link href={`/players/${p.id}`}>{p.nickname}</Link> : s.playerId}
                 </td>
@@ -98,9 +114,13 @@ function HalfTimeTable({ stats, side, teamName }) {
             return (
               <tr key={s.playerId}>
                 <td className="player-cell">
-                  {p && p.avatar && (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img className="mini-av" src={p.avatar} alt={p.nickname} />
+                  {p && (
+                    p.avatar ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img className="mini-av" src={p.avatar} alt={p.nickname} />
+                    ) : (
+                      <span className="mini-av av-fallback" />
+                    )
                   )}
                   {p ? <Link href={`/players/${p.id}`}>{p.nickname}</Link> : s.playerId}
                 </td>

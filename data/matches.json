@@ -21,15 +21,35 @@
             "kills": 18,
             "deaths": 5,
             "assists": 4,
-            "adr": 85.0,
+            "adr": 85,
             "hs": 35,
             "rating": 1.27,
-            "ctStats": { "kills": 1, "deaths": 1, "assists": 1, "adr": 100.0, "hs": 50, "rating": 1.50 },
-            "tStats":  { "kills": 17, "deaths": 4, "assists": 3, "adr": 80.5, "hs": 35, "rating": 1.27 },
-            "multiKills": { "5K": 0, "4K": 0, "3K": 0, "2K": 1, "1K": 0 },
+            "ctStats": {
+              "kills": 1,
+              "deaths": 1,
+              "assists": 1,
+              "adr": 100,
+              "hs": 50,
+              "rating": 1.5
+            },
+            "tStats": {
+              "kills": 17,
+              "deaths": 4,
+              "assists": 3,
+              "adr": 80.5,
+              "hs": 35,
+              "rating": 1.27
+            },
+            "multiKills": {
+              "5K": 0,
+              "4K": 0,
+              "3K": 0,
+              "2K": 1,
+              "1K": 0
+            },
             "mvp": 4,
             "rws": 14.1,
-            "we": 15.0,
+            "we": 15,
             "performance": {
               "accuracy": 20,
               "stopSuccess": 60,
@@ -39,11 +59,26 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p16": { "killed": 3, "death": 1 },
-              "p17": { "killed": 3, "death": 2 },
-              "p18": { "killed": 7, "death": 2 },
-              "p19": { "killed": 2, "death": 0 },
-              "p20": { "killed": 3, "death": 0 }
+              "p16": {
+                "killed": 3,
+                "death": 1
+              },
+              "p17": {
+                "killed": 3,
+                "death": 2
+              },
+              "p18": {
+                "killed": 7,
+                "death": 2
+              },
+              "p19": {
+                "killed": 2,
+                "death": 0
+              },
+              "p20": {
+                "killed": 3,
+                "death": 0
+              }
             }
           },
           {
@@ -55,9 +90,29 @@
             "adr": 107.5,
             "hs": 45,
             "rating": 1.59,
-            "ctStats": { "kills": 4, "deaths": 1, "assists": 1, "adr": 100.0, "hs": 67, "rating": 1.50 },
-            "tStats":  { "kills": 10, "deaths": 6, "assists": 7, "adr": 107.5, "hs": 45, "rating": 1.59 },
-            "multiKills": { "5K": 0, "4K": 0, "3K": 1, "2K": 1, "1K": 0 },
+            "ctStats": {
+              "kills": 4,
+              "deaths": 1,
+              "assists": 1,
+              "adr": 100,
+              "hs": 67,
+              "rating": 1.5
+            },
+            "tStats": {
+              "kills": 10,
+              "deaths": 6,
+              "assists": 7,
+              "adr": 107.5,
+              "hs": 45,
+              "rating": 1.59
+            },
+            "multiKills": {
+              "5K": 0,
+              "4K": 0,
+              "3K": 1,
+              "2K": 1,
+              "1K": 0
+            },
             "mvp": 4,
             "rws": 18.3,
             "we": 11.8,
@@ -70,11 +125,26 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p16": { "killed": 4, "death": 3 },
-              "p17": { "killed": 2, "death": 3 },
-              "p18": { "killed": 2, "death": 1 },
-              "p19": { "killed": 4, "death": 0 },
-              "p20": { "killed": 2, "death": 0 }
+              "p16": {
+                "killed": 4,
+                "death": 3
+              },
+              "p17": {
+                "killed": 2,
+                "death": 3
+              },
+              "p18": {
+                "killed": 2,
+                "death": 1
+              },
+              "p19": {
+                "killed": 4,
+                "death": 0
+              },
+              "p20": {
+                "killed": 2,
+                "death": 0
+              }
             }
           },
           {
@@ -86,9 +156,29 @@
             "adr": 77.5,
             "hs": 42,
             "rating": 1.32,
-            "ctStats": { "kills": 3, "deaths": 0, "assists": 1, "adr": 100.0, "hs": 50, "rating": 1.50 },
-            "tStats":  { "kills": 11, "deaths": 5, "assists": 3, "adr": 77.5, "hs": 42, "rating": 1.32 },
-            "multiKills": { "5K": 0, "4K": 0, "3K": 1, "2K": 0, "1K": 1 },
+            "ctStats": {
+              "kills": 3,
+              "deaths": 0,
+              "assists": 1,
+              "adr": 100,
+              "hs": 50,
+              "rating": 1.5
+            },
+            "tStats": {
+              "kills": 11,
+              "deaths": 5,
+              "assists": 3,
+              "adr": 77.5,
+              "hs": 42,
+              "rating": 1.32
+            },
+            "multiKills": {
+              "5K": 0,
+              "4K": 0,
+              "3K": 1,
+              "2K": 0,
+              "1K": 1
+            },
             "mvp": 2,
             "rws": 13.2,
             "we": 12.6,
@@ -101,11 +191,26 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p16": { "killed": 3, "death": 2 },
-              "p17": { "killed": 2, "death": 0 },
-              "p18": { "killed": 3, "death": 2 },
-              "p19": { "killed": 2, "death": 1 },
-              "p20": { "killed": 4, "death": 0 }
+              "p16": {
+                "killed": 3,
+                "death": 2
+              },
+              "p17": {
+                "killed": 2,
+                "death": 0
+              },
+              "p18": {
+                "killed": 3,
+                "death": 2
+              },
+              "p19": {
+                "killed": 2,
+                "death": 1
+              },
+              "p20": {
+                "killed": 4,
+                "death": 0
+              }
             }
           },
           {
@@ -114,12 +219,32 @@
             "kills": 12,
             "deaths": 8,
             "assists": 3,
-            "adr": 102.0,
+            "adr": 102,
             "hs": 62,
             "rating": 1.53,
-            "ctStats": { "kills": 4, "deaths": 3, "assists": 1, "adr": 100.0, "hs": 67, "rating": 1.50 },
-            "tStats":  { "kills": 8, "deaths": 5, "assists": 2, "adr": 102.0, "hs": 62, "rating": 1.53 },
-            "multiKills": { "5K": 0, "4K": 0, "3K": 1, "2K": 0, "1K": 0 },
+            "ctStats": {
+              "kills": 4,
+              "deaths": 3,
+              "assists": 1,
+              "adr": 100,
+              "hs": 67,
+              "rating": 1.5
+            },
+            "tStats": {
+              "kills": 8,
+              "deaths": 5,
+              "assists": 2,
+              "adr": 102,
+              "hs": 62,
+              "rating": 1.53
+            },
+            "multiKills": {
+              "5K": 0,
+              "4K": 0,
+              "3K": 1,
+              "2K": 0,
+              "1K": 0
+            },
             "mvp": 1,
             "rws": 19.1,
             "we": 10.9,
@@ -132,11 +257,26 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p16": { "killed": 2, "death": 4 },
-              "p17": { "killed": 4, "death": 1 },
-              "p18": { "killed": 0, "death": 0 },
-              "p19": { "killed": 3, "death": 2 },
-              "p20": { "killed": 3, "death": 1 }
+              "p16": {
+                "killed": 2,
+                "death": 4
+              },
+              "p17": {
+                "killed": 4,
+                "death": 1
+              },
+              "p18": {
+                "killed": 0,
+                "death": 0
+              },
+              "p19": {
+                "killed": 3,
+                "death": 2
+              },
+              "p20": {
+                "killed": 3,
+                "death": 1
+              }
             }
           },
           {
@@ -145,12 +285,32 @@
             "kills": 10,
             "deaths": 7,
             "assists": 7,
-            "adr": 100.0,
+            "adr": 100,
             "hs": 76,
-            "rating": 1.50,
-            "ctStats": { "kills": 3, "deaths": 0, "assists": 4, "adr": 100.0, "hs": 67, "rating": 1.50 },
-            "tStats":  { "kills": 7, "deaths": 7, "assists": 3, "adr": 100.0, "hs": 76, "rating": 1.50 },
-            "multiKills": { "5K": 0, "4K": 0, "3K": 1, "2K": 0, "1K": 0 },
+            "rating": 1.5,
+            "ctStats": {
+              "kills": 3,
+              "deaths": 0,
+              "assists": 4,
+              "adr": 100,
+              "hs": 67,
+              "rating": 1.5
+            },
+            "tStats": {
+              "kills": 7,
+              "deaths": 7,
+              "assists": 3,
+              "adr": 100,
+              "hs": 76,
+              "rating": 1.5
+            },
+            "multiKills": {
+              "5K": 0,
+              "4K": 0,
+              "3K": 1,
+              "2K": 0,
+              "1K": 0
+            },
             "mvp": 1,
             "rws": 19.4,
             "we": 8.5,
@@ -163,11 +323,26 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p16": { "killed": 2, "death": 1 },
-              "p17": { "killed": 3, "death": 3 },
-              "p18": { "killed": 0, "death": 1 },
-              "p19": { "killed": 2, "death": 1 },
-              "p20": { "killed": 3, "death": 1 }
+              "p16": {
+                "killed": 2,
+                "death": 1
+              },
+              "p17": {
+                "killed": 3,
+                "death": 3
+              },
+              "p18": {
+                "killed": 0,
+                "death": 1
+              },
+              "p19": {
+                "killed": 2,
+                "death": 1
+              },
+              "p20": {
+                "killed": 3,
+                "death": 1
+              }
             }
           },
           {
@@ -179,9 +354,29 @@
             "adr": 91.5,
             "hs": 50,
             "rating": 1.16,
-            "ctStats": { "kills": 8, "deaths": 11, "assists": 2, "adr": 91.5, "hs": 50, "rating": 1.16 },
-            "tStats":  { "kills": 3, "deaths": 3, "assists": 0, "adr": 50.0, "hs": 33, "rating": 0.50 },
-            "multiKills": { "5K": 0, "4K": 0, "3K": 0, "2K": 0, "1K": 0 },
+            "ctStats": {
+              "kills": 8,
+              "deaths": 11,
+              "assists": 2,
+              "adr": 91.5,
+              "hs": 50,
+              "rating": 1.16
+            },
+            "tStats": {
+              "kills": 3,
+              "deaths": 3,
+              "assists": 0,
+              "adr": 50,
+              "hs": 33,
+              "rating": 0.5
+            },
+            "multiKills": {
+              "5K": 0,
+              "4K": 0,
+              "3K": 0,
+              "2K": 0,
+              "1K": 0
+            },
             "mvp": 0,
             "rws": null,
             "we": null,
@@ -194,11 +389,26 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p11": { "killed": 1, "death": 3 },
-              "p12": { "killed": 3, "death": 4 },
-              "p13": { "killed": 2, "death": 3 },
-              "p14": { "killed": 4, "death": 2 },
-              "p15": { "killed": 1, "death": 2 }
+              "p11": {
+                "killed": 1,
+                "death": 3
+              },
+              "p12": {
+                "killed": 3,
+                "death": 4
+              },
+              "p13": {
+                "killed": 2,
+                "death": 3
+              },
+              "p14": {
+                "killed": 4,
+                "death": 2
+              },
+              "p15": {
+                "killed": 1,
+                "death": 2
+              }
             }
           },
           {
@@ -210,9 +420,29 @@
             "adr": 62.5,
             "hs": 31,
             "rating": 0.71,
-            "ctStats": { "kills": 8, "deaths": 11, "assists": 0, "adr": 62.5, "hs": 31, "rating": 0.71 },
-            "tStats":  { "kills": 1, "deaths": 3, "assists": 0, "adr": 30.0, "hs": 25, "rating": 0.30 },
-            "multiKills": { "5K": 0, "4K": 0, "3K": 0, "2K": 0, "1K": 0 },
+            "ctStats": {
+              "kills": 8,
+              "deaths": 11,
+              "assists": 0,
+              "adr": 62.5,
+              "hs": 31,
+              "rating": 0.71
+            },
+            "tStats": {
+              "kills": 1,
+              "deaths": 3,
+              "assists": 0,
+              "adr": 30,
+              "hs": 25,
+              "rating": 0.3
+            },
+            "multiKills": {
+              "5K": 0,
+              "4K": 0,
+              "3K": 0,
+              "2K": 0,
+              "1K": 0
+            },
             "mvp": 0,
             "rws": null,
             "we": null,
@@ -225,11 +455,26 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p11": { "killed": 2, "death": 3 },
-              "p12": { "killed": 3, "death": 2 },
-              "p13": { "killed": 0, "death": 2 },
-              "p14": { "killed": 1, "death": 4 },
-              "p15": { "killed": 3, "death": 3 }
+              "p11": {
+                "killed": 2,
+                "death": 3
+              },
+              "p12": {
+                "killed": 3,
+                "death": 2
+              },
+              "p13": {
+                "killed": 0,
+                "death": 2
+              },
+              "p14": {
+                "killed": 1,
+                "death": 4
+              },
+              "p15": {
+                "killed": 3,
+                "death": 3
+              }
             }
           },
           {
@@ -241,9 +486,29 @@
             "adr": 49.5,
             "hs": 41,
             "rating": 0.39,
-            "ctStats": { "kills": 6, "deaths": 9, "assists": 0, "adr": 49.5, "hs": 41, "rating": 0.39 },
-            "tStats":  { "kills": 0, "deaths": 3, "assists": 0, "adr": 20.0, "hs": 20, "rating": 0.20 },
-            "multiKills": { "5K": 0, "4K": 0, "3K": 0, "2K": 0, "1K": 0 },
+            "ctStats": {
+              "kills": 6,
+              "deaths": 9,
+              "assists": 0,
+              "adr": 49.5,
+              "hs": 41,
+              "rating": 0.39
+            },
+            "tStats": {
+              "kills": 0,
+              "deaths": 3,
+              "assists": 0,
+              "adr": 20,
+              "hs": 20,
+              "rating": 0.2
+            },
+            "multiKills": {
+              "5K": 0,
+              "4K": 0,
+              "3K": 0,
+              "2K": 0,
+              "1K": 0
+            },
             "mvp": 0,
             "rws": null,
             "we": null,
@@ -256,11 +521,26 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p11": { "killed": 2, "death": 7 },
-              "p12": { "killed": 1, "death": 2 },
-              "p13": { "killed": 2, "death": 3 },
-              "p14": { "killed": 0, "death": 0 },
-              "p15": { "killed": 1, "death": 0 }
+              "p11": {
+                "killed": 2,
+                "death": 7
+              },
+              "p12": {
+                "killed": 1,
+                "death": 2
+              },
+              "p13": {
+                "killed": 2,
+                "death": 3
+              },
+              "p14": {
+                "killed": 0,
+                "death": 0
+              },
+              "p15": {
+                "killed": 1,
+                "death": 0
+              }
             }
           },
           {
@@ -272,9 +552,29 @@
             "adr": 36.5,
             "hs": 33,
             "rating": 0.41,
-            "ctStats": { "kills": 3, "deaths": 10, "assists": 2, "adr": 36.5, "hs": 33, "rating": 0.41 },
-            "tStats":  { "kills": 1, "deaths": 3, "assists": 0, "adr": 25.0, "hs": 20, "rating": 0.30 },
-            "multiKills": { "5K": 0, "4K": 0, "3K": 0, "2K": 0, "1K": 0 },
+            "ctStats": {
+              "kills": 3,
+              "deaths": 10,
+              "assists": 2,
+              "adr": 36.5,
+              "hs": 33,
+              "rating": 0.41
+            },
+            "tStats": {
+              "kills": 1,
+              "deaths": 3,
+              "assists": 0,
+              "adr": 25,
+              "hs": 20,
+              "rating": 0.3
+            },
+            "multiKills": {
+              "5K": 0,
+              "4K": 0,
+              "3K": 0,
+              "2K": 0,
+              "1K": 0
+            },
             "mvp": 0,
             "rws": null,
             "we": null,
@@ -287,11 +587,26 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p11": { "killed": 0, "death": 2 },
-              "p12": { "killed": 0, "death": 4 },
-              "p13": { "killed": 1, "death": 2 },
-              "p14": { "killed": 2, "death": 3 },
-              "p15": { "killed": 1, "death": 2 }
+              "p11": {
+                "killed": 0,
+                "death": 2
+              },
+              "p12": {
+                "killed": 0,
+                "death": 4
+              },
+              "p13": {
+                "killed": 1,
+                "death": 2
+              },
+              "p14": {
+                "killed": 2,
+                "death": 3
+              },
+              "p15": {
+                "killed": 1,
+                "death": 2
+              }
             }
           },
           {
@@ -303,9 +618,29 @@
             "adr": 18.5,
             "hs": 25,
             "rating": 0.26,
-            "ctStats": { "kills": 2, "deaths": 12, "assists": 1, "adr": 18.5, "hs": 25, "rating": 0.26 },
-            "tStats":  { "kills": 0, "deaths": 3, "assists": 1, "adr": 15.0, "hs": 20, "rating": 0.20 },
-            "multiKills": { "5K": 0, "4K": 0, "3K": 0, "2K": 0, "1K": 0 },
+            "ctStats": {
+              "kills": 2,
+              "deaths": 12,
+              "assists": 1,
+              "adr": 18.5,
+              "hs": 25,
+              "rating": 0.26
+            },
+            "tStats": {
+              "kills": 0,
+              "deaths": 3,
+              "assists": 1,
+              "adr": 15,
+              "hs": 20,
+              "rating": 0.2
+            },
+            "multiKills": {
+              "5K": 0,
+              "4K": 0,
+              "3K": 0,
+              "2K": 0,
+              "1K": 0
+            },
             "mvp": 0,
             "rws": null,
             "we": null,
@@ -318,11 +653,26 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p11": { "killed": 0, "death": 3 },
-              "p12": { "killed": 0, "death": 2 },
-              "p13": { "killed": 0, "death": 4 },
-              "p14": { "killed": 1, "death": 3 },
-              "p15": { "killed": 1, "death": 3 }
+              "p11": {
+                "killed": 0,
+                "death": 3
+              },
+              "p12": {
+                "killed": 0,
+                "death": 2
+              },
+              "p13": {
+                "killed": 0,
+                "death": 4
+              },
+              "p14": {
+                "killed": 1,
+                "death": 3
+              },
+              "p15": {
+                "killed": 1,
+                "death": 3
+              }
             }
           }
         ]
@@ -354,19 +704,48 @@
             "adr": 75,
             "hs": 64,
             "rating": 1.08,
-            "ctStats": { "kills": 3, "deaths": 6, "assists": 5, "adr": 79, "hs": 67, "rating": 0.94 },
-            "tStats":  { "kills": 8, "deaths": 4, "assists": 6, "adr": 72, "hs": 63, "rating": 1.16 },
+            "ctStats": {
+              "kills": 3,
+              "deaths": 6,
+              "assists": 5,
+              "adr": 79,
+              "hs": 67,
+              "rating": 0.94
+            },
+            "tStats": {
+              "kills": 8,
+              "deaths": 4,
+              "assists": 6,
+              "adr": 72,
+              "hs": 63,
+              "rating": 1.16
+            },
             "multiKills": null,
             "mvp": 0,
             "rws": 12.82,
             "we": 9.3,
             "performance": null,
             "h2h": {
-              "p26": { "killed": 2, "death": 1 },
-              "p27": { "killed": 2, "death": 1 },
-              "p28": { "killed": 3, "death": 4 },
-              "p29": { "killed": 3, "death": 2 },
-              "p30": { "killed": 1, "death": 2 }
+              "p26": {
+                "killed": 2,
+                "death": 1
+              },
+              "p27": {
+                "killed": 2,
+                "death": 1
+              },
+              "p28": {
+                "killed": 3,
+                "death": 4
+              },
+              "p29": {
+                "killed": 3,
+                "death": 2
+              },
+              "p30": {
+                "killed": 1,
+                "death": 2
+              }
             }
           },
           {
@@ -378,19 +757,48 @@
             "adr": 65,
             "hs": 55,
             "rating": 0.96,
-            "ctStats": { "kills": 3, "deaths": 7, "assists": 1, "adr": 48, "hs": 67, "rating": 0.67 },
-            "tStats":  { "kills": 8, "deaths": 5, "assists": 6, "adr": 75, "hs": 50, "rating": 1.13 },
+            "ctStats": {
+              "kills": 3,
+              "deaths": 7,
+              "assists": 1,
+              "adr": 48,
+              "hs": 67,
+              "rating": 0.67
+            },
+            "tStats": {
+              "kills": 8,
+              "deaths": 5,
+              "assists": 6,
+              "adr": 75,
+              "hs": 50,
+              "rating": 1.13
+            },
             "multiKills": null,
             "mvp": 0,
-            "rws": 9.60,
+            "rws": 9.6,
             "we": 9.6,
             "performance": null,
             "h2h": {
-              "p26": { "killed": 2, "death": 5 },
-              "p27": { "killed": 2, "death": 3 },
-              "p28": { "killed": 3, "death": 0 },
-              "p29": { "killed": 1, "death": 2 },
-              "p30": { "killed": 3, "death": 2 }
+              "p26": {
+                "killed": 2,
+                "death": 5
+              },
+              "p27": {
+                "killed": 2,
+                "death": 3
+              },
+              "p28": {
+                "killed": 3,
+                "death": 0
+              },
+              "p29": {
+                "killed": 1,
+                "death": 2
+              },
+              "p30": {
+                "killed": 3,
+                "death": 2
+              }
             }
           },
           {
@@ -402,19 +810,48 @@
             "adr": 67,
             "hs": 63,
             "rating": 0.95,
-            "ctStats": { "kills": 1, "deaths": 7, "assists": 2, "adr": 44, "hs": 0, "rating": 0.45 },
-            "tStats":  { "kills": 11, "deaths": 3, "assists": 2, "adr": 81, "hs": 71, "rating": 1.24 },
+            "ctStats": {
+              "kills": 1,
+              "deaths": 7,
+              "assists": 2,
+              "adr": 44,
+              "hs": 0,
+              "rating": 0.45
+            },
+            "tStats": {
+              "kills": 11,
+              "deaths": 3,
+              "assists": 2,
+              "adr": 81,
+              "hs": 71,
+              "rating": 1.24
+            },
             "multiKills": null,
             "mvp": 0,
             "rws": 15.67,
             "we": 10.2,
             "performance": null,
             "h2h": {
-              "p26": { "killed": 3, "death": 6 },
-              "p27": { "killed": 3, "death": 3 },
-              "p28": { "killed": 1, "death": 0 },
-              "p29": { "killed": 2, "death": 1 },
-              "p30": { "killed": 3, "death": 0 }
+              "p26": {
+                "killed": 3,
+                "death": 6
+              },
+              "p27": {
+                "killed": 3,
+                "death": 3
+              },
+              "p28": {
+                "killed": 1,
+                "death": 0
+              },
+              "p29": {
+                "killed": 2,
+                "death": 1
+              },
+              "p30": {
+                "killed": 3,
+                "death": 0
+              }
             }
           },
           {
@@ -426,19 +863,48 @@
             "adr": 59,
             "hs": 33,
             "rating": 0.94,
-            "ctStats": { "kills": 5, "deaths": 3, "assists": 1, "adr": 63, "hs": 0, "rating": 1.03 },
-            "tStats":  { "kills": 7, "deaths": 5, "assists": 3, "adr": 56, "hs": 57, "rating": 0.89 },
+            "ctStats": {
+              "kills": 5,
+              "deaths": 3,
+              "assists": 1,
+              "adr": 63,
+              "hs": 0,
+              "rating": 1.03
+            },
+            "tStats": {
+              "kills": 7,
+              "deaths": 5,
+              "assists": 3,
+              "adr": 56,
+              "hs": 57,
+              "rating": 0.89
+            },
             "multiKills": null,
             "mvp": 0,
             "rws": 8.18,
             "we": 10.1,
             "performance": null,
             "h2h": {
-              "p26": { "killed": 4, "death": 2 },
-              "p27": { "killed": 2, "death": 2 },
-              "p28": { "killed": 1, "death": 1 },
-              "p29": { "killed": 4, "death": 2 },
-              "p30": { "killed": 1, "death": 1 }
+              "p26": {
+                "killed": 4,
+                "death": 2
+              },
+              "p27": {
+                "killed": 2,
+                "death": 2
+              },
+              "p28": {
+                "killed": 1,
+                "death": 1
+              },
+              "p29": {
+                "killed": 4,
+                "death": 2
+              },
+              "p30": {
+                "killed": 1,
+                "death": 1
+              }
             }
           },
           {
@@ -450,19 +916,48 @@
             "adr": 60,
             "hs": 33,
             "rating": 0.81,
-            "ctStats": { "kills": 3, "deaths": 5, "assists": 0, "adr": 53, "hs": 0, "rating": 0.60 },
-            "tStats":  { "kills": 7, "deaths": 5, "assists": 4, "adr": 64, "hs": 40, "rating": 0.94 },
+            "ctStats": {
+              "kills": 3,
+              "deaths": 5,
+              "assists": 0,
+              "adr": 53,
+              "hs": 0,
+              "rating": 0.6
+            },
+            "tStats": {
+              "kills": 7,
+              "deaths": 5,
+              "assists": 4,
+              "adr": 64,
+              "hs": 40,
+              "rating": 0.94
+            },
             "multiKills": null,
             "mvp": 0,
             "rws": 9.53,
             "we": 9.1,
             "performance": null,
             "h2h": {
-              "p26": { "killed": 4, "death": 2 },
-              "p27": { "killed": 1, "death": 2 },
-              "p28": { "killed": 0, "death": 3 },
-              "p29": { "killed": 3, "death": 0 },
-              "p30": { "killed": 2, "death": 3 }
+              "p26": {
+                "killed": 4,
+                "death": 2
+              },
+              "p27": {
+                "killed": 1,
+                "death": 2
+              },
+              "p28": {
+                "killed": 0,
+                "death": 3
+              },
+              "p29": {
+                "killed": 3,
+                "death": 0
+              },
+              "p30": {
+                "killed": 2,
+                "death": 3
+              }
             }
           },
           {
@@ -474,19 +969,48 @@
             "adr": 88,
             "hs": 50,
             "rating": 1.08,
-            "ctStats": { "kills": 5, "deaths": 11, "assists": 1, "adr": 51, "hs": 60, "rating": 0.67 },
-            "tStats":  { "kills": 11, "deaths": 4, "assists": 1, "adr": 151, "hs": 45, "rating": 1.96 },
+            "ctStats": {
+              "kills": 5,
+              "deaths": 11,
+              "assists": 1,
+              "adr": 51,
+              "hs": 60,
+              "rating": 0.67
+            },
+            "tStats": {
+              "kills": 11,
+              "deaths": 4,
+              "assists": 1,
+              "adr": 151,
+              "hs": 45,
+              "rating": 1.96
+            },
             "multiKills": null,
             "mvp": 0,
             "rws": 8.25,
             "we": 7.9,
             "performance": null,
             "h2h": {
-              "p21": { "killed": 1, "death": 2 },
-              "p22": { "killed": 5, "death": 2 },
-              "p23": { "killed": 6, "death": 3 },
-              "p24": { "killed": 2, "death": 4 },
-              "p25": { "killed": 2, "death": 4 }
+              "p21": {
+                "killed": 1,
+                "death": 2
+              },
+              "p22": {
+                "killed": 5,
+                "death": 2
+              },
+              "p23": {
+                "killed": 6,
+                "death": 3
+              },
+              "p24": {
+                "killed": 2,
+                "death": 4
+              },
+              "p25": {
+                "killed": 2,
+                "death": 4
+              }
             }
           },
           {
@@ -498,19 +1022,48 @@
             "adr": 59,
             "hs": 64,
             "rating": 0.78,
-            "ctStats": { "kills": 8, "deaths": 8, "assists": 0, "adr": 66, "hs": 63, "rating": 0.35 },
-            "tStats":  { "kills": 3, "deaths": 2, "assists": 1, "adr": 46, "hs": 67, "rating": 0.66 },
+            "ctStats": {
+              "kills": 8,
+              "deaths": 8,
+              "assists": 0,
+              "adr": 66,
+              "hs": 63,
+              "rating": 0.35
+            },
+            "tStats": {
+              "kills": 3,
+              "deaths": 2,
+              "assists": 1,
+              "adr": 46,
+              "hs": 67,
+              "rating": 0.66
+            },
             "multiKills": null,
             "mvp": 0,
             "rws": 5.47,
             "we": 8.2,
             "performance": null,
             "h2h": {
-              "p21": { "killed": 1, "death": 2 },
-              "p22": { "killed": 3, "death": 2 },
-              "p23": { "killed": 3, "death": 3 },
-              "p24": { "killed": 2, "death": 2 },
-              "p25": { "killed": 2, "death": 1 }
+              "p21": {
+                "killed": 1,
+                "death": 2
+              },
+              "p22": {
+                "killed": 3,
+                "death": 2
+              },
+              "p23": {
+                "killed": 3,
+                "death": 3
+              },
+              "p24": {
+                "killed": 2,
+                "death": 2
+              },
+              "p25": {
+                "killed": 2,
+                "death": 1
+              }
             }
           },
           {
@@ -522,19 +1075,48 @@
             "adr": 55,
             "hs": 50,
             "rating": 0.71,
-            "ctStats": { "kills": 4, "deaths": 6, "assists": 1, "adr": 50, "hs": 75, "rating": 0.63 },
-            "tStats":  { "kills": 4, "deaths": 2, "assists": 0, "adr": 65, "hs": 25, "rating": 0.84 },
+            "ctStats": {
+              "kills": 4,
+              "deaths": 6,
+              "assists": 1,
+              "adr": 50,
+              "hs": 75,
+              "rating": 0.63
+            },
+            "tStats": {
+              "kills": 4,
+              "deaths": 2,
+              "assists": 0,
+              "adr": 65,
+              "hs": 25,
+              "rating": 0.84
+            },
             "multiKills": null,
             "mvp": 0,
-            "rws": 5.60,
+            "rws": 5.6,
             "we": 8.2,
             "performance": null,
             "h2h": {
-              "p21": { "killed": 4, "death": 3 },
-              "p22": { "killed": 0, "death": 3 },
-              "p23": { "killed": 0, "death": 1 },
-              "p24": { "killed": 1, "death": 1 },
-              "p25": { "killed": 3, "death": 0 }
+              "p21": {
+                "killed": 4,
+                "death": 3
+              },
+              "p22": {
+                "killed": 0,
+                "death": 3
+              },
+              "p23": {
+                "killed": 0,
+                "death": 1
+              },
+              "p24": {
+                "killed": 1,
+                "death": 1
+              },
+              "p25": {
+                "killed": 3,
+                "death": 0
+              }
             }
           },
           {
@@ -546,19 +1128,48 @@
             "adr": 44,
             "hs": 57,
             "rating": 0.65,
-            "ctStats": { "kills": 3, "deaths": 9, "assists": 1, "adr": 39, "hs": 100, "rating": 0.57 },
-            "tStats":  { "kills": 4, "deaths": 4, "assists": 0, "adr": 53, "hs": 25, "rating": 0.77 },
+            "ctStats": {
+              "kills": 3,
+              "deaths": 9,
+              "assists": 1,
+              "adr": 39,
+              "hs": 100,
+              "rating": 0.57
+            },
+            "tStats": {
+              "kills": 4,
+              "deaths": 4,
+              "assists": 0,
+              "adr": 53,
+              "hs": 25,
+              "rating": 0.77
+            },
             "multiKills": null,
             "mvp": 0,
             "rws": 2.37,
             "we": 6.5,
             "performance": null,
             "h2h": {
-              "p21": { "killed": 2, "death": 3 },
-              "p22": { "killed": 2, "death": 1 },
-              "p23": { "killed": 1, "death": 2 },
-              "p24": { "killed": 2, "death": 4 },
-              "p25": { "killed": 0, "death": 3 }
+              "p21": {
+                "killed": 2,
+                "death": 3
+              },
+              "p22": {
+                "killed": 2,
+                "death": 1
+              },
+              "p23": {
+                "killed": 1,
+                "death": 2
+              },
+              "p24": {
+                "killed": 2,
+                "death": 4
+              },
+              "p25": {
+                "killed": 0,
+                "death": 3
+              }
             }
           },
           {
@@ -570,22 +1181,1297 @@
             "adr": 49,
             "hs": 63,
             "rating": 0.61,
-            "ctStats": { "kills": 2, "deaths": 7, "assists": 0, "adr": 28, "hs": 50, "rating": 0.29 },
-            "tStats":  { "kills": 6, "deaths": 3, "assists": 0, "adr": 86, "hs": 67, "rating": 1.16 },
+            "ctStats": {
+              "kills": 2,
+              "deaths": 7,
+              "assists": 0,
+              "adr": 28,
+              "hs": 50,
+              "rating": 0.29
+            },
+            "tStats": {
+              "kills": 6,
+              "deaths": 3,
+              "assists": 0,
+              "adr": 86,
+              "hs": 67,
+              "rating": 1.16
+            },
             "multiKills": null,
             "mvp": 0,
             "rws": 3.57,
             "we": 7.1,
             "performance": null,
             "h2h": {
-              "p21": { "killed": 2, "death": 1 },
-              "p22": { "killed": 2, "death": 3 },
-              "p23": { "killed": 0, "death": 3 },
-              "p24": { "killed": 1, "death": 1 },
-              "p25": { "killed": 3, "death": 2 }
+              "p21": {
+                "killed": 2,
+                "death": 1
+              },
+              "p22": {
+                "killed": 2,
+                "death": 3
+              },
+              "p23": {
+                "killed": 0,
+                "death": 3
+              },
+              "p24": {
+                "killed": 1,
+                "death": 1
+              },
+              "p25": {
+                "killed": 3,
+                "death": 2
+              }
             }
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "m4",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "ADS",
+    "teamB": "痱子可烂",
+    "scoreA": 13,
+    "scoreB": 3,
+    "maps": [
+      {
+        "map": "远古遗迹",
+        "scoreA": 13,
+        "scoreB": 3,
+        "stats": [
+          {
+            "playerId": "p44",
+            "side": "A",
+            "kills": 25,
+            "deaths": 7,
+            "assists": 3,
+            "adr": 141,
+            "hs": 44,
+            "rating": 2.07,
+            "ctStats": {
+              "kills": 17,
+              "deaths": 6,
+              "assists": 1,
+              "adr": 125,
+              "hs": 35,
+              "rating": 1.83
+            },
+            "tStats": {
+              "kills": 8,
+              "deaths": 1,
+              "assists": 2,
+              "adr": 190,
+              "hs": 63,
+              "rating": 2.8
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 26.37,
+            "we": 15.1,
+            "performance": null,
+            "h2h": {
+              "p49": {
+                "killed": 6,
+                "death": 1
+              },
+              "p50": {
+                "killed": 5,
+                "death": 1
+              },
+              "p51": {
+                "killed": 4,
+                "death": 2
+              },
+              "p52": {
+                "killed": 5,
+                "death": 2
+              },
+              "p53": {
+                "killed": 5,
+                "death": 1
+              }
+            }
+          },
+          {
+            "playerId": "p43",
+            "side": "A",
+            "kills": 16,
+            "deaths": 7,
+            "assists": 5,
+            "adr": 110,
+            "hs": 58,
+            "rating": 1.55,
+            "ctStats": {
+              "kills": 15,
+              "deaths": 5,
+              "assists": 3,
+              "adr": 127,
+              "hs": 64,
+              "rating": 1.8
+            },
+            "tStats": {
+              "kills": 1,
+              "deaths": 2,
+              "assists": 2,
+              "adr": 56,
+              "hs": 0,
+              "rating": 0.79
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 17.79,
+            "we": 13.2,
+            "performance": null,
+            "h2h": {
+              "p49": {
+                "killed": 2,
+                "death": 4
+              },
+              "p50": {
+                "killed": 2,
+                "death": 3
+              },
+              "p51": {
+                "killed": 3,
+                "death": 0
+              },
+              "p52": {
+                "killed": 3,
+                "death": 0
+              },
+              "p53": {
+                "killed": 6,
+                "death": 0
+              }
+            }
+          },
+          {
+            "playerId": "p45",
+            "side": "A",
+            "kills": 17,
+            "deaths": 8,
+            "assists": 3,
+            "adr": 94,
+            "hs": 59,
+            "rating": 1.4,
+            "ctStats": {
+              "kills": 14,
+              "deaths": 7,
+              "assists": 3,
+              "adr": 110,
+              "hs": 57,
+              "rating": 1.58
+            },
+            "tStats": {
+              "kills": 3,
+              "deaths": 1,
+              "assists": 0,
+              "adr": 47,
+              "hs": 67,
+              "rating": 0.86
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 13.86,
+            "we": 11.8,
+            "performance": null,
+            "h2h": {
+              "p49": {
+                "killed": 1,
+                "death": 4
+              },
+              "p50": {
+                "killed": 4,
+                "death": 3
+              },
+              "p51": {
+                "killed": 6,
+                "death": 0
+              },
+              "p52": {
+                "killed": 3,
+                "death": 0
+              },
+              "p53": {
+                "killed": 3,
+                "death": 1
+              }
+            }
+          },
+          {
+            "playerId": "p46",
+            "side": "A",
+            "kills": 12,
+            "deaths": 9,
+            "assists": 6,
+            "adr": 83,
+            "hs": 33,
+            "rating": 1.26,
+            "ctStats": {
+              "kills": 7,
+              "deaths": 7,
+              "assists": 5,
+              "adr": 65,
+              "hs": 14,
+              "rating": 1.03
+            },
+            "tStats": {
+              "kills": 5,
+              "deaths": 2,
+              "assists": 1,
+              "adr": 137,
+              "hs": 60,
+              "rating": 1.95
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 11.93,
+            "we": 11.7,
+            "performance": null,
+            "h2h": {
+              "p49": {
+                "killed": 3,
+                "death": 3
+              },
+              "p50": {
+                "killed": 4,
+                "death": 2
+              },
+              "p51": {
+                "killed": 2,
+                "death": 2
+              },
+              "p52": {
+                "killed": 2,
+                "death": 1
+              },
+              "p53": {
+                "killed": 1,
+                "death": 1
+              }
+            }
+          },
+          {
+            "playerId": "p47",
+            "side": "A",
+            "kills": 6,
+            "deaths": 7,
+            "assists": 5,
+            "adr": 42,
+            "hs": 0,
+            "rating": 0.71,
+            "ctStats": {
+              "kills": 3,
+              "deaths": 5,
+              "assists": 4,
+              "adr": 38,
+              "hs": 0,
+              "rating": 0.59
+            },
+            "tStats": {
+              "kills": 3,
+              "deaths": 2,
+              "assists": 1,
+              "adr": 55,
+              "hs": 0,
+              "rating": 1.08
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 7.55,
+            "we": 6.7,
+            "performance": null,
+            "h2h": {
+              "p49": {
+                "killed": 3,
+                "death": 3
+              },
+              "p50": {
+                "killed": 0,
+                "death": 0
+              },
+              "p51": {
+                "killed": 1,
+                "death": 1
+              },
+              "p52": {
+                "killed": 2,
+                "death": 1
+              },
+              "p53": {
+                "killed": 0,
+                "death": 2
+              }
+            }
+          },
+          {
+            "playerId": "p49",
+            "side": "B",
+            "kills": 15,
+            "deaths": 15,
+            "assists": 5,
+            "adr": 103,
+            "hs": 60,
+            "rating": 1.4,
+            "ctStats": {
+              "kills": 1,
+              "deaths": 4,
+              "assists": 0,
+              "adr": 42,
+              "hs": 0,
+              "rating": 0.44
+            },
+            "tStats": {
+              "kills": 14,
+              "deaths": 11,
+              "assists": 5,
+              "adr": 123,
+              "hs": 64,
+              "rating": 1.72
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 6.88,
+            "we": 9.1,
+            "performance": null,
+            "h2h": {
+              "p44": {
+                "killed": 1,
+                "death": 6
+              },
+              "p43": {
+                "killed": 4,
+                "death": 2
+              },
+              "p45": {
+                "killed": 4,
+                "death": 1
+              },
+              "p46": {
+                "killed": 3,
+                "death": 3
+              },
+              "p47": {
+                "killed": 3,
+                "death": 3
+              }
+            }
+          },
+          {
+            "playerId": "p50",
+            "side": "B",
+            "kills": 9,
+            "deaths": 15,
+            "assists": 1,
+            "adr": 55,
+            "hs": 11,
+            "rating": 0.73,
+            "ctStats": {
+              "kills": 3,
+              "deaths": 4,
+              "assists": 0,
+              "adr": 34,
+              "hs": 33,
+              "rating": 0.6
+            },
+            "tStats": {
+              "kills": 6,
+              "deaths": 11,
+              "assists": 1,
+              "adr": 62,
+              "hs": 0,
+              "rating": 0.7
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 2.37,
+            "we": 4.5,
+            "performance": null,
+            "h2h": {
+              "p44": {
+                "killed": 1,
+                "death": 5
+              },
+              "p43": {
+                "killed": 3,
+                "death": 2
+              },
+              "p45": {
+                "killed": 3,
+                "death": 4
+              },
+              "p46": {
+                "killed": 2,
+                "death": 4
+              },
+              "p47": {
+                "killed": 0,
+                "death": 0
+              }
+            }
+          },
+          {
+            "playerId": "p51",
+            "side": "B",
+            "kills": 5,
+            "deaths": 16,
+            "assists": 4,
+            "adr": 42,
+            "hs": 40,
+            "rating": 0.58,
+            "ctStats": {
+              "kills": 1,
+              "deaths": 4,
+              "assists": 2,
+              "adr": 61,
+              "hs": 100,
+              "rating": 0.62
+            },
+            "tStats": {
+              "kills": 4,
+              "deaths": 12,
+              "assists": 2,
+              "adr": 36,
+              "hs": 25,
+              "rating": 0.56
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 3.54,
+            "we": 3.8,
+            "performance": null,
+            "h2h": {
+              "p44": {
+                "killed": 2,
+                "death": 4
+              },
+              "p43": {
+                "killed": 0,
+                "death": 3
+              },
+              "p45": {
+                "killed": 0,
+                "death": 6
+              },
+              "p46": {
+                "killed": 2,
+                "death": 2
+              },
+              "p47": {
+                "killed": 1,
+                "death": 1
+              }
+            }
+          },
+          {
+            "playerId": "p52",
+            "side": "B",
+            "kills": 4,
+            "deaths": 15,
+            "assists": 3,
+            "adr": 45,
+            "hs": 50,
+            "rating": 0.4,
+            "ctStats": {
+              "kills": 0,
+              "deaths": 4,
+              "assists": 1,
+              "adr": 26,
+              "hs": 0,
+              "rating": 0.19
+            },
+            "tStats": {
+              "kills": 4,
+              "deaths": 11,
+              "assists": 2,
+              "adr": 52,
+              "hs": 50,
+              "rating": 0.59
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 2.79,
+            "we": 3.7,
+            "performance": null,
+            "h2h": {
+              "p44": {
+                "killed": 2,
+                "death": 5
+              },
+              "p43": {
+                "killed": 0,
+                "death": 3
+              },
+              "p45": {
+                "killed": 0,
+                "death": 3
+              },
+              "p46": {
+                "killed": 1,
+                "death": 2
+              },
+              "p47": {
+                "killed": 1,
+                "death": 2
+              }
+            }
+          },
+          {
+            "playerId": "p53",
+            "side": "B",
+            "kills": 5,
+            "deaths": 15,
+            "assists": 1,
+            "adr": 45,
+            "hs": 20,
+            "rating": 0.64,
+            "ctStats": {
+              "kills": 3,
+              "deaths": 4,
+              "assists": 0,
+              "adr": 109,
+              "hs": 0,
+              "rating": 0.86
+            },
+            "tStats": {
+              "kills": 2,
+              "deaths": 11,
+              "assists": 1,
+              "adr": 23,
+              "hs": 50,
+              "rating": 0.27
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": 1.29,
+            "we": 3.2,
+            "performance": null,
+            "h2h": {
+              "p44": {
+                "killed": 1,
+                "death": 5
+              },
+              "p43": {
+                "killed": 0,
+                "death": 6
+              },
+              "p45": {
+                "killed": 1,
+                "death": 3
+              },
+              "p46": {
+                "killed": 1,
+                "death": 1
+              },
+              "p47": {
+                "killed": 2,
+                "death": 0
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m5",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "ADS",
+    "teamB": "老年人",
+    "scoreA": 5,
+    "scoreB": 13,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 5,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m6",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "常务副够特",
+    "teamB": "TeamGold",
+    "scoreA": 13,
+    "scoreB": 7,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 7,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m7",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "麦恩莉",
+    "teamB": "C++",
+    "scoreA": 10,
+    "scoreB": 13,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 10,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m8",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "牢霸道了",
+    "teamB": "常务副够特",
+    "scoreA": 3,
+    "scoreB": 13,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 3,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m9",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "JK games",
+    "teamB": "惊天五条区",
+    "scoreA": 9,
+    "scoreB": 13,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 9,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m10",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "总被炸",
+    "teamB": "My Go Clan",
+    "scoreA": 13,
+    "scoreB": 2,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 2,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m11",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "Team 9one",
+    "teamB": "Black Horizon",
+    "scoreA": 2,
+    "scoreB": 13,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 2,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m12",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "My Go Clan",
+    "teamB": "Bizon",
+    "scoreA": 13,
+    "scoreB": 8,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 8,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m13",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "Team 9one",
+    "teamB": "牢霸道了",
+    "scoreA": 6,
+    "scoreB": 13,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 6,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m14",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "痱子可烂",
+    "teamB": "香香软软小蛋糕",
+    "scoreA": 11,
+    "scoreB": 13,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 11,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m15",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "C++",
+    "teamB": "天天禄",
+    "scoreA": 3,
+    "scoreB": 13,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 3,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m16",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "惊天五条区",
+    "teamB": "总被炸",
+    "scoreA": 7,
+    "scoreB": 13,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 7,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m17",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "ADS",
+    "teamB": "牢霸道了",
+    "scoreA": 13,
+    "scoreB": 1,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 1,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m18",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "My Go Clan",
+    "teamB": "惊天五条区",
+    "scoreA": 7,
+    "scoreB": 13,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 7,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m19",
+    "date": "2026-03-28",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "Bizon",
+    "teamB": "C++",
+    "scoreA": 13,
+    "scoreB": 6,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 6,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m20",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO3",
+    "teamA": "天天禄",
+    "teamB": "Black Horizon",
+    "scoreA": 0,
+    "scoreB": 2,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 7,
+        "scoreB": 13,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 3,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m21",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO3",
+    "teamA": "老年人",
+    "teamB": "常务副够特",
+    "scoreA": 2,
+    "scoreB": 1,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 8,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 5,
+        "scoreB": 13,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 4,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m22",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO3",
+    "teamA": "Team 9one",
+    "teamB": "痱子可烂",
+    "scoreA": 1,
+    "scoreB": 2,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 5,
+        "scoreB": 13,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 10,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 22,
+        "scoreB": 25,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m23",
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO3",
+    "teamA": "麦恩莉",
+    "teamB": "Bizon",
+    "scoreA": 1,
+    "scoreB": 2,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 10,
+        "scoreB": 13,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 8,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 7,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m24",
+    "date": "2026-03-22",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO3",
+    "teamA": "痱子可烂",
+    "teamB": "Bizon",
+    "scoreA": 1,
+    "scoreB": 2,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 8,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 4,
+        "scoreB": 13,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 10,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m25",
+    "date": "2026-03-22",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO3",
+    "teamA": "常务副够特",
+    "teamB": "TeamGold",
+    "scoreA": 2,
+    "scoreB": 0,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 11,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 9,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m26",
+    "date": "2026-03-29",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO3",
+    "teamA": "老年人",
+    "teamB": "TeamGold",
+    "scoreA": 2,
+    "scoreB": 0,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 16,
+        "scoreB": 13,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 7,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m27",
+    "date": "2026-03-28",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO3",
+    "teamA": "Bizon",
+    "teamB": "TeamGold",
+    "scoreA": 0,
+    "scoreB": 2,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 4,
+        "scoreB": 13,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 3,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m28",
+    "date": "2026-03-22",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO3",
+    "teamA": "惊天五条区",
+    "teamB": "C++",
+    "scoreA": 2,
+    "scoreB": 0,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 8,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 1,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m29",
+    "date": "2026-03-22",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO3",
+    "teamA": "牢霸道了",
+    "teamB": "C++",
+    "scoreA": 0,
+    "scoreB": 2,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 10,
+        "scoreB": 13,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 11,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m30",
+    "date": "2026-03-22",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO3",
+    "teamA": "My Go Clan",
+    "teamB": "痱子可烂",
+    "scoreA": 0,
+    "scoreB": 2,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 7,
+        "scoreB": 13,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 6,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m31",
+    "date": "2026-04-01",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO3",
+    "teamA": "Black Horizon",
+    "teamB": "常务副够特",
+    "scoreA": 1,
+    "scoreB": 2,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 5,
+        "scoreB": 13,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 11,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 3,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m32",
+    "date": "2026-03-30",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO3",
+    "teamA": "天天禄",
+    "teamB": "总被炸",
+    "scoreA": 0,
+    "scoreB": 2,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 11,
+        "scoreB": 13,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 4,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m33",
+    "date": "2026-04-15",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO3",
+    "teamA": "ADS",
+    "teamB": "老年人",
+    "scoreA": 0,
+    "scoreB": 2,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 12,
+        "scoreB": 16,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 5,
+        "scoreB": 13,
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "m34",
+    "date": "2026-04-12",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO3",
+    "teamA": "老年人",
+    "teamB": "常务副够特",
+    "scoreA": 2,
+    "scoreB": 1,
+    "maps": [
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 10,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 18,
+        "scoreB": 22,
+        "stats": []
+      },
+      {
+        "map": "待补充",
+        "scoreA": 13,
+        "scoreB": 8,
+        "stats": []
       }
     ]
   }
