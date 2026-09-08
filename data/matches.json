@@ -39,11 +39,11 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p16": { "killed": 0, "death": 0 },
-              "p17": { "killed": 1, "death": 0 },
-              "p18": { "killed": 0, "death": 1 },
-              "p19": { "killed": 0, "death": 0 },
-              "p20": { "killed": 0, "death": 0 }
+              "p16": { "killed": 3, "death": 1 },
+              "p17": { "killed": 3, "death": 2 },
+              "p18": { "killed": 7, "death": 2 },
+              "p19": { "killed": 2, "death": 0 },
+              "p20": { "killed": 3, "death": 0 }
             }
           },
           {
@@ -70,11 +70,11 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p16": { "killed": 0, "death": 1 },
-              "p17": { "killed": 0, "death": 1 },
-              "p18": { "killed": 0, "death": 1 },
-              "p19": { "killed": 0, "death": 2 },
-              "p20": { "killed": 0, "death": 0 }
+              "p16": { "killed": 4, "death": 3 },
+              "p17": { "killed": 2, "death": 3 },
+              "p18": { "killed": 2, "death": 1 },
+              "p19": { "killed": 4, "death": 0 },
+              "p20": { "killed": 2, "death": 0 }
             }
           },
           {
@@ -101,11 +101,11 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p16": { "killed": 0, "death": 1 },
-              "p17": { "killed": 0, "death": 0 },
-              "p18": { "killed": 0, "death": 1 },
-              "p19": { "killed": 0, "death": 0 },
-              "p20": { "killed": 0, "death": 1 }
+              "p16": { "killed": 3, "death": 2 },
+              "p17": { "killed": 2, "death": 0 },
+              "p18": { "killed": 3, "death": 2 },
+              "p19": { "killed": 2, "death": 1 },
+              "p20": { "killed": 4, "death": 0 }
             }
           },
           {
@@ -132,11 +132,11 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p16": { "killed": 1, "death": 0 },
-              "p17": { "killed": 0, "death": 1 },
+              "p16": { "killed": 2, "death": 4 },
+              "p17": { "killed": 4, "death": 1 },
               "p18": { "killed": 0, "death": 0 },
-              "p19": { "killed": 1, "death": 1 },
-              "p20": { "killed": 0, "death": 1 }
+              "p19": { "killed": 3, "death": 2 },
+              "p20": { "killed": 3, "death": 1 }
             }
           },
           {
@@ -163,11 +163,11 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p16": { "killed": 0, "death": 0 },
-              "p17": { "killed": 0, "death": 1 },
-              "p18": { "killed": 0, "death": 0 },
-              "p19": { "killed": 0, "death": 0 },
-              "p20": { "killed": 0, "death": 0 }
+              "p16": { "killed": 2, "death": 1 },
+              "p17": { "killed": 3, "death": 3 },
+              "p18": { "killed": 0, "death": 1 },
+              "p19": { "killed": 2, "death": 1 },
+              "p20": { "killed": 3, "death": 1 }
             }
           },
           {
@@ -194,11 +194,11 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p11": { "killed": 1, "death": 0 },
-              "p12": { "killed": 2, "death": 0 },
-              "p13": { "killed": 2, "death": 0 },
-              "p14": { "killed": 2, "death": 1 },
-              "p15": { "killed": 1, "death": 0 }
+              "p11": { "killed": 1, "death": 3 },
+              "p12": { "killed": 3, "death": 4 },
+              "p13": { "killed": 2, "death": 3 },
+              "p14": { "killed": 4, "death": 2 },
+              "p15": { "killed": 1, "death": 2 }
             }
           },
           {
@@ -225,11 +225,11 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p11": { "killed": 0, "death": 1 },
-              "p12": { "killed": 0, "death": 1 },
-              "p13": { "killed": 0, "death": 0 },
-              "p14": { "killed": 0, "death": 1 },
-              "p15": { "killed": 0, "death": 1 }
+              "p11": { "killed": 2, "death": 3 },
+              "p12": { "killed": 3, "death": 2 },
+              "p13": { "killed": 0, "death": 2 },
+              "p14": { "killed": 1, "death": 4 },
+              "p15": { "killed": 3, "death": 3 }
             }
           },
           {
@@ -256,11 +256,11 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p11": { "killed": 0, "death": 0 },
-              "p12": { "killed": 0, "death": 1 },
-              "p13": { "killed": 0, "death": 1 },
+              "p11": { "killed": 2, "death": 7 },
+              "p12": { "killed": 1, "death": 2 },
+              "p13": { "killed": 2, "death": 3 },
               "p14": { "killed": 0, "death": 0 },
-              "p15": { "killed": 0, "death": 1 }
+              "p15": { "killed": 1, "death": 0 }
             }
           },
           {
@@ -287,11 +287,11 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p11": { "killed": 0, "death": 0 },
-              "p12": { "killed": 0, "death": 2 },
-              "p13": { "killed": 0, "death": 0 },
-              "p14": { "killed": 0, "death": 1 },
-              "p15": { "killed": 0, "death": 1 }
+              "p11": { "killed": 0, "death": 2 },
+              "p12": { "killed": 0, "death": 4 },
+              "p13": { "killed": 1, "death": 2 },
+              "p14": { "killed": 2, "death": 3 },
+              "p15": { "killed": 1, "death": 2 }
             }
           },
           {
@@ -318,11 +318,11 @@
               "weaponValue": 0
             },
             "h2h": {
-              "p11": { "killed": 0, "death": 0 },
-              "p12": { "killed": 0, "death": 0 },
-              "p13": { "killed": 0, "death": 1 },
-              "p14": { "killed": 0, "death": 1 },
-              "p15": { "killed": 0, "death": 0 }
+              "p11": { "killed": 0, "death": 3 },
+              "p12": { "killed": 0, "death": 2 },
+              "p13": { "killed": 0, "death": 4 },
+              "p14": { "killed": 1, "death": 3 },
+              "p15": { "killed": 1, "death": 3 }
             }
           }
         ]
