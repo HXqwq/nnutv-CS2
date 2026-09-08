@@ -335,8 +335,8 @@
     "event": "NNU Major S1",
     "stage": "Group Stage",
     "format": "BO1",
-    "teamA": "Bizon",
-    "teamB": "天天禄",
+    "teamA": "天天禄",
+    "teamB": "Bizon",
     "scoreA": 13,
     "scoreB": 6,
     "maps": [
