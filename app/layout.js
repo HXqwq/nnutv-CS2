@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
         <header className="site-header">
           <div className="header-inner">
             <Link className="logo" href="/">
-              NJNU<span>CS2</span>
+              NNUTV<span>CS2</span>
             </Link>
             <nav>
               <Link href="/">首页</Link>
