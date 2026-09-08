@@ -7,6 +7,12 @@ export const metadata = {
   description: "南京师范大学 CS2 · BLION 电竞社",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
+
 const navItems = [
   { href: "/", label: "首页" },
   { href: "/matches", label: "比赛" },
