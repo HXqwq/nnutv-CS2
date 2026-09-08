@@ -7,7 +7,7 @@ export default function HomePage() {
 
   return (
     <div>
-      <h1 className="page-title">社团赛事中心</h1>
+      <h1 className="page-title">Counter-Strike News</h1>
       <div className="two-col">
         <section className="panel">
           <h2 className="panel-title">最近比赛</h2>
