@@ -1,118 +1,329 @@
 [
   {
-    "id": "m1",
-    "date": "2026-03-01",
+    "id": "m2",
+    "date": "2026-03-21",
     "event": "NNU Major S1",
+    "stage": "Group Stage",
     "format": "BO1",
-    "teamA": "",
-    "teamB": "",
-    "scoreA": 1,
-    "scoreB": 0,
+    "teamA": "老年人",
+    "teamB": "香香软软小蛋糕",
+    "scoreA": 13,
+    "scoreB": 2,
     "maps": [
       {
         "map": "Mirage",
         "scoreA": 13,
-        "scoreB": 9,
+        "scoreB": 2,
         "stats": [
           {
-            "playerId": "p1",
-            "side": "A",
-            "kills": 21,
-            "deaths": 12,
-            "assists": 3,
-            "adr": 92.1,
-            "hs": 54,
-            "rating": 1.35
-          },
-          {
-            "playerId": "p2",
+            "playerId": "p11",
             "side": "A",
             "kills": 18,
-            "deaths": 14,
-            "assists": 2,
-            "adr": 81.3,
-            "hs": 48,
-            "rating": 1.12
+            "deaths": 5,
+            "assists": 4,
+            "adr": 85.0,
+            "hs": 35,
+            "rating": 1.27,
+            "ctStats": { "kills": 1, "deaths": 1, "assists": 1, "adr": 100.0, "hs": 50, "rating": 1.50 },
+            "tStats":  { "kills": 17, "deaths": 4, "assists": 3, "adr": 80.5, "hs": 35, "rating": 1.27 },
+            "multiKills": { "5K": 0, "4K": 0, "3K": 0, "2K": 1, "1K": 0 },
+            "mvp": 4,
+            "rws": 14.1,
+            "we": 15.0,
+            "performance": {
+              "accuracy": 20,
+              "stopSuccess": 60,
+              "spraySuccess": 50,
+              "tradeSuccess": 43,
+              "reactionMs": 274,
+              "weaponValue": 0
+            },
+            "h2h": {
+              "p16": { "killed": 0, "death": 0 },
+              "p17": { "killed": 1, "death": 0 },
+              "p18": { "killed": 0, "death": 1 },
+              "p19": { "killed": 0, "death": 0 },
+              "p20": { "killed": 0, "death": 0 }
+            }
           },
           {
-            "playerId": "p3",
+            "playerId": "p12",
             "side": "A",
             "kills": 14,
-            "deaths": 11,
-            "assists": 6,
-            "adr": 68.9,
-            "hs": 41,
-            "rating": 1.05
+            "deaths": 7,
+            "assists": 8,
+            "adr": 107.5,
+            "hs": 45,
+            "rating": 1.59,
+            "ctStats": { "kills": 4, "deaths": 1, "assists": 1, "adr": 100.0, "hs": 67, "rating": 1.50 },
+            "tStats":  { "kills": 10, "deaths": 6, "assists": 7, "adr": 107.5, "hs": 45, "rating": 1.59 },
+            "multiKills": { "5K": 0, "4K": 0, "3K": 1, "2K": 1, "1K": 0 },
+            "mvp": 4,
+            "rws": 18.3,
+            "we": 11.8,
+            "performance": {
+              "accuracy": 21,
+              "stopSuccess": 79,
+              "spraySuccess": 50,
+              "tradeSuccess": 22,
+              "reactionMs": 304,
+              "weaponValue": 0
+            },
+            "h2h": {
+              "p16": { "killed": 0, "death": 1 },
+              "p17": { "killed": 0, "death": 1 },
+              "p18": { "killed": 0, "death": 1 },
+              "p19": { "killed": 0, "death": 2 },
+              "p20": { "killed": 0, "death": 0 }
+            }
           },
           {
-            "playerId": "p4",
+            "playerId": "p13",
             "side": "A",
-            "kills": 16,
-            "deaths": 13,
+            "kills": 14,
+            "deaths": 5,
             "assists": 4,
-            "adr": 75.2,
-            "hs": 46,
-            "rating": 1.1
+            "adr": 77.5,
+            "hs": 42,
+            "rating": 1.32,
+            "ctStats": { "kills": 3, "deaths": 0, "assists": 1, "adr": 100.0, "hs": 50, "rating": 1.50 },
+            "tStats":  { "kills": 11, "deaths": 5, "assists": 3, "adr": 77.5, "hs": 42, "rating": 1.32 },
+            "multiKills": { "5K": 0, "4K": 0, "3K": 1, "2K": 0, "1K": 1 },
+            "mvp": 2,
+            "rws": 13.2,
+            "we": 12.6,
+            "performance": {
+              "accuracy": 25,
+              "stopSuccess": 74,
+              "spraySuccess": 0,
+              "tradeSuccess": 67,
+              "reactionMs": 315,
+              "weaponValue": 0
+            },
+            "h2h": {
+              "p16": { "killed": 0, "death": 1 },
+              "p17": { "killed": 0, "death": 0 },
+              "p18": { "killed": 0, "death": 1 },
+              "p19": { "killed": 0, "death": 0 },
+              "p20": { "killed": 0, "death": 1 }
+            }
           },
           {
-            "playerId": "p5",
+            "playerId": "p14",
             "side": "A",
             "kills": 12,
-            "deaths": 10,
-            "assists": 5,
-            "adr": 63.7,
-            "hs": 39,
-            "rating": 0.98
+            "deaths": 8,
+            "assists": 3,
+            "adr": 102.0,
+            "hs": 62,
+            "rating": 1.53,
+            "ctStats": { "kills": 4, "deaths": 3, "assists": 1, "adr": 100.0, "hs": 67, "rating": 1.50 },
+            "tStats":  { "kills": 8, "deaths": 5, "assists": 2, "adr": 102.0, "hs": 62, "rating": 1.53 },
+            "multiKills": { "5K": 0, "4K": 0, "3K": 1, "2K": 0, "1K": 0 },
+            "mvp": 1,
+            "rws": 19.1,
+            "we": 10.9,
+            "performance": {
+              "accuracy": 19,
+              "stopSuccess": 79,
+              "spraySuccess": 29,
+              "tradeSuccess": 29,
+              "reactionMs": 276,
+              "weaponValue": 0
+            },
+            "h2h": {
+              "p16": { "killed": 1, "death": 0 },
+              "p17": { "killed": 0, "death": 1 },
+              "p18": { "killed": 0, "death": 0 },
+              "p19": { "killed": 1, "death": 1 },
+              "p20": { "killed": 0, "death": 1 }
+            }
           },
           {
-            "playerId": "p6",
-            "side": "B",
-            "kills": 16,
-            "deaths": 17,
-            "assists": 2,
-            "adr": 74.8,
-            "hs": 51,
-            "rating": 1.02
+            "playerId": "p15",
+            "side": "A",
+            "kills": 10,
+            "deaths": 7,
+            "assists": 7,
+            "adr": 100.0,
+            "hs": 76,
+            "rating": 1.50,
+            "ctStats": { "kills": 3, "deaths": 0, "assists": 4, "adr": 100.0, "hs": 67, "rating": 1.50 },
+            "tStats":  { "kills": 7, "deaths": 7, "assists": 3, "adr": 100.0, "hs": 76, "rating": 1.50 },
+            "multiKills": { "5K": 0, "4K": 0, "3K": 1, "2K": 0, "1K": 0 },
+            "mvp": 1,
+            "rws": 19.4,
+            "we": 8.5,
+            "performance": {
+              "accuracy": 24,
+              "stopSuccess": 63,
+              "spraySuccess": 38,
+              "tradeSuccess": 50,
+              "reactionMs": 343,
+              "weaponValue": 0
+            },
+            "h2h": {
+              "p16": { "killed": 0, "death": 0 },
+              "p17": { "killed": 0, "death": 1 },
+              "p18": { "killed": 0, "death": 0 },
+              "p19": { "killed": 0, "death": 0 },
+              "p20": { "killed": 0, "death": 0 }
+            }
           },
           {
-            "playerId": "p7",
-            "side": "B",
-            "kills": 14,
-            "deaths": 18,
-            "assists": 1,
-            "adr": 66.2,
-            "hs": 44,
-            "rating": 0.88
-          },
-          {
-            "playerId": "p8",
+            "playerId": "p16",
             "side": "B",
             "kills": 11,
-            "deaths": 16,
-            "assists": 5,
-            "adr": 58.7,
-            "hs": 37,
-            "rating": 0.79
-          },
-          {
-            "playerId": "p9",
-            "side": "B",
-            "kills": 13,
-            "deaths": 15,
+            "deaths": 14,
             "assists": 2,
-            "adr": 61.4,
-            "hs": 43,
-            "rating": 0.85
+            "adr": 91.5,
+            "hs": 50,
+            "rating": 1.16,
+            "ctStats": { "kills": 8, "deaths": 11, "assists": 2, "adr": 91.5, "hs": 50, "rating": 1.16 },
+            "tStats":  { "kills": 3, "deaths": 3, "assists": 0, "adr": 50.0, "hs": 33, "rating": 0.50 },
+            "multiKills": { "5K": 0, "4K": 0, "3K": 0, "2K": 0, "1K": 0 },
+            "mvp": 0,
+            "rws": null,
+            "we": null,
+            "performance": {
+              "accuracy": 25,
+              "stopSuccess": 83,
+              "spraySuccess": 14,
+              "tradeSuccess": 33,
+              "reactionMs": 317,
+              "weaponValue": 0
+            },
+            "h2h": {
+              "p11": { "killed": 1, "death": 0 },
+              "p12": { "killed": 2, "death": 0 },
+              "p13": { "killed": 2, "death": 0 },
+              "p14": { "killed": 2, "death": 1 },
+              "p15": { "killed": 1, "death": 0 }
+            }
           },
           {
-            "playerId": "p10",
+            "playerId": "p17",
             "side": "B",
             "kills": 9,
-            "deaths": 17,
-            "assists": 3,
-            "adr": 52.3,
-            "hs": 35,
-            "rating": 0.71
+            "deaths": 14,
+            "assists": 0,
+            "adr": 62.5,
+            "hs": 31,
+            "rating": 0.71,
+            "ctStats": { "kills": 8, "deaths": 11, "assists": 0, "adr": 62.5, "hs": 31, "rating": 0.71 },
+            "tStats":  { "kills": 1, "deaths": 3, "assists": 0, "adr": 30.0, "hs": 25, "rating": 0.30 },
+            "multiKills": { "5K": 0, "4K": 0, "3K": 0, "2K": 0, "1K": 0 },
+            "mvp": 0,
+            "rws": null,
+            "we": null,
+            "performance": {
+              "accuracy": 25,
+              "stopSuccess": 81,
+              "spraySuccess": 17,
+              "tradeSuccess": 50,
+              "reactionMs": 228,
+              "weaponValue": 0
+            },
+            "h2h": {
+              "p11": { "killed": 0, "death": 1 },
+              "p12": { "killed": 0, "death": 1 },
+              "p13": { "killed": 0, "death": 0 },
+              "p14": { "killed": 0, "death": 1 },
+              "p15": { "killed": 0, "death": 1 }
+            }
+          },
+          {
+            "playerId": "p18",
+            "side": "B",
+            "kills": 6,
+            "deaths": 12,
+            "assists": 0,
+            "adr": 49.5,
+            "hs": 41,
+            "rating": 0.39,
+            "ctStats": { "kills": 6, "deaths": 9, "assists": 0, "adr": 49.5, "hs": 41, "rating": 0.39 },
+            "tStats":  { "kills": 0, "deaths": 3, "assists": 0, "adr": 20.0, "hs": 20, "rating": 0.20 },
+            "multiKills": { "5K": 0, "4K": 0, "3K": 0, "2K": 0, "1K": 0 },
+            "mvp": 0,
+            "rws": null,
+            "we": null,
+            "performance": {
+              "accuracy": 17,
+              "stopSuccess": 82,
+              "spraySuccess": 0,
+              "tradeSuccess": 0,
+              "reactionMs": 328,
+              "weaponValue": 0
+            },
+            "h2h": {
+              "p11": { "killed": 0, "death": 0 },
+              "p12": { "killed": 0, "death": 1 },
+              "p13": { "killed": 0, "death": 1 },
+              "p14": { "killed": 0, "death": 0 },
+              "p15": { "killed": 0, "death": 1 }
+            }
+          },
+          {
+            "playerId": "p19",
+            "side": "B",
+            "kills": 4,
+            "deaths": 13,
+            "assists": 2,
+            "adr": 36.5,
+            "hs": 33,
+            "rating": 0.41,
+            "ctStats": { "kills": 3, "deaths": 10, "assists": 2, "adr": 36.5, "hs": 33, "rating": 0.41 },
+            "tStats":  { "kills": 1, "deaths": 3, "assists": 0, "adr": 25.0, "hs": 20, "rating": 0.30 },
+            "multiKills": { "5K": 0, "4K": 0, "3K": 0, "2K": 0, "1K": 0 },
+            "mvp": 0,
+            "rws": null,
+            "we": null,
+            "performance": {
+              "accuracy": 28,
+              "stopSuccess": 70,
+              "spraySuccess": 100,
+              "tradeSuccess": 20,
+              "reactionMs": 396,
+              "weaponValue": 0
+            },
+            "h2h": {
+              "p11": { "killed": 0, "death": 0 },
+              "p12": { "killed": 0, "death": 2 },
+              "p13": { "killed": 0, "death": 0 },
+              "p14": { "killed": 0, "death": 1 },
+              "p15": { "killed": 0, "death": 1 }
+            }
+          },
+          {
+            "playerId": "p20",
+            "side": "B",
+            "kills": 2,
+            "deaths": 15,
+            "assists": 2,
+            "adr": 18.5,
+            "hs": 25,
+            "rating": 0.26,
+            "ctStats": { "kills": 2, "deaths": 12, "assists": 1, "adr": 18.5, "hs": 25, "rating": 0.26 },
+            "tStats":  { "kills": 0, "deaths": 3, "assists": 1, "adr": 15.0, "hs": 20, "rating": 0.20 },
+            "multiKills": { "5K": 0, "4K": 0, "3K": 0, "2K": 0, "1K": 0 },
+            "mvp": 0,
+            "rws": null,
+            "we": null,
+            "performance": {
+              "accuracy": 18,
+              "stopSuccess": 0,
+              "spraySuccess": 33,
+              "tradeSuccess": 0,
+              "reactionMs": 240,
+              "weaponValue": 0
+            },
+            "h2h": {
+              "p11": { "killed": 0, "death": 0 },
+              "p12": { "killed": 0, "death": 0 },
+              "p13": { "killed": 0, "death": 1 },
+              "p14": { "killed": 0, "death": 1 },
+              "p15": { "killed": 0, "death": 0 }
+            }
           }
         ]
       }
