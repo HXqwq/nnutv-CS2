@@ -2,9 +2,19 @@ import "./globals.css";
 import Link from "next/link";
 
 export const metadata = {
-  title: "NNUTV ",
-  description: "Nanjing Normal University Counter-Strike News",
+  title: "NNUTV CS2 · Counter-Strike 社团数据站",
+  description: "南京师范大学 CS2 社团选手、比赛、排行数据",
 };
+
+const navItems = [
+  { href: "/", label: "首页" },
+  { href: "/matches", label: "比赛" },
+  { href: "/players", label: "选手" },
+  { href: "/teams", label: "战队" },
+  { href: "/rankings", label: "排行榜" },
+  { href: "/events", label: "赛事" },
+  { href: "/stats", label: "Stats" },
+];
 
 export default function RootLayout({ children }) {
   return (
@@ -13,19 +23,21 @@ export default function RootLayout({ children }) {
         <header className="site-header">
           <div className="header-inner">
             <Link className="logo" href="/">
-              NNUTV<span>CS2</span>
+              NNUTV<span className="sub">CS2</span>
             </Link>
             <nav>
-              <Link href="/">首页</Link>
-              <Link href="/matches">比赛</Link>
-              <Link href="/players">选手</Link>
-              <Link href="/rankings">排行榜</Link>
+              {navItems.map((n) => (
+                <Link key={n.href} href={n.href}>
+                  {n.label}
+                </Link>
+              ))}
             </nav>
           </div>
         </header>
         <main className="container">{children}</main>
         <footer className="site-footer">
-          联系作者：QQ(3605177574)
+          NNUTV CS2 Data Site · 数据来源：完美电竞平台（手动录入）·
+          联系作者 <a href="#">QQ 3605177574</a>
         </footer>
       </body>
     </html>

@@ -2,14 +2,14 @@ import Link from "next/link";
 import { rankings, fmt } from "../../lib/data";
 
 const columns = [
-  { key: "maps", label: "图数", type: "num" },
-  { key: "kills", label: "K", type: "num" },
-  { key: "deaths", label: "D", type: "num" },
-  { key: "assists", label: "A", type: "num" },
-  { key: "kd", label: "K/D", type: "num", fmt: (v) => fmt(v) },
-  { key: "avgAdr", label: "ADR", type: "num", fmt: (v) => fmt(v, 1) },
-  { key: "avgHs", label: "HS%", type: "num", fmt: (v) => fmt(v, 1) },
-  { key: "avgRating", label: "Rating", type: "num", fmt: (v) => fmt(v) },
+  { key: "maps", label: "图数" },
+  { key: "kills", label: "K" },
+  { key: "deaths", label: "D" },
+  { key: "assists", label: "A" },
+  { key: "kd", label: "K/D", fmt: (v) => fmt(v) },
+  { key: "avgAdr", label: "ADR", fmt: (v) => fmt(v, 1) },
+  { key: "avgHs", label: "HS%", fmt: (v) => fmt(v, 1) },
+  { key: "avgRating", label: "Rating", fmt: (v) => fmt(v) },
 ];
 
 export default function RankingsPage() {
@@ -17,8 +17,9 @@ export default function RankingsPage() {
 
   return (
     <div>
-      <h1 className="page-title">选手排行榜</h1>
+      <h1 className="page-title">选手排行榜 · Rankings</h1>
       <section className="panel">
+        <h2 className="panel-title">全部选手 · {rows.length} 人 · 点击表头排序</h2>
         {rows.length === 0 ? (
           <div className="empty">暂无数据</div>
         ) : (
@@ -29,7 +30,7 @@ export default function RankingsPage() {
                 <th className="no-sort">选手</th>
                 <th className="no-sort">队伍</th>
                 {columns.map((c) => (
-                  <th key={c.key} data-key={c.key} className={c.type}>
+                  <th key={c.key} data-key={c.key} className="num">
                     {c.label}
                   </th>
                 ))}
@@ -39,12 +40,16 @@ export default function RankingsPage() {
               {rows.map((r, i) => (
                 <tr key={r.player.id}>
                   <td className="muted rank-cell">{i + 1}</td>
-                  <td>
+                  <td className="player-cell">
                     <Link href={`/players/${r.player.id}`}>{r.player.nickname}</Link>
                   </td>
                   <td className="muted">{r.player.team}</td>
                   {columns.map((c) => (
-                    <td key={c.key} className="num" data-key={c.key}>
+                    <td
+                      key={c.key}
+                      className={`num ${c.key === "avgRating" && (r[c.key] ?? 0) >= 1.05 ? "rating-high" : ""}`}
+                      data-key={c.key}
+                    >
                       {c.fmt ? c.fmt(r[c.key]) : r[c.key]}
                     </td>
                   ))}
@@ -54,8 +59,8 @@ export default function RankingsPage() {
           </table>
         )}
       </section>
-      <p className="muted" style={{ fontSize: 12 }}>
-        提示：点击表头可按该列排序。Rating 与 ADR 目前为平台搬运数据的平均值，后续可替换为自算的 HLTV Rating 2.0。
+      <p className="muted" style={{ fontSize: 11, marginTop: 12 }}>
+        * Rating 与 ADR 目前为平台搬运数据的平均值，后续可替换为自算的 HLTV Rating 2.0。点击表头可按该列排序。
       </p>
       <script
         dangerouslySetInnerHTML={{

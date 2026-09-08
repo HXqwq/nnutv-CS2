@@ -11,12 +11,13 @@ function StatsTable({ stats, side, teamName, scoreA, scoreB }) {
   const rows = stats
     .filter((s) => s.side === side)
     .sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
+  const teamScore = side === "A" ? scoreA : scoreB;
 
   return (
     <div>
       <div className="map-team-label">
-        {teamName}
-        {side === "A" ? ` ${scoreA} : ${scoreB}` : ` ${scoreB} : ${scoreA}`}
+        <span>{teamName}</span>
+        <span className="team-score-mini">{teamScore} 分</span>
       </div>
       <table className="tbl">
         <thead>
@@ -35,9 +36,10 @@ function StatsTable({ stats, side, teamName, scoreA, scoreB }) {
           {rows.map((s) => {
             const p = players.find((x) => x.id === s.playerId);
             const diff = s.kills - s.deaths;
+            const rating = s.rating ?? 0;
             return (
               <tr key={s.playerId}>
-                <td>
+                <td className="player-cell">
                   {p ? <Link href={`/players/${p.id}`}>{p.nickname}</Link> : s.playerId}
                 </td>
                 <td className="num">{s.kills}</td>
@@ -48,9 +50,7 @@ function StatsTable({ stats, side, teamName, scoreA, scoreB }) {
                 </td>
                 <td className="num">{fmt(s.adr, 1)}</td>
                 <td className="num">{s.hs ?? "-"}</td>
-                <td className="num" style={{ fontWeight: 600, color: (s.rating ?? 0) >= 1 ? "#fff" : undefined }}>
-                  {fmt(s.rating)}
-                </td>
+                <td className={`num ${rating >= 1.05 ? "rating-high" : ""}`}>{fmt(rating)}</td>
               </tr>
             );
           })}
@@ -66,21 +66,24 @@ export default async function MatchDetailPage({ params }) {
   if (!match) notFound();
 
   const aWon = match.scoreA > match.scoreB;
+  const winScore = Math.max(match.scoreA, match.scoreB);
+  const lossScore = Math.min(match.scoreA, match.scoreB);
 
   return (
     <div>
-      <h1 className="page-title">比赛详情</h1>
+      <h1 className="page-title">比赛详情 · {match.teamA} vs {match.teamB}</h1>
+
       <section className="panel">
         <div className="match-header">
           <div className="teams">
-            <span className={aWon ? "win-text" : "loss-text"}>{match.teamA}</span>
+            <span className={aWon ? "winner" : "loser"}>{match.teamA}</span>
             {" vs "}
-            <span className={!aWon ? "win-text" : "loss-text"}>{match.teamB}</span>
+            <span className={!aWon ? "winner" : "loser"}>{match.teamB}</span>
           </div>
           <div className="big-score">
-            <span className="s-win">{Math.max(match.scoreA, match.scoreB)}</span>
-            {" : "}
-            <span className="s-loss">{Math.min(match.scoreA, match.scoreB)}</span>
+            <span className="s-win">{winScore}</span>
+            <span className="sep">:</span>
+            <span className="s-loss">{lossScore}</span>
           </div>
           <div className="meta">
             {match.date} · {match.format} · {match.event}
@@ -88,8 +91,8 @@ export default async function MatchDetailPage({ params }) {
         </div>
       </section>
 
-      {match.maps.map((map) => (
-        <section className="panel" key={map.map}>
+      {match.maps.map((map, idx) => (
+        <section className="panel" key={`${map.map}-${idx}`}>
           <div className="map-head">
             <span className="map-name">{map.map}</span>
             <span className={`map-score ${map.scoreA > map.scoreB ? "pos" : "neg"}`}>

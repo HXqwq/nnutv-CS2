@@ -32,7 +32,7 @@ export default async function PlayerDetailPage({ params }) {
         <>
           <div className="stat-cards">
             <div className="stat-card">
-              <div className="label">地图数</div>
+              <div className="label">图数</div>
               <div className="value">{agg.maps}</div>
             </div>
             <div className="stat-card">
@@ -58,7 +58,7 @@ export default async function PlayerDetailPage({ params }) {
           </div>
 
           <section className="panel">
-            <h2 className="panel-title">比赛记录</h2>
+            <h2 className="panel-title">比赛记录 · {history.length} 场</h2>
             {history.length === 0 ? (
               <div className="empty">该选手暂无比赛记录</div>
             ) : (
@@ -85,7 +85,7 @@ export default async function PlayerDetailPage({ params }) {
                       <td className="muted">{h.date}</td>
                       <td className="muted">{h.event}</td>
                       <td>{h.map}</td>
-                      <td>
+                      <td className="player-cell">
                         <Link href={`/matches/${h.matchId}`}>{h.opponent}</Link>
                       </td>
                       <td className="num">
@@ -101,7 +101,7 @@ export default async function PlayerDetailPage({ params }) {
                       <td className="num">{h.assists}</td>
                       <td className="num">{fmt(h.adr, 1)}</td>
                       <td className="num">{h.hs ?? "-"}</td>
-                      <td className="num" style={{ fontWeight: 600 }}>
+                      <td className={`num ${(h.rating ?? 0) >= 1.05 ? "rating-high" : ""}`}>
                         {fmt(h.rating)}
                       </td>
                     </tr>
