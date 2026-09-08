@@ -746,3 +746,86 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 }
 .h2h-legend .dot.pos-cell { background: rgba(253, 98, 81, 0.3); }
 .h2h-legend .dot.neg-cell { background: rgba(60, 78, 120, 0.35); }
+
+/* ===== 赛事页 ===== */
+.event-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 14px;
+  margin-bottom: 14px;
+}
+.event-card-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.event-card-head h2 { margin: 0; font-size: 16px; color: #fff; }
+.event-card-head .team-meta { color: var(--muted); font-size: 11px; margin-top: 2px; }
+.live-pill {
+  margin-left: auto;
+  font-size: 10px;
+  padding: 2px 7px;
+  border-radius: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: var(--loss);
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+.event-desc {
+  color: var(--muted);
+  font-size: 12px;
+  margin: 10px 0;
+}
+.event-live {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(253, 98, 81, 0.08);
+  border: 1px solid rgba(253, 98, 81, 0.25);
+  border-radius: 3px;
+  padding: 9px 12px;
+  margin: 10px 0;
+}
+.event-live-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+.event-live a { font-size: 12px; font-weight: 600; }
+.event-live a:hover { color: var(--accent); }
+.event-replays { margin-top: 12px; }
+.event-replays-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2px;
+}
+.replay-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 4px;
+  border-bottom: 1px solid var(--hl-row-stripe);
+  color: var(--text);
+}
+.replay-row:last-child { border-bottom: none; }
+.replay-row:hover { background: var(--hl-row-hover); text-decoration: none; color: #fff; }
+.replay-stage {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--accent);
+  width: 88px;
+  flex-shrink: 0;
+}
+.replay-name { flex: 1; font-size: 12px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.replay-duration { font-size: 11px; flex-shrink: 0; }
+.replay-external { color: var(--muted); font-size: 12px; flex-shrink: 0; }

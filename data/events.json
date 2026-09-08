@@ -1,0 +1,34 @@
+[
+  {
+    "id": "nnu-major-s1",
+    "name": "NNU Major S1",
+    "season": "2026",
+    "status": "ongoing",
+    "description": "南京师范大学 CS2 社团 Major 系列赛第一季，赛事全程于哔哩哔哩直播间直播。",
+    "livestream": {
+      "platform": "哔哩哔哩直播",
+      "url": "https://live.bilibili.com/1788060034",
+      "note": "NNU Major S1 官方赛事直播间"
+    },
+    "replays": [
+      {
+        "stage": "决赛",
+        "title": "【直播回放】NNU major 决赛",
+        "duration": "01:46:21",
+        "url": "https://www.bilibili.com/video/BV1A1dnBBEKL/"
+      },
+      {
+        "stage": "半决赛",
+        "title": "【直播回放】NNU major 半决赛",
+        "duration": "03:34:20",
+        "url": "https://www.bilibili.com/video/BV13hQ8BNEV3/"
+      },
+      {
+        "stage": "四分之一决赛",
+        "title": "【直播回放】NNU major 四分之一决赛",
+        "duration": "02:25:55",
+        "url": "https://www.bilibili.com/video/BV1ZW9WBaE8X/"
+      }
+    ]
+  }
+]
