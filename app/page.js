@@ -11,8 +11,8 @@ export default function HomePage() {
     <div>
       <div className="brand-banner">
         <div className="brand-text">
-          <h2>NNUTV CS2 · 社团数据站</h2>
-          <p>校内社团选手、比赛与排行榜数据 · 风格仿照 HLTV 设计</p>
+          <h2>NNUTV CS2</h2>
+          <p></p>
         </div>
         <div className="brand-stats">
           <div className="stat"><b>{players.length}</b><span>选手</span></div>
@@ -118,7 +118,7 @@ export default function HomePage() {
           </div>
 
           <div className="side-panel">
-            <div className="side-title">热门赛事</div>
+            <div className="side-title">近期赛事</div>
             <ul className="side-list">
               {[...new Set(loadMatches().map((m) => m.event))].slice(0, 6).map((e) => (
                 <li key={e}>
