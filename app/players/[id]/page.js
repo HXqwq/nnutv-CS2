@@ -9,8 +9,16 @@ import {
   playerSideHistory,
   playerPerformanceHistory,
   playerH2HHistory,
+  getPlayerTransfers,
   fmt,
 } from "../../../lib/data";
+
+const TYPE_LABEL = {
+  transfer: "转会",
+  demote: "下放",
+  rename: "改名",
+  join: "加入",
+};
 
 export async function generateStaticParams() {
   return loadPlayers().map((p) => ({ id: p.id }));
@@ -107,6 +115,7 @@ export default async function PlayerDetailPage({ params }) {
   const sideHistory = playerSideHistory(id);
   const perfHistory = playerPerformanceHistory(id);
   const h2hHistory = playerH2HHistory(id);
+  const transfers = getPlayerTransfers(id);
   const players = loadPlayers();
 
   // 合并出第一场比赛的表现(目前只有一场)
@@ -281,6 +290,35 @@ export default async function PlayerDetailPage({ params }) {
         </>
       ) : (
         <div className="panel empty">该选手暂无比赛数据</div>
+      )}
+
+      {/* 转会记录（独立于比赛数据，无比赛记录的选手也可能有转会） */}
+      {transfers.length > 0 && (
+        <section className="panel">
+          <h2 className="panel-title">转会记录 · {transfers.length} 条</h2>
+          <div className="transfer-list">
+            {transfers.map((tr) => {
+              const label = TYPE_LABEL[tr.type] || tr.type;
+              let desc;
+              if (tr.type === "demote") {
+                desc = `在 ${tr.from} 下放`;
+              } else if (tr.type === "join") {
+                desc = `加入 ${tr.to}`;
+              } else if (tr.to === "No Team") {
+                desc = `从 ${tr.from} 转出至 No Team`;
+              } else {
+                desc = `从 ${tr.from} 转入 ${tr.to}`;
+              }
+              return (
+                <div className="transfer-row" key={tr.id}>
+                  <span className="transfer-date">{tr.date}</span>
+                  <span className={`transfer-tag ${tr.type}`}>{label}</span>
+                  <span className="transfer-desc">{desc}</span>
+                </div>
+              );
+            })}
+          </div>
+        </section>
       )}
     </div>
   );
