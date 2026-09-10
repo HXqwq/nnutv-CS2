@@ -18,15 +18,6 @@
     "note": "报名 NNU Blast，转会至 NNU来"
   },
   {
-    "id": "tr3",
-    "playerId": "p28",
-    "from": "Bizon",
-    "to": "Bizon",
-    "date": "2026-09-11",
-    "type": "rename",
-    "note": "原昵称 b1g B，改名 纯爱一生"
-  },
-  {
     "id": "tr6",
     "playerId": "p43",
     "from": "ADS",
@@ -69,7 +60,7 @@
     "to": "No Team",
     "date": "2026-09-11",
     "type": "transfer",
-    "note": "转出，成为自由选手"
+    "note": "转出至 No Team"
   },
   {
     "id": "tr11",
@@ -87,7 +78,7 @@
     "to": "No Team",
     "date": "2026-09-11",
     "type": "transfer",
-    "note": "转出，成为自由选手"
+    "note": "转出至 No Team"
   },
   {
     "id": "tr13",
@@ -96,6 +87,6 @@
     "to": "Bizon",
     "date": "2026-09-11",
     "type": "demote",
-    "note": "下放为替补"
+    "note": "下放"
   }
 ]

@@ -70,18 +70,13 @@ export default function TeamDetailPage({ params }) {
             {transfers.map((tr) => {
               const p = byId.get(tr.playerId);
               const label = TYPE_LABEL[tr.type] || tr.type;
-              const isBench = tr.type === "demote" && /替补/.test(tr.note || "");
               let desc;
-              if (tr.type === "rename") {
-                desc = `${tr.note}`;
-              } else if (tr.type === "demote") {
-                desc = isBench
-                  ? `在 ${tr.from} 下放为替补`
-                  : `在 ${tr.from} 下放`;
+              if (tr.type === "demote") {
+                desc = `在 ${tr.from} 下放`;
               } else if (tr.type === "join") {
                 desc = `加入 ${tr.to}`;
               } else if (tr.to === "No Team") {
-                desc = `从 ${tr.from} 转出，成为自由选手`;
+                desc = `从 ${tr.from} 转出至 No Team`;
               } else {
                 desc = `从 ${tr.from} 转入 ${tr.to}`;
               }

@@ -158,11 +158,10 @@ export default function HomePage() {
               <ul className="transfers-list">
                 {transfers.map((t) => {
                   const player = playersById.get(t.playerId);
-                  const tagClass = t.type === "transfer" ? "tag-transfer" : t.type === "demote" ? "tag-demote" : "tag-rename";
-                  const tagLabel = t.type === "transfer" ? "转会" : t.type === "demote" ? "下放" : "改名";
-                  const fromText = t.from || "自由人";
-                  const toText = t.to === "No Team" ? "自由人" : t.to || "自由人";
-                  const isBench = t.type === "demote" && /替补/.test(t.note || "");
+                  const tagClass = t.type === "transfer" ? "tag-transfer" : "tag-demote";
+                  const tagLabel = t.type === "transfer" ? "转会" : "下放";
+                  const fromText = t.from || "No Team";
+                  const toText = t.to || "No Team";
                   return (
                     <li className="transfer-row" key={t.id}>
                       <span className={`transfer-tag ${tagClass}`}>{tagLabel}</span>
@@ -173,7 +172,6 @@ export default function HomePage() {
                         <span className="transfer-team">{fromText}</span>
                         <span className="transfer-arrow">→</span>
                         <span className="transfer-team">{toText}</span>
-                        {isBench && <span className="transfer-bench-note">（替补）</span>}
                       </span>
                       <span className="transfer-date">{t.date}</span>
                     </li>
