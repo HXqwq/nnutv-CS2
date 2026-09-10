@@ -425,14 +425,16 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 
 /* ===== 比赛详情头部 ===== */
 .match-header {
-  padding: 18px 16px;
+  padding: 14px 16px;
   text-align: center;
   background: linear-gradient(180deg, var(--panel-2), var(--panel));
+  max-width: 640px;
+  margin: 0 auto;
 }
 .match-header .teams {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 .match-header .teams .winner { color: #fff; }
 .match-header .teams .loser { color: var(--muted); }
@@ -442,9 +444,9 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   margin-top: 4px;
 }
 .big-score {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 700;
-  margin: 6px 0;
+  margin: 4px 0;
   font-variant-numeric: tabular-nums;
   letter-spacing: 2px;
 }
@@ -1389,9 +1391,9 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   .match-score .win { font-size: 14px; }
 
   /* 比赛详情头部 */
-  .match-header { padding: 14px 10px; }
-  .match-header .teams { font-size: 15px; }
-  .big-score { font-size: 22px; letter-spacing: 1px; }
+  .match-header { padding: 12px 10px; max-width: 100%; }
+  .match-header .teams { font-size: 14px; }
+  .big-score { font-size: 20px; letter-spacing: 1px; }
 
   /* 选手横条：允许换行，KPI 缩小 */
   .player-row { flex-wrap: wrap; padding: 10px; gap: 10px; }

@@ -61,8 +61,6 @@ export default async function MatchDetailPage({ params }) {
   if (!match) notFound();
 
   const aWon = match.scoreA > match.scoreB;
-  const winScore = Math.max(match.scoreA, match.scoreB);
-  const lossScore = Math.min(match.scoreA, match.scoreB);
   const matrix = h2hMatrix(id);
   const players = loadPlayers();
 
@@ -78,9 +76,9 @@ export default async function MatchDetailPage({ params }) {
             <span className={!aWon ? "winner" : "loser"}>{match.teamB}</span>
           </div>
           <div className="big-score">
-            <span className="s-win">{winScore}</span>
+            <span className={aWon ? "s-win" : "s-loss"}>{match.scoreA}</span>
             <span className="sep">:</span>
-            <span className="s-loss">{lossScore}</span>
+            <span className={!aWon ? "s-win" : "s-loss"}>{match.scoreB}</span>
           </div>
           <div className="meta">
             {match.date}{match.time ? ` ${match.time}` : ""} · {match.format} · {match.event}
