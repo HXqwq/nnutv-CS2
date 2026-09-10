@@ -288,6 +288,11 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   max-width: 130px;
 }
 .transfer-arrow { color: var(--muted); }
+.transfer-bench-note {
+  color: var(--muted);
+  font-size: 11px;
+  flex-shrink: 0;
+}
 .transfer-date {
   color: var(--muted);
   font-size: 11px;

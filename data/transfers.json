@@ -27,24 +27,6 @@
     "note": "原昵称 b1g B，改名 纯爱一生"
   },
   {
-    "id": "tr4",
-    "playerId": "p57",
-    "from": "Team 9one",
-    "to": "",
-    "date": "2026-09-11",
-    "type": "demote",
-    "note": "下放，成为自由选手"
-  },
-  {
-    "id": "tr5",
-    "playerId": "p58",
-    "from": "Team 9one",
-    "to": "",
-    "date": "2026-09-11",
-    "type": "demote",
-    "note": "下放，成为自由选手"
-  },
-  {
     "id": "tr6",
     "playerId": "p43",
     "from": "ADS",
@@ -70,5 +52,50 @@
     "date": "2026-09-11",
     "type": "transfer",
     "note": "报名 NNU Blast，转会至 惊天五条区"
+  },
+  {
+    "id": "tr9",
+    "playerId": "p57",
+    "from": "Team 9one",
+    "to": "Team 9one",
+    "date": "2026-09-11",
+    "type": "demote",
+    "note": "下放"
+  },
+  {
+    "id": "tr10",
+    "playerId": "p57",
+    "from": "Team 9one",
+    "to": "No Team",
+    "date": "2026-09-11",
+    "type": "transfer",
+    "note": "转出，成为自由选手"
+  },
+  {
+    "id": "tr11",
+    "playerId": "p58",
+    "from": "Team 9one",
+    "to": "Team 9one",
+    "date": "2026-09-11",
+    "type": "demote",
+    "note": "下放"
+  },
+  {
+    "id": "tr12",
+    "playerId": "p58",
+    "from": "Team 9one",
+    "to": "No Team",
+    "date": "2026-09-11",
+    "type": "transfer",
+    "note": "转出，成为自由选手"
+  },
+  {
+    "id": "tr13",
+    "playerId": "p31",
+    "from": "Bizon",
+    "to": "Bizon",
+    "date": "2026-09-11",
+    "type": "demote",
+    "note": "下放为替补"
   }
 ]
