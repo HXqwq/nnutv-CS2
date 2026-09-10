@@ -953,6 +953,61 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 /* 战队卡片锚点跳转定位 */
 .team-card { scroll-margin-top: 56px; }
 
+/* ===== 选手页 HLTV 风格精简 ===== */
+/* 比赛记录表：字号加大、行距放宽 */
+.player-tbl { font-size: 13px; }
+.player-tbl th, .player-tbl td { padding: 8px 12px; height: 34px; }
+.player-tbl th { font-size: 11px; }
+
+/* 半场对比：CT/T 双面板并排 */
+.side-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 12px; }
+.side-box { background: var(--bg); border: 1px solid var(--border); border-radius: 3px; overflow: hidden; }
+.side-head {
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  background: var(--hl-thead);
+  border-bottom: 1px solid var(--border);
+}
+.side-box.ct .side-head { color: #6f9fd8; border-left: 3px solid #6f9fd8; }
+.side-box.t .side-head { color: #d9b45c; border-left: 3px solid #d9b45c; }
+.side-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 14px;
+  font-size: 13px;
+  border-bottom: 1px solid var(--border);
+}
+.side-row:last-child { border-bottom: none; }
+.side-row .k { color: var(--muted); }
+.side-row .v { font-weight: 700; color: #fff; font-variant-numeric: tabular-nums; }
+
+/* 对位数据：紧凑行列表 */
+.h2h-list { padding: 4px 14px; }
+.h2h-head, .h2h-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 72px 72px 72px;
+  align-items: center;
+  gap: 8px;
+}
+.h2h-head {
+  padding: 10px 0 8px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  border-bottom: 1px solid var(--border);
+}
+.h2h-head span:not(:first-child), .h2h-num { text-align: right; }
+.h2h-row { padding: 9px 0; font-size: 13px; border-bottom: 1px solid var(--border); }
+.h2h-row:last-child { border-bottom: none; }
+.h2h-opp { font-weight: 600; color: #fff; text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.h2h-opp:hover { color: #fd6251; }
+.h2h-num { font-weight: 600; font-variant-numeric: tabular-nums; }
+
 /* ===== /stats 数据之最页 ===== */
 .rec-cards {
   display: grid;
@@ -1096,5 +1151,11 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   .rec-cards { grid-template-columns: 1fr; gap: 10px; padding: 10px; }
   .rec-match { display: none; }
   .career-grid { grid-template-columns: 1fr; gap: 10px; padding: 10px; }
+
+  /* 选手页：半场面板改上下堆叠，对位列距收紧 */
+  .side-grid { grid-template-columns: 1fr; }
+  .h2h-head, .h2h-row { grid-template-columns: minmax(0, 1fr) 56px 56px 56px; }
+  .h2h-list { padding: 4px 10px; }
+  .player-tbl th, .player-tbl td { padding: 8px 8px; }
 }
 

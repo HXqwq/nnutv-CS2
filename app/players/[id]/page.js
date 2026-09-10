@@ -16,38 +16,38 @@ export async function generateStaticParams() {
   return loadPlayers().map((p) => ({ id: p.id }));
 }
 
-// 半场对比卡片
-function SideCompare({ side, ctStats, tStats }) {
-  const rows = [
-    { label: "击杀", ct: ctStats?.ctKills, t: tStats?.tKills },
-    { label: "死亡", ct: ctStats?.ctDeaths, t: tStats?.tDeaths },
-    { label: "助攻", ct: ctStats?.ctAssists, t: tStats?.tAssists },
-    { label: "K/D", ct: side?.avgCtKd != null ? fmt(side.avgCtKd) : "-", t: side?.avgTKd != null ? fmt(side.avgTKd) : "-" },
-    { label: "场均ADR", ct: side?.avgCtAdr != null ? fmt(side.avgCtAdr, 1) : "-", t: side?.avgTAdr != null ? fmt(side.avgTAdr, 1) : "-" },
-    { label: "评分", ct: side?.avgCtRating != null ? fmt(side.avgCtRating) : "-", t: side?.avgTRating != null ? fmt(side.avgTRating) : "-" },
-  ];
+// 半场对比：HLTV 风格 CT/T 双面板
+function SideCompare({ side }) {
+  const box = (cls, title, rows) => (
+    <div className={`side-box ${cls}`}>
+      <div className="side-head">{title}</div>
+      {rows.map(([k, v]) => (
+        <div className="side-row" key={k}>
+          <span className="k">{k}</span>
+          <span className="v">{v ?? "-"}</span>
+        </div>
+      ))}
+    </div>
+  );
   return (
-    <table className="tbl">
-      <thead>
-        <tr>
-          <th className="no-sort">指标</th>
-          <th className="no-sort num">CT方</th>
-          <th className="no-sort num">T方</th>
-        </tr>
-      </thead>
-      <tbody>
-        {rows.map((r) => (
-          <tr key={r.label}>
-            <td>{r.label}</td>
-            <td className="num">{r.ct ?? "-"}</td>
-            <td className="num">{r.t ?? "-"}</td>
-          </tr>
-        ))}
-        {ctStats?.ctN == null && tStats?.tN == null && (
-          <tr><td colSpan="3" className="muted">暂无半场数据</td></tr>
-        )}
-      </tbody>
-    </table>
+    <div className="side-grid">
+      {box("ct", "CT 方", [
+        ["击杀", side.ctKills],
+        ["死亡", side.ctDeaths],
+        ["助攻", side.ctAssists],
+        ["K/D", side.avgCtKd != null ? fmt(side.avgCtKd) : "-"],
+        ["场均 ADR", side.avgCtAdr != null ? fmt(side.avgCtAdr, 1) : "-"],
+        ["评分", side.avgCtRating != null ? fmt(side.avgCtRating) : "-"],
+      ])}
+      {box("t", "T 方", [
+        ["击杀", side.tKills],
+        ["死亡", side.tDeaths],
+        ["助攻", side.tAssists],
+        ["K/D", side.avgTKd != null ? fmt(side.avgTKd) : "-"],
+        ["场均 ADR", side.avgTAdr != null ? fmt(side.avgTAdr, 1) : "-"],
+        ["评分", side.avgTRating != null ? fmt(side.avgTRating) : "-"],
+      ])}
+    </div>
   );
 }
 
@@ -177,7 +177,7 @@ export default async function PlayerDetailPage({ params }) {
           {side && (side.ctN > 0 || side.tN > 0) && (
             <section className="panel">
               <h2 className="panel-title">半场表现对比</h2>
-              <SideCompare side={side} ctStats={side} tStats={side} />
+              <SideCompare side={side} />
             </section>
           )}
 
@@ -207,36 +207,27 @@ export default async function PlayerDetailPage({ params }) {
           {firstH2H && (
             <section className="panel">
               <h2 className="panel-title">对位数据 · {firstH2H.map} vs {firstH2H.opponent}</h2>
-              <table className="tbl">
-                <thead>
-                  <tr>
-                    <th className="no-sort">对手</th>
-                    <th className="no-sort num">击杀对方</th>
-                    <th className="no-sort num">被击杀</th>
-                    <th className="no-sort num">净值</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {Object.keys(firstH2H.h2h).map((oppId) => {
-                    const opp = players.find((p) => p.id === oppId);
-                    if (!opp) return null;
-                    const e = firstH2H.h2h[oppId];
-                    const net = (e.killed || 0) - (e.death || 0);
-                    return (
-                      <tr key={oppId}>
-                        <td className="player-cell">
-                          <Link href={`/players/${opp.id}`}>{opp.nickname}</Link>
-                        </td>
-                        <td className="num pos">{e.killed ?? 0}</td>
-                        <td className="num neg">{e.death ?? 0}</td>
-                        <td className={`num ${net >= 0 ? "pos" : "neg"}`}>
-                          {net > 0 ? `+${net}` : net}
-                        </td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
+              <div className="h2h-list">
+                <div className="h2h-head">
+                  <span>对手</span><span>击杀</span><span>被杀</span><span>净值</span>
+                </div>
+                {Object.keys(firstH2H.h2h).map((oppId) => {
+                  const opp = players.find((p) => p.id === oppId);
+                  if (!opp) return null;
+                  const e = firstH2H.h2h[oppId];
+                  const net = (e.killed || 0) - (e.death || 0);
+                  return (
+                    <div className="h2h-row" key={oppId}>
+                      <Link href={`/players/${opp.id}`} className="h2h-opp">{opp.nickname}</Link>
+                      <span className="h2h-num pos">{e.killed ?? 0}</span>
+                      <span className="h2h-num neg">{e.death ?? 0}</span>
+                      <span className={`h2h-num ${net >= 0 ? "pos" : "neg"}`}>
+                        {net > 0 ? `+${net}` : net}
+                      </span>
+                    </div>
+                  );
+                })}
+              </div>
             </section>
           )}
 
@@ -245,18 +236,15 @@ export default async function PlayerDetailPage({ params }) {
             {history.length === 0 ? (
               <div className="empty">该选手暂无比赛记录</div>
             ) : (
-              <table className="tbl">
+              <table className="tbl player-tbl">
                 <thead>
                   <tr>
                     <th className="no-sort">日期</th>
-                    <th className="no-sort">赛事</th>
                     <th className="no-sort">地图</th>
                     <th className="no-sort">对阵</th>
                     <th className="no-sort">比分</th>
                     <th className="no-sort">结果</th>
-                    <th className="no-sort num">K</th>
-                    <th className="no-sort num">D</th>
-                    <th className="no-sort num">A</th>
+                    <th className="no-sort num">K / D / A</th>
                     <th className="no-sort num">ADR</th>
                     <th className="no-sort num">HS%</th>
                     <th className="no-sort num">Rating</th>
@@ -266,7 +254,6 @@ export default async function PlayerDetailPage({ params }) {
                   {history.map((h, i) => (
                     <tr key={i}>
                       <td className="muted">{h.date}</td>
-                      <td className="muted">{h.event}</td>
                       <td>{h.map}</td>
                       <td className="player-cell">
                         <Link href={`/matches/${h.matchId}`}>{h.opponent}</Link>
@@ -279,9 +266,7 @@ export default async function PlayerDetailPage({ params }) {
                           {h.won ? "胜" : "负"}
                         </span>
                       </td>
-                      <td className="num">{h.kills}</td>
-                      <td className="num">{h.deaths}</td>
-                      <td className="num">{h.assists}</td>
+                      <td className="num">{h.kills} / {h.deaths} / {h.assists}</td>
                       <td className="num">{fmt(h.adr, 1)}</td>
                       <td className="num">{h.hs ?? "-"}</td>
                       <td className={`num ${(h.rating ?? 0) >= 1.05 ? "rating-high" : ""}`}>
