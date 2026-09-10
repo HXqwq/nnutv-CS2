@@ -845,6 +845,30 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   font-size: 12px;
   margin: 10px 0;
 }
+/* 事件详情折叠 */
+.event-details { margin-top: 10px; }
+.event-details-toggle {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  padding: 8px 0;
+  border-top: 1px solid var(--border);
+  user-select: none;
+}
+.event-details-toggle::-webkit-details-marker { display: none; }
+.event-details-toggle:hover { color: #fff; }
+.event-details-arrow {
+  font-size: 12px;
+  transition: transform 0.15s ease;
+  color: var(--muted);
+}
+.event-details[open] .event-details-arrow { transform: rotate(180deg); }
+.event-details-body { padding-bottom: 2px; }
 .event-live {
   display: flex;
   align-items: center;
