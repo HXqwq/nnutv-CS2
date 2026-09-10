@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Fragment } from "react";
 import { notFound } from "next/navigation";
 import { getMatch, loadMatches, loadPlayers, h2hMatrix } from "../../../lib/data";
 import MapTabs from "./MapTabs";
@@ -11,39 +12,43 @@ export async function generateStaticParams() {
 function H2HMatrix({ matrix, teamBName, teamAName }) {
   const players = loadPlayers();
   const { rows, cols, cells } = matrix;
+  const colCount = cols.length;
   return (
     <div className="h2h-wrap">
       <div className="h2h-head">
         <span className="h2h-row-team">{teamBName}</span>
         <span className="h2h-col-team">{teamAName}</span>
       </div>
-      <div className="h2h-grid">
-        <div className="h2h-corner" />
-        {cols.map((c) => (
-          <div className="h2h-col-name" key={c.id}>
+      <div className="h2h-grid" style={{ gridTemplateColumns: `90px repeat(${colCount}, minmax(0, 1fr))` }}>
+        {/* 角标 */}
+        <div className="h2h-corner" style={{ gridRow: 1, gridColumn: 1 }} />
+        {/* 列名（第 1 行，从第 2 列开始） */}
+        {cols.map((c, ci) => (
+          <div className="h2h-col-name" key={c.id} style={{ gridRow: 1, gridColumn: ci + 2 }}>
             {c.player?.nickname}
           </div>
         ))}
-        {rows.map((r) => (
-          <div className="h2h-row" key={r.id}>
-            <div className="h2h-row-name">
+        {/* 数据行：行名第 1 列，cells 第 2..n 列 */}
+        {rows.map((r, ri) => (
+          <Fragment key={r.id}>
+            <div className="h2h-row-name" style={{ gridRow: ri + 2, gridColumn: 1 }}>
               <Link href={`/players/${r.id}`}>{r.player?.nickname}</Link>
             </div>
-            {cols.map((c) => {
+            {cols.map((c, ci) => {
               const cell = cells[`${r.id}|${c.id}`];
               const k = cell?.killed ?? 0;
               const d = cell?.death ?? 0;
               const net = k - d;
               const cls = net > 0 ? "pos-cell" : net < 0 ? "neg-cell" : "even-cell";
               return (
-                <div className={`h2h-cell ${cls}`} key={c.id}>
+                <div className={`h2h-cell ${cls}`} key={c.id} style={{ gridRow: ri + 2, gridColumn: ci + 2 }}>
                   <span className="h2h-k">{k}</span>
                   <span className="h2h-sep">:</span>
                   <span className="h2h-d">{d}</span>
                 </div>
               );
             })}
-          </div>
+          </Fragment>
         ))}
       </div>
       <div className="h2h-legend">

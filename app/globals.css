@@ -923,7 +923,7 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 }
 
 /* ===== 对位矩阵 ===== */
-.h2h-wrap { padding: 12px; }
+.h2h-wrap { padding: 12px 10px; overflow-x: auto; }
 .h2h-head {
   display: flex;
   justify-content: space-between;
@@ -936,10 +936,9 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 }
 .h2h-grid {
   display: grid;
-  grid-template-columns: 90px repeat(5, minmax(0, 1fr));
+  /* 列数由内联 style 注入（动态 = 1 + cols.length） */
   gap: 4px;
 }
-.h2h-corner { visibility: hidden; }
 .h2h-col-name {
   font-size: 11px;
   color: var(--muted);
@@ -950,9 +949,7 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   text-overflow: ellipsis;
   font-weight: 600;
 }
-.h2h-row {
-  display: contents;
-}
+.h2h-corner { visibility: hidden; }
 .h2h-row-name {
   font-size: 11px;
   color: #fff;
@@ -1259,15 +1256,15 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 .side-row .k { color: var(--muted); }
 .side-row .v { font-weight: 700; color: #fff; font-variant-numeric: tabular-nums; }
 
-/* 对位数据：紧凑行列表 */
+/* 对位数据：紧凑行列表（选手页，作用域限定在 .h2h-list 内，避免与比赛页 .h2h-grid 冲突） */
 .h2h-list { padding: 4px 14px; }
-.h2h-head, .h2h-row {
+.h2h-list .h2h-head, .h2h-list .h2h-row {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 72px 72px 72px;
   align-items: center;
   gap: 8px;
 }
-.h2h-head {
+.h2h-list .h2h-head {
   padding: 10px 0 8px;
   font-size: 11px;
   font-weight: 700;
@@ -1276,9 +1273,9 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   letter-spacing: 0.3px;
   border-bottom: 1px solid var(--border);
 }
-.h2h-head span:not(:first-child), .h2h-num { text-align: right; }
-.h2h-row { padding: 9px 0; font-size: 13px; border-bottom: 1px solid var(--border); }
-.h2h-row:last-child { border-bottom: none; }
+.h2h-list .h2h-head span:not(:first-child), .h2h-num { text-align: right; }
+.h2h-list .h2h-row { padding: 9px 0; font-size: 13px; border-bottom: 1px solid var(--border); }
+.h2h-list .h2h-row:last-child { border-bottom: none; }
 .h2h-opp { font-weight: 600; color: #fff; text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .h2h-opp:hover { color: #fd6251; }
 .h2h-num { font-weight: 600; font-variant-numeric: tabular-nums; }
@@ -1408,9 +1405,8 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   .stat-cards { grid-template-columns: repeat(auto-fill, minmax(88px, 1fr)); }
   .stat-card .value { font-size: 17px; }
 
-  /* 对位矩阵：压缩列宽，容器内横向滚动兜底 */
+  /* 对位矩阵：压缩列宽，容器内横向滚动兜底（列数由内联 style 动态控制，不在此硬编码） */
   .h2h-wrap { overflow-x: auto; padding: 10px 8px; }
-  .h2h-grid { grid-template-columns: 70px repeat(5, minmax(0, 1fr)); gap: 3px; }
   .h2h-cell { padding: 5px 0; font-size: 11px; gap: 2px; }
 
   /* 战队卡片 */
@@ -1431,7 +1427,7 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 
   /* 选手页：半场面板改上下堆叠，对位列距收紧 */
   .side-grid { grid-template-columns: 1fr; }
-  .h2h-head, .h2h-row { grid-template-columns: minmax(0, 1fr) 56px 56px 56px; }
+  .h2h-list .h2h-head, .h2h-list .h2h-row { grid-template-columns: minmax(0, 1fr) 56px 56px 56px; }
   .h2h-list { padding: 4px 10px; }
   .player-tbl th, .player-tbl td { padding: 8px 8px; }
 }

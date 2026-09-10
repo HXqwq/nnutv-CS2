@@ -182,7 +182,7 @@ export default function MapTabs({ match, players }) {
               {cur.map && cur.map !== "待补充" ? cur.map : `第${active + 1}图`}
             </span>
             <span className={`map-score ${cur.scoreA > cur.scoreB ? "pos" : "neg"}`}>
-              {Math.max(cur.scoreA, cur.scoreB)} : {Math.min(cur.scoreA, cur.scoreB)}
+              {cur.scoreA} : {cur.scoreB}
             </span>
           </div>
           <StatsTable
