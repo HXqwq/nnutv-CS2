@@ -30,5 +30,18 @@
         "url": "https://www.bilibili.com/video/BV1ZW9WBaE8X/"
       }
     ]
+  },
+  {
+    "id": "nnu-blast",
+    "name": "NNU Blast",
+    "season": "2026",
+    "status": "ongoing",
+    "description": "南京师范大学 CS2 社团 Blast 系列赛，9月11日至10月11日举行。",
+    "livestream": {
+      "platform": "哔哩哔哩直播",
+      "url": "https://live.bilibili.com/1788060034",
+      "note": "NNU Blast 官方赛事直播间"
+    },
+    "replays": []
   }
 ]

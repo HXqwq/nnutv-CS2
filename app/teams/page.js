@@ -33,7 +33,13 @@ export default function TeamsPage() {
                   {(t.shortName || t.name).slice(0, 3).toUpperCase()}
                 </div>
                 <div>
-                  <h2>{t.name}</h2>
+                  <h2>
+                    {t.id ? (
+                      <Link href={`/teams/${t.id}`}>{t.name}</Link>
+                    ) : (
+                      t.name
+                    )}
+                  </h2>
                   <div className="team-meta">
                     {t.shortName && t.shortName !== t.name ? `${t.shortName} · ` : ""}
                     {t.country || "—"}

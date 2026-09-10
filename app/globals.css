@@ -574,6 +574,57 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 .roster-chip .mini-av { width: 24px; height: 24px; margin-right: 0; }
 .roster-chip a { color: #fff; font-size: 12px; font-weight: 600; }
 .roster-chip a:hover { color: var(--accent); }
+.team-card-head h2 a { color: #fff; text-decoration: none; }
+.team-card-head h2 a:hover { color: var(--accent); }
+
+/* ===== 战队详情页 ===== */
+.team-detail-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 14px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  margin-bottom: 14px;
+}
+.team-detail-head .team-badge { width: 56px; height: 56px; font-size: 20px; }
+.team-detail-head h1 { margin: 0; font-size: 22px; color: #fff; }
+.team-detail-head .team-meta { color: var(--muted); font-size: 12px; margin-top: 4px; }
+.team-roster-detail { padding: 12px 14px 14px; }
+.team-roster-detail .roster-chip { font-size: 13px; font-weight: 600; color: #fff; }
+
+/* 转会记录时间线 */
+.transfer-list {
+  display: flex;
+  flex-direction: column;
+}
+.transfer-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-top: 1px solid var(--border);
+  font-size: 13px;
+  flex-wrap: wrap;
+}
+.transfer-row:first-child { border-top: none; }
+.transfer-date { color: var(--muted); font-size: 12px; min-width: 76px; }
+.transfer-tag {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.transfer-tag.transfer { background: #1f3a2f; color: #5fd08a; border: 1px solid #2c5a43; }
+.transfer-tag.demote { background: #3a2b1f; color: #e0a05f; border: 1px solid #5a3f2c; }
+.transfer-tag.rename { background: #2a2f3a; color: #9db2d0; border: 1px solid #3f4a5a; }
+.transfer-tag.join { background: #1f2f3a; color: #5fb0d0; border: 1px solid #2c465a; }
+.transfer-player a { color: #fff; font-weight: 600; text-decoration: none; }
+.transfer-player a:hover { color: var(--accent); }
+.transfer-desc { color: var(--muted); font-size: 12px; }
 
 /* ===== Logo 区 ===== */
 .brand-banner {

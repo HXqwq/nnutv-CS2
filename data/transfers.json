@@ -1,0 +1,47 @@
+[
+  {
+    "id": "tr1",
+    "playerId": "p44",
+    "from": "ADS",
+    "to": "NU Esports",
+    "date": "2026-09-11",
+    "type": "transfer",
+    "note": "报名 NNU Blast，转会至 NU Esports"
+  },
+  {
+    "id": "tr2",
+    "playerId": "p59",
+    "from": "My Go Clan",
+    "to": "NNU来",
+    "date": "2026-09-11",
+    "type": "transfer",
+    "note": "报名 NNU Blast，转会至 NNU来"
+  },
+  {
+    "id": "tr3",
+    "playerId": "p28",
+    "from": "Bizon",
+    "to": "Bizon",
+    "date": "2026-09-11",
+    "type": "rename",
+    "note": "原昵称 b1g B，改名 纯爱一生"
+  },
+  {
+    "id": "tr4",
+    "playerId": "p57",
+    "from": "Team 9one",
+    "to": "",
+    "date": "2026-09-11",
+    "type": "demote",
+    "note": "下放，成为自由选手"
+  },
+  {
+    "id": "tr5",
+    "playerId": "p58",
+    "from": "Team 9one",
+    "to": "",
+    "date": "2026-09-11",
+    "type": "demote",
+    "note": "下放，成为自由选手"
+  }
+]

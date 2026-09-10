@@ -63,8 +63,8 @@
   },
   {
     "id": "t10",
-    "name": "TeamGold",
-    "shortName": "TG",
+    "name": "TeamGoldRain",
+    "shortName": "TGR",
     "country": "中华人民共和国"
   },
   {
@@ -107,6 +107,54 @@
     "id": "t17",
     "name": "My Go Clan",
     "shortName": "MGC",
+    "country": "中华人民共和国"
+  },
+  {
+    "id": "t18",
+    "name": "NU Esports",
+    "shortName": "NUE",
+    "country": "中华人民共和国"
+  },
+  {
+    "id": "t19",
+    "name": "一轮游",
+    "shortName": "YLY",
+    "country": "中华人民共和国"
+  },
+  {
+    "id": "t20",
+    "name": "四驱战车",
+    "shortName": "SQCZ",
+    "country": "中华人民共和国"
+  },
+  {
+    "id": "t21",
+    "name": "禄蛋电竞魔王护",
+    "shortName": "LDD",
+    "country": "中华人民共和国"
+  },
+  {
+    "id": "t22",
+    "name": "强强的区区",
+    "shortName": "QQQ",
+    "country": "中华人民共和国"
+  },
+  {
+    "id": "t23",
+    "name": "银河皮筏艇",
+    "shortName": "YH",
+    "country": "中华人民共和国"
+  },
+  {
+    "id": "t24",
+    "name": "士莎比亚",
+    "shortName": "SSBY",
+    "country": "中华人民共和国"
+  },
+  {
+    "id": "t25",
+    "name": "NNU来",
+    "shortName": "NNUL",
     "country": "中华人民共和国"
   }
 ]
