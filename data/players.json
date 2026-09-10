@@ -261,7 +261,7 @@
     "id": "p40",
     "nickname": "𝓝𝓽𝓯𝓲𝓼𝓱",
     "realName": "𝓝𝓽𝓯𝓲𝓼𝓱",
-    "team": "Black Horizon",
+    "team": "惊天五条区",
     "role": "",
     "joined": "2026-04",
     "steamId": "76561199558492535",
@@ -291,7 +291,7 @@
     "id": "p43",
     "nickname": "⚡️AT⚡️",
     "realName": "⚡️AT⚡️",
-    "team": "ADS",
+    "team": "NU Esports",
     "role": "",
     "joined": "2026-04",
     "steamId": "76561199139494422",
@@ -311,7 +311,7 @@
     "id": "p45",
     "nickname": "沈纳尔躲",
     "realName": "沈纳尔躲（副本）",
-    "team": "ADS",
+    "team": "NU Esports",
     "role": "",
     "joined": "2026-04",
     "steamId": "76561199824811064",
@@ -546,22 +546,6 @@
     "team": "牢霸道了",
     "role": "",
     "joined": "2026-03"
-  },
-  {
-    "id": "p74",
-    "nickname": "Arestrust",
-    "realName": "",
-    "team": "NU Esports",
-    "role": "",
-    "joined": "2026-09"
-  },
-  {
-    "id": "p75",
-    "nickname": "SHENALDUO",
-    "realName": "",
-    "team": "NU Esports",
-    "role": "",
-    "joined": "2026-09"
   },
   {
     "id": "p76",
@@ -902,14 +886,6 @@
   {
     "id": "p119",
     "nickname": "kyousuke",
-    "realName": "",
-    "team": "惊天五条区",
-    "role": "",
-    "joined": "2026-09"
-  },
-  {
-    "id": "p120",
-    "nickname": "nitifish",
     "realName": "",
     "team": "惊天五条区",
     "role": "",
