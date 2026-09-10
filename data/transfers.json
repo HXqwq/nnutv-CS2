@@ -88,5 +88,14 @@
     "date": "2026-09-11",
     "type": "demote",
     "note": "下放"
+  },
+  {
+    "id": "tr14",
+    "playerId": "p31",
+    "from": "JK games",
+    "to": "Bizon",
+    "date": "2026-03-23",
+    "type": "transfer",
+    "note": "转会至 Bizon"
   }
 ]

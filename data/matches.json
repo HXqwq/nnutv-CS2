@@ -4124,5 +4124,555 @@
         ]
       }
     ]
+  },
+  {
+    "date": "2026-03-21",
+    "event": "NNU Major S1",
+    "stage": "Group Stage",
+    "format": "BO1",
+    "teamA": "JK games",
+    "teamB": "惊天五条区",
+    "scoreA": 9,
+    "scoreB": 13,
+    "id": "m38",
+    "maps": [
+      {
+        "map": "荒漠迷城",
+        "scoreA": 9,
+        "scoreB": 13,
+        "stats": [
+          {
+            "playerId": "p125",
+            "side": "A",
+            "kills": 20,
+            "deaths": 19,
+            "assists": 7,
+            "adr": 104,
+            "hs": 40,
+            "rating": 1.39,
+            "ctStats": {
+              "kills": 7,
+              "deaths": 10,
+              "assists": 3,
+              "adr": 73,
+              "hs": 43,
+              "rating": 0.97
+            },
+            "tStats": {
+              "kills": 13,
+              "deaths": 9,
+              "assists": 4,
+              "adr": 141,
+              "hs": 38,
+              "rating": 1.9
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": null,
+            "we": null,
+            "performance": null,
+            "h2h": {
+              "p129": {
+                "killed": 3,
+                "death": 3
+              },
+              "p130": {
+                "killed": 3,
+                "death": 6
+              },
+              "p131": {
+                "killed": 5,
+                "death": 5
+              },
+              "p132": {
+                "killed": 3,
+                "death": 2
+              },
+              "p133": {
+                "killed": 6,
+                "death": 3
+              }
+            }
+          },
+          {
+            "playerId": "p31",
+            "side": "A",
+            "kills": 14,
+            "deaths": 16,
+            "assists": 4,
+            "adr": 73,
+            "hs": 64,
+            "rating": 0.98,
+            "ctStats": {
+              "kills": 9,
+              "deaths": 9,
+              "assists": 2,
+              "adr": 95,
+              "hs": 83,
+              "rating": 1.15
+            },
+            "tStats": {
+              "kills": 5,
+              "deaths": 7,
+              "assists": 2,
+              "adr": 48,
+              "hs": 40,
+              "rating": 0.77
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": null,
+            "we": null,
+            "performance": null,
+            "h2h": {
+              "p129": {
+                "killed": 3,
+                "death": 5
+              },
+              "p130": {
+                "killed": 3,
+                "death": 2
+              },
+              "p131": {
+                "killed": 3,
+                "death": 2
+              },
+              "p132": {
+                "killed": 4,
+                "death": 6
+              },
+              "p133": {
+                "killed": 1,
+                "death": 1
+              }
+            }
+          },
+          {
+            "playerId": "p126",
+            "side": "A",
+            "kills": 10,
+            "deaths": 17,
+            "assists": 12,
+            "adr": 68,
+            "hs": 30,
+            "rating": 0.97,
+            "ctStats": {
+              "kills": 8,
+              "deaths": 8,
+              "assists": 8,
+              "adr": 89,
+              "hs": 38,
+              "rating": 1.3
+            },
+            "tStats": {
+              "kills": 2,
+              "deaths": 9,
+              "assists": 4,
+              "adr": 43,
+              "hs": 0,
+              "rating": 0.57
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": null,
+            "we": null,
+            "performance": null,
+            "h2h": {
+              "p129": {
+                "killed": 2,
+                "death": 8
+              },
+              "p130": {
+                "killed": 3,
+                "death": 1
+              },
+              "p131": {
+                "killed": 2,
+                "death": 4
+              },
+              "p132": {
+                "killed": 0,
+                "death": 1
+              },
+              "p133": {
+                "killed": 3,
+                "death": 3
+              }
+            }
+          },
+          {
+            "playerId": "p127",
+            "side": "A",
+            "kills": 14,
+            "deaths": 17,
+            "assists": 0,
+            "adr": 54,
+            "hs": 64,
+            "rating": 0.79,
+            "ctStats": {
+              "kills": 11,
+              "deaths": 9,
+              "assists": 0,
+              "adr": 68,
+              "hs": 64,
+              "rating": 1.06
+            },
+            "tStats": {
+              "kills": 3,
+              "deaths": 8,
+              "assists": 0,
+              "adr": 38,
+              "hs": 67,
+              "rating": 0.46
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": null,
+            "we": null,
+            "performance": null,
+            "h2h": {
+              "p129": {
+                "killed": 5,
+                "death": 2
+              },
+              "p130": {
+                "killed": 2,
+                "death": 5
+              },
+              "p131": {
+                "killed": 1,
+                "death": 5
+              },
+              "p132": {
+                "killed": 4,
+                "death": 2
+              },
+              "p133": {
+                "killed": 2,
+                "death": 3
+              }
+            }
+          },
+          {
+            "playerId": "p128",
+            "side": "A",
+            "kills": 11,
+            "deaths": 16,
+            "assists": 3,
+            "adr": 52,
+            "hs": 55,
+            "rating": 0.77,
+            "ctStats": {
+              "kills": 4,
+              "deaths": 8,
+              "assists": 2,
+              "adr": 34,
+              "hs": 50,
+              "rating": 0.6
+            },
+            "tStats": {
+              "kills": 7,
+              "deaths": 8,
+              "assists": 1,
+              "adr": 74,
+              "hs": 57,
+              "rating": 0.98
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": null,
+            "we": null,
+            "performance": null,
+            "h2h": {
+              "p129": {
+                "killed": 1,
+                "death": 7
+              },
+              "p130": {
+                "killed": 1,
+                "death": 3
+              },
+              "p131": {
+                "killed": 3,
+                "death": 2
+              },
+              "p132": {
+                "killed": 4,
+                "death": 4
+              },
+              "p133": {
+                "killed": 2,
+                "death": 0
+              }
+            }
+          },
+          {
+            "playerId": "p129",
+            "side": "B",
+            "kills": 25,
+            "deaths": 14,
+            "assists": 8,
+            "adr": 118,
+            "hs": 44,
+            "rating": 1.61,
+            "ctStats": {
+              "kills": 9,
+              "deaths": 7,
+              "assists": 4,
+              "adr": 113,
+              "hs": 33,
+              "rating": 1.36
+            },
+            "tStats": {
+              "kills": 16,
+              "deaths": 7,
+              "assists": 4,
+              "adr": 123,
+              "hs": 50,
+              "rating": 1.81
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": null,
+            "we": null,
+            "performance": null,
+            "h2h": {
+              "p125": {
+                "killed": 3,
+                "death": 3
+              },
+              "p31": {
+                "killed": 5,
+                "death": 3
+              },
+              "p126": {
+                "killed": 8,
+                "death": 2
+              },
+              "p127": {
+                "killed": 2,
+                "death": 5
+              },
+              "p128": {
+                "killed": 7,
+                "death": 1
+              }
+            }
+          },
+          {
+            "playerId": "p130",
+            "side": "B",
+            "kills": 17,
+            "deaths": 12,
+            "assists": 6,
+            "adr": 100,
+            "hs": 65,
+            "rating": 1.25,
+            "ctStats": {
+              "kills": 5,
+              "deaths": 5,
+              "assists": 5,
+              "adr": 90,
+              "hs": 80,
+              "rating": 1.08
+            },
+            "tStats": {
+              "kills": 12,
+              "deaths": 7,
+              "assists": 1,
+              "adr": 108,
+              "hs": 58,
+              "rating": 1.38
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": null,
+            "we": null,
+            "performance": null,
+            "h2h": {
+              "p125": {
+                "killed": 6,
+                "death": 3
+              },
+              "p31": {
+                "killed": 2,
+                "death": 3
+              },
+              "p126": {
+                "killed": 1,
+                "death": 3
+              },
+              "p127": {
+                "killed": 5,
+                "death": 2
+              },
+              "p128": {
+                "killed": 3,
+                "death": 1
+              }
+            }
+          },
+          {
+            "playerId": "p131",
+            "side": "B",
+            "kills": 18,
+            "deaths": 14,
+            "assists": 6,
+            "adr": 78,
+            "hs": 26,
+            "rating": 1.16,
+            "ctStats": {
+              "kills": 13,
+              "deaths": 5,
+              "assists": 3,
+              "adr": 114,
+              "hs": 23,
+              "rating": 1.7
+            },
+            "tStats": {
+              "kills": 5,
+              "deaths": 9,
+              "assists": 3,
+              "adr": 48,
+              "hs": 33,
+              "rating": 0.71
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": null,
+            "we": null,
+            "performance": null,
+            "h2h": {
+              "p125": {
+                "killed": 5,
+                "death": 5
+              },
+              "p31": {
+                "killed": 2,
+                "death": 3
+              },
+              "p126": {
+                "killed": 4,
+                "death": 2
+              },
+              "p127": {
+                "killed": 5,
+                "death": 1
+              },
+              "p128": {
+                "killed": 2,
+                "death": 3
+              }
+            }
+          },
+          {
+            "playerId": "p132",
+            "side": "B",
+            "kills": 15,
+            "deaths": 16,
+            "assists": 6,
+            "adr": 65,
+            "hs": 73,
+            "rating": 1.06,
+            "ctStats": {
+              "kills": 11,
+              "deaths": 6,
+              "assists": 2,
+              "adr": 77,
+              "hs": 73,
+              "rating": 1.45
+            },
+            "tStats": {
+              "kills": 4,
+              "deaths": 10,
+              "assists": 4,
+              "adr": 54,
+              "hs": 75,
+              "rating": 0.74
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": null,
+            "we": null,
+            "performance": null,
+            "h2h": {
+              "p125": {
+                "killed": 2,
+                "death": 3
+              },
+              "p31": {
+                "killed": 6,
+                "death": 4
+              },
+              "p126": {
+                "killed": 1,
+                "death": 0
+              },
+              "p127": {
+                "killed": 2,
+                "death": 4
+              },
+              "p128": {
+                "killed": 4,
+                "death": 4
+              }
+            }
+          },
+          {
+            "playerId": "p133",
+            "side": "B",
+            "kills": 10,
+            "deaths": 14,
+            "assists": 7,
+            "adr": 57,
+            "hs": 80,
+            "rating": 0.84,
+            "ctStats": {
+              "kills": 3,
+              "deaths": 7,
+              "assists": 2,
+              "adr": 40,
+              "hs": 67,
+              "rating": 0.61
+            },
+            "tStats": {
+              "kills": 7,
+              "deaths": 7,
+              "assists": 5,
+              "adr": 71,
+              "hs": 86,
+              "rating": 1.03
+            },
+            "multiKills": null,
+            "mvp": 0,
+            "rws": null,
+            "we": null,
+            "performance": null,
+            "h2h": {
+              "p125": {
+                "killed": 3,
+                "death": 6
+              },
+              "p31": {
+                "killed": 1,
+                "death": 1
+              },
+              "p126": {
+                "killed": 3,
+                "death": 3
+              },
+              "p127": {
+                "killed": 3,
+                "death": 2
+              },
+              "p128": {
+                "killed": 0,
+                "death": 2
+              }
+            }
+          }
+        ]
+      }
+    ]
   }
 ]
