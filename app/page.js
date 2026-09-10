@@ -82,13 +82,15 @@ export default function HomePage() {
               return (
                 <div className="match-row" key={m.id}>
                   <Link className="match-link" href={`/matches/${m.id}`}>
-                    <span className="match-meta">
-                      <span className="match-date">{m.date.slice(5)}</span>
-                      <span className="dot">·</span>
-                      <span>{m.format}</span>
-                      <span className="dot">·</span>
-                      <span className="match-event">{m.event}</span>
-                    </span>
+                <span className="match-meta">
+                  <span className="match-date">
+                    {m.time ? `${m.date.slice(5)} ${m.time}` : m.date.slice(5)}
+                  </span>
+                  <span className="dot">·</span>
+                  <span>{m.format}</span>
+                  <span className="dot">·</span>
+                  <span className="match-event">{m.event}</span>
+                </span>
                     <span className="match-main">
                       <span className={`match-team ${aWon ? "winner" : "loser"}`}>
                         <span className="team-name">{m.teamA}</span>
@@ -190,7 +192,9 @@ export default function HomePage() {
                 const aWon = m.scoreA > m.scoreB;
                 return (
                   <li key={m.id}>
-                    <span className="time">{m.date.slice(5)}</span>
+                    <span className="time">
+                      {m.time ? `${m.date.slice(5)} ${m.time}` : m.date.slice(5)}
+                    </span>
                     <span className="title">
                       <Link href={`/matches/${m.id}`} style={{ color: "inherit" }}>
                         {aWon ? m.teamA : m.teamB} 胜 {aWon ? m.teamB : m.teamA}

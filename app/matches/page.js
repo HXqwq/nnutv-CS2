@@ -17,7 +17,9 @@ export default function MatchesPage() {
             <div className="match-row" key={m.id}>
               <Link className="match-link" href={`/matches/${m.id}`}>
                 <span className="match-meta">
-                  <span className="match-date">{m.date}</span>
+                  <span className="match-date">
+                    {m.time ? `${m.date.slice(5)} ${m.time}` : m.date.slice(5)}
+                  </span>
                   <span className="dot">·</span>
                   <span>{m.format}</span>
                   <span className="dot">·</span>
