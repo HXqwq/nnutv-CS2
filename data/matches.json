@@ -626,26 +626,6 @@
     "time": "14:26"
   },
   {
-    "id": "m9",
-    "date": "2026-03-21",
-    "event": "NNU Major S1",
-    "stage": "Group Stage",
-    "format": "BO1",
-    "teamA": "JK games",
-    "teamB": "惊天五条区",
-    "scoreA": 9,
-    "scoreB": 13,
-    "maps": [
-      {
-        "map": "待补充",
-        "scoreA": 9,
-        "scoreB": 13,
-        "stats": []
-      }
-    ],
-    "time": "13:33"
-  },
-  {
     "date": "2026-03-21",
     "event": "NNU Major S1",
     "stage": "Group Stage",
