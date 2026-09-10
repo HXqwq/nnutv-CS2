@@ -11,8 +11,8 @@ export default function HomePage() {
     <div>
       <div className="brand-banner">
         <div className="brand-text">
-          <h2>NNUTV CS2</h2>
-          <p></p>
+          <img className="brand-logo" src="/logo.png" alt="NNUTV" />
+          <h2>NNUTV</h2>
         </div>
         <div className="brand-stats">
           <div className="stat"><b>{players.length}</b><span>选手</span></div>

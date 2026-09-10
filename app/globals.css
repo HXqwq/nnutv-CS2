@@ -639,11 +639,19 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   gap: 12px;
 }
 .brand-banner .brand-text h2 {
-  margin: 0 0 2px;
-  font-size: 16px;
+  margin: 0;
+  font-size: 56px;
+  line-height: 1;
   color: #fff;
-  font-weight: 700;
+  font-weight: 800;
+  letter-spacing: 1px;
 }
+.brand-banner .brand-text .brand-logo {
+  height: 60px;
+  width: auto;
+  display: block;
+}
+.brand-banner .brand-text { display: flex; align-items: center; gap: 14px; }
 .brand-banner .brand-text p { margin: 0; color: var(--muted); font-size: 12px; }
 .brand-banner .brand-stats {
   display: flex;
@@ -1156,6 +1164,8 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 
   /* 首页横幅：竖排 */
   .brand-banner { flex-direction: column; align-items: flex-start; padding: 12px; gap: 10px; }
+  .brand-banner .brand-text .brand-logo { height: 44px; }
+  .brand-banner .brand-text h2 { font-size: 40px; }
   .brand-banner .brand-stats { width: 100%; justify-content: space-between; gap: 8px; }
 
   /* 比赛行：收紧内边距 */
