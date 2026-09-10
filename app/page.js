@@ -1,11 +1,14 @@
 import Link from "next/link";
-import { loadMatches, loadPlayers, rankings, fmt } from "../lib/data";
+import { loadMatches, loadPlayers, rankings, fmt, getPlayerOfTheWeek, getRecentTransfers } from "../lib/data";
 
 export default function HomePage() {
   const matches = loadMatches().slice(0, 8);
   const top = rankings().slice(0, 10);
   const players = loadPlayers();
   const teams = [...new Set(players.map((p) => p.team))];
+  const pow = getPlayerOfTheWeek();
+  const transfers = getRecentTransfers(6);
+  const playersById = new Map(players.map((p) => [p.id, p]));
 
   return (
     <div>
@@ -23,6 +26,51 @@ export default function HomePage() {
 
       <div className="two-col">
         <div>
+          <section className="panel pow-panel">
+            <h2 className="panel-title">
+              Player of the Week
+              {pow?.fallback && <span className="pow-fallback">（沿用往期）</span>}
+              {pow && (
+                <span className="pow-range">{pow.week.start} ~ {pow.week.end}</span>
+              )}
+            </h2>
+            {!pow ? (
+              <div className="empty">暂无选手数据</div>
+            ) : (
+              <div className="pow-body">
+                <div className="pow-avatar">
+                  {pow.player.avatar ? (
+                    <img src={pow.player.avatar} alt={pow.player.nickname} />
+                  ) : (
+                    <div className="av-fallback" />
+                  )}
+                </div>
+                <div className="pow-info">
+                  <div className="pow-nickname">
+                    <Link href={`/players/${pow.player.id}`}>{pow.player.nickname}</Link>
+                  </div>
+                  <div className="pow-subtitle">Player of the week</div>
+                  <div className="pow-stats">
+                    <div className="pow-stat">
+                      <span className="pow-value">{fmt(pow.avgRating)}</span>
+                      <span className="pow-label">平均 Rating / map</span>
+                    </div>
+                    <div className="pow-stat">
+                      <span className="pow-value">{pow.maps}</span>
+                      <span className="pow-label">出场地图数</span>
+                    </div>
+                    {pow.avgAdr != null && (
+                      <div className="pow-stat">
+                        <span className="pow-value">{Math.round(pow.avgAdr)}</span>
+                        <span className="pow-label">ADR / map</span>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            )}
+          </section>
+
           <section className="panel">
             <h2 className="panel-title">
               最新比赛 <span className="more"><Link href="/matches">查看全部 →</Link></span>
@@ -97,6 +145,40 @@ export default function HomePage() {
                 ))}
               </tbody>
             </table>
+          </section>
+
+          <section className="panel transfers-panel">
+            <h2 className="panel-title">
+              转会信息
+              {transfers.length > 0 && <span className="more"><Link href="/teams">查看战队 →</Link></span>}
+            </h2>
+            {transfers.length === 0 ? (
+              <div className="empty">暂无转会记录</div>
+            ) : (
+              <ul className="transfers-list">
+                {transfers.map((t) => {
+                  const player = playersById.get(t.playerId);
+                  const tagClass = t.type === "transfer" ? "tag-transfer" : t.type === "demote" ? "tag-demote" : "tag-rename";
+                  const tagLabel = t.type === "transfer" ? "转会" : t.type === "demote" ? "下放" : "改名";
+                  const fromText = t.from || "自由人";
+                  const toText = t.to || "自由人";
+                  return (
+                    <li className="transfer-row" key={t.id}>
+                      <span className={`transfer-tag ${tagClass}`}>{tagLabel}</span>
+                      <Link className="transfer-player" href={`/players/${t.playerId}`}>
+                        {player?.nickname || t.playerId}
+                      </Link>
+                      <span className="transfer-route">
+                        <span className="transfer-team">{fromText}</span>
+                        <span className="transfer-arrow">→</span>
+                        <span className="transfer-team">{toText}</span>
+                      </span>
+                      <span className="transfer-date">{t.date}</span>
+                    </li>
+                  );
+                })}
+              </ul>
+            )}
           </section>
         </div>
 
