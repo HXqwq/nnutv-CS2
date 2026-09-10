@@ -29,7 +29,6 @@ export default function HomePage() {
           <section className="panel pow-panel">
             <h2 className="panel-title">
               Player of the Week
-              {pow?.fallback && <span className="pow-fallback">（沿用往期）</span>}
               {pow && (
                 <span className="pow-range">{pow.week.start} ~ {pow.week.end}</span>
               )}
