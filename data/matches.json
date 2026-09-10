@@ -3592,7 +3592,7 @@
         "scoreB": 3,
         "stats": [
           {
-            "playerId": "p74",
+            "playerId": "p37",
             "side": "A",
             "kills": 21,
             "deaths": 7,
@@ -3645,7 +3645,7 @@
             }
           },
           {
-            "playerId": "p75",
+            "playerId": "p35",
             "side": "A",
             "kills": 16,
             "deaths": 5,
@@ -3698,7 +3698,7 @@
             }
           },
           {
-            "playerId": "p76",
+            "playerId": "p34",
             "side": "A",
             "kills": 14,
             "deaths": 9,
@@ -3887,15 +3887,15 @@
             "we": 7,
             "performance": null,
             "h2h": {
-              "p74": {
+              "p37": {
                 "killed": 1,
                 "death": 5
               },
-              "p75": {
+              "p35": {
                 "killed": 3,
                 "death": 2
               },
-              "p76": {
+              "p34": {
                 "killed": 2,
                 "death": 3
               },
@@ -3940,15 +3940,15 @@
             "we": 7.1,
             "performance": null,
             "h2h": {
-              "p74": {
+              "p37": {
                 "killed": 2,
                 "death": 6
               },
-              "p75": {
+              "p35": {
                 "killed": 0,
                 "death": 2
               },
-              "p76": {
+              "p34": {
                 "killed": 4,
                 "death": 2
               },
@@ -3993,15 +3993,15 @@
             "we": 4.7,
             "performance": null,
             "h2h": {
-              "p74": {
+              "p37": {
                 "killed": 2,
                 "death": 6
               },
-              "p75": {
+              "p35": {
                 "killed": 1,
                 "death": 3
               },
-              "p76": {
+              "p34": {
                 "killed": 1,
                 "death": 2
               },
@@ -4046,15 +4046,15 @@
             "we": 4.5,
             "performance": null,
             "h2h": {
-              "p74": {
+              "p37": {
                 "killed": 2,
                 "death": 3
               },
-              "p75": {
+              "p35": {
                 "killed": 0,
                 "death": 5
               },
-              "p76": {
+              "p34": {
                 "killed": 2,
                 "death": 5
               },
@@ -4099,15 +4099,15 @@
             "we": 2.5,
             "performance": null,
             "h2h": {
-              "p74": {
+              "p37": {
                 "killed": 0,
                 "death": 1
               },
-              "p75": {
+              "p35": {
                 "killed": 1,
                 "death": 4
               },
-              "p76": {
+              "p34": {
                 "killed": 0,
                 "death": 2
               },
