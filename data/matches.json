@@ -515,7 +515,7 @@
               "assists": 2,
               "adr": 74,
               "hs": 67,
-              "rating": 1.0
+              "rating": 1
             },
             "multiKills": null,
             "mvp": 0,
@@ -793,7 +793,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 3.14,
-            "we": 4.0,
+            "we": 4,
             "performance": null,
             "h2h": {
               "p12": {
@@ -1005,7 +1005,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 11.24,
-            "we": 11.0,
+            "we": 11,
             "performance": null,
             "h2h": {
               "p47": {
@@ -1937,7 +1937,7 @@
             "multiKills": null,
             "mvp": 1,
             "rws": 13.33,
-            "we": 9.0,
+            "we": 9,
             "performance": null,
             "h2h": {
               "p12": {
@@ -2076,7 +2076,7 @@
             "assists": 11,
             "adr": 64,
             "hs": 28,
-            "rating": 1.0,
+            "rating": 1,
             "ctStats": {
               "kills": 13,
               "deaths": 12,
@@ -2095,8 +2095,8 @@
             },
             "multiKills": null,
             "mvp": 0,
-            "rws": 10.0,
-            "we": 8.0,
+            "rws": 10,
+            "we": 8,
             "performance": null,
             "h2h": {
               "p12": {
@@ -2369,7 +2369,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 7.93,
-            "we": 7.0,
+            "we": 7,
             "performance": null,
             "h2h": {
               "p34": {
@@ -2687,7 +2687,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 3.67,
-            "we": 6.0,
+            "we": 6,
             "performance": null,
             "h2h": {
               "p12": {
@@ -3134,7 +3134,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 1.4,
-            "we": 5.0,
+            "we": 5,
             "performance": null,
             "h2h": {
               "p37": {
@@ -4137,7 +4137,7 @@
             "assists": 0,
             "adr": 70,
             "hs": 50,
-            "rating": 1.0,
+            "rating": 1,
             "ctStats": {
               "kills": 9,
               "deaths": 10,
@@ -4710,7 +4710,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 9.93,
-            "we": 8.0,
+            "we": 8,
             "performance": null,
             "h2h": {
               "p21": {
@@ -4743,7 +4743,7 @@
             "assists": 7,
             "adr": 77,
             "hs": 54,
-            "rating": 1.0,
+            "rating": 1,
             "ctStats": {
               "kills": 9,
               "deaths": 8,
@@ -5142,7 +5142,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 10.22,
-            "we": 8.0,
+            "we": 8,
             "performance": null,
             "h2h": {
               "p22": {
@@ -5354,7 +5354,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 1.91,
-            "we": 7.0,
+            "we": 7,
             "performance": null,
             "h2h": {
               "p67": {
@@ -5748,7 +5748,7 @@
             "multiKills": null,
             "mvp": 1,
             "rws": 12.46,
-            "we": 11.0,
+            "we": 11,
             "performance": null,
             "h2h": {
               "p109": {
@@ -6021,7 +6021,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 6.98,
-            "we": 9.0,
+            "we": 9,
             "performance": null,
             "h2h": {
               "p14": {
@@ -6627,7 +6627,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 7.71,
-            "we": 8.0,
+            "we": 8,
             "performance": null,
             "h2h": {
               "p109": {
@@ -6785,7 +6785,7 @@
             },
             "multiKills": null,
             "mvp": 0,
-            "rws": 0.0,
+            "rws": 0,
             "we": 3.7,
             "performance": null,
             "h2h": {
@@ -6998,7 +6998,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 11.46,
-            "we": 10.0,
+            "we": 10,
             "performance": null,
             "h2h": {
               "p26": {
@@ -7377,7 +7377,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 5.14,
-            "we": 7.0,
+            "we": 7,
             "performance": null,
             "h2h": {
               "p109": {
@@ -7470,7 +7470,7 @@
               "assists": 3,
               "adr": 84,
               "hs": 29,
-              "rating": 1.0
+              "rating": 1
             },
             "tStats": {
               "kills": 1,
@@ -7718,7 +7718,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 15.23,
-            "we": 12.0,
+            "we": 12,
             "performance": null,
             "h2h": {
               "p140": {
@@ -7819,7 +7819,7 @@
               "assists": 3,
               "adr": 76,
               "hs": 29,
-              "rating": 1.0
+              "rating": 1
             },
             "multiKills": null,
             "mvp": 0,
@@ -8862,7 +8862,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 7.95,
-            "we": 8.0,
+            "we": 8,
             "performance": null,
             "h2h": {
               "p70": {
@@ -8902,7 +8902,7 @@
               "assists": 4,
               "adr": 80,
               "hs": 75,
-              "rating": 1.0
+              "rating": 1
             },
             "tStats": {
               "kills": 7,
@@ -8968,7 +8968,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 2.6,
-            "we": 4.0,
+            "we": 4,
             "performance": null,
             "h2h": {
               "p70": {
@@ -9107,7 +9107,7 @@
             "assists": 9,
             "adr": 75,
             "hs": 50,
-            "rating": 1.0,
+            "rating": 1,
             "ctStats": {
               "kills": 5,
               "deaths": 10,
@@ -9415,7 +9415,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 8.06,
-            "we": 7.0,
+            "we": 7,
             "performance": null,
             "h2h": {
               "p50": {
@@ -9521,7 +9521,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 3.29,
-            "we": 4.0,
+            "we": 4,
             "performance": null,
             "h2h": {
               "p50": {
@@ -9569,7 +9569,7 @@
               "assists": 5,
               "adr": 134,
               "hs": 46,
-              "rating": 2.0
+              "rating": 2
             },
             "multiKills": null,
             "mvp": 1,
@@ -9953,7 +9953,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 3.15,
-            "we": 4.0,
+            "we": 4,
             "performance": null,
             "h2h": {
               "p26": {
@@ -10112,7 +10112,7 @@
             "multiKills": null,
             "mvp": 1,
             "rws": 16.85,
-            "we": 13.0,
+            "we": 13,
             "performance": null,
             "h2h": {
               "p52": {
@@ -10584,7 +10584,7 @@
               "assists": 4,
               "adr": 66,
               "hs": 17,
-              "rating": 1.0
+              "rating": 1
             },
             "tStats": {
               "kills": 4,
@@ -10703,7 +10703,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 12.36,
-            "we": 12.0,
+            "we": 12,
             "performance": null,
             "h2h": {
               "p50": {
@@ -11044,7 +11044,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 10.52,
-            "we": 7.0,
+            "we": 7,
             "performance": null,
             "h2h": {
               "p50": {
@@ -11150,7 +11150,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 2.33,
-            "we": 4.0,
+            "we": 4,
             "performance": null,
             "h2h": {
               "p50": {
@@ -11203,7 +11203,7 @@
             "multiKills": null,
             "mvp": 1,
             "rws": 14.38,
-            "we": 13.0,
+            "we": 13,
             "performance": null,
             "h2h": {
               "p61": {
@@ -11304,7 +11304,7 @@
               "assists": 5,
               "adr": 70,
               "hs": 33,
-              "rating": 1.0
+              "rating": 1
             },
             "multiKills": null,
             "mvp": 0,
@@ -11476,7 +11476,7 @@
             "multiKills": null,
             "mvp": 1,
             "rws": 25.19,
-            "we": 15.0,
+            "we": 15,
             "performance": null,
             "h2h": {
               "p61": {
@@ -11887,7 +11887,7 @@
               "assists": 1,
               "adr": 75,
               "hs": 40,
-              "rating": 1.0
+              "rating": 1
             },
             "tStats": {
               "kills": 3,
@@ -12620,7 +12620,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 1.64,
-            "we": 8.0,
+            "we": 8,
             "performance": null,
             "h2h": {
               "p130": {
@@ -12778,7 +12778,7 @@
             },
             "multiKills": null,
             "mvp": 0,
-            "rws": 0.0,
+            "rws": 0,
             "we": 2.4,
             "performance": null,
             "h2h": {
@@ -13196,7 +13196,7 @@
             "assists": 5,
             "adr": 59,
             "hs": 31,
-            "rating": 1.0,
+            "rating": 1,
             "rws": 5.11,
             "we": 8.2,
             "multiKills": null,
@@ -13294,7 +13294,7 @@
             "hs": 45,
             "rating": 1.08,
             "rws": 8.82,
-            "we": 9.0,
+            "we": 9,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -13501,7 +13501,7 @@
             "multiKills": null,
             "mvp": 0,
             "rws": 8.35,
-            "we": 8.0,
+            "we": 8,
             "performance": null,
             "h2h": {
               "p33": {
@@ -14205,7 +14205,7 @@
             "assists": 5,
             "adr": 73,
             "hs": 33,
-            "rating": 1.0,
+            "rating": 1,
             "rws": 7.32,
             "we": 7.3,
             "multiKills": null,
@@ -14239,7 +14239,7 @@
             "hs": 33,
             "rating": 0.98,
             "rws": 5.35,
-            "we": 8.0,
+            "we": 8,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -14311,7 +14311,7 @@
             "hs": 82,
             "rating": 1.68,
             "rws": 18.11,
-            "we": 14.0,
+            "we": 14,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -14394,7 +14394,7 @@
               "assists": 4,
               "adr": 68,
               "hs": 75,
-              "rating": 1.0
+              "rating": 1
             }
           },
           {
@@ -14599,7 +14599,7 @@
             "hs": 57,
             "rating": 0.74,
             "rws": 3.2,
-            "we": 5.0,
+            "we": 5,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -15045,7 +15045,7 @@
             "hs": 50,
             "rating": 0.93,
             "rws": 7.59,
-            "we": 7.0,
+            "we": 7,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -15237,7 +15237,7 @@
             "hs": 50,
             "rating": 1.04,
             "rws": 10.12,
-            "we": 10.0,
+            "we": 10,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -15269,7 +15269,7 @@
             "hs": 50,
             "rating": 0.74,
             "rws": 8.19,
-            "we": 8.0,
+            "we": 8,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -15734,7 +15734,7 @@
               "assists": 3,
               "adr": 80,
               "hs": 63,
-              "rating": 1.0
+              "rating": 1
             }
           },
           {
@@ -15842,7 +15842,7 @@
             "adr": 98,
             "hs": 76,
             "rating": 1.35,
-            "rws": 8.0,
+            "rws": 8,
             "we": 12.2,
             "multiKills": null,
             "mvp": 0,
@@ -16011,7 +16011,7 @@
             "hs": 27,
             "rating": 0.86,
             "rws": 7.41,
-            "we": 7.0,
+            "we": 7,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -16139,7 +16139,7 @@
             "hs": 50,
             "rating": 1.46,
             "rws": 15.62,
-            "we": 12.0,
+            "we": 12,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -16563,7 +16563,7 @@
             "hs": 64,
             "rating": 1.05,
             "rws": 12.03,
-            "we": 8.0,
+            "we": 8,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -16640,7 +16640,7 @@
         "scoreB": 1,
         "stats": [
           {
-            "playerId": "p150",
+            "playerId": "p43",
             "side": "A",
             "kills": 17,
             "deaths": 6,
@@ -16924,7 +16924,7 @@
               "assists": 0,
               "adr": 0,
               "hs": 0,
-              "rating": 0.0
+              "rating": 0
             }
           },
           {
@@ -17110,7 +17110,7 @@
             }
           },
           {
-            "playerId": "p154",
+            "playerId": "p58",
             "side": "A",
             "kills": 3,
             "deaths": 15,
@@ -17213,9 +17213,9 @@
             "assists": 2,
             "adr": 75,
             "hs": 25,
-            "rating": 1.0,
+            "rating": 1,
             "rws": 10.98,
-            "we": 9.0,
+            "we": 9,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -17245,7 +17245,7 @@
             "assists": 4,
             "adr": 70,
             "hs": 57,
-            "rating": 1.0,
+            "rating": 1,
             "rws": 10.2,
             "we": 8.3,
             "multiKills": null,
@@ -17511,7 +17511,7 @@
             "hs": 47,
             "rating": 1.27,
             "rws": 12.22,
-            "we": 11.0,
+            "we": 11,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -17534,7 +17534,7 @@
             }
           },
           {
-            "playerId": "p154",
+            "playerId": "p58",
             "side": "A",
             "kills": 17,
             "deaths": 14,
@@ -17607,7 +17607,7 @@
             "hs": 17,
             "rating": 0.48,
             "rws": 2.53,
-            "we": 3.0,
+            "we": 3,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -17766,7 +17766,7 @@
             }
           },
           {
-            "playerId": "p154",
+            "playerId": "p58",
             "side": "A",
             "kills": 24,
             "deaths": 32,
@@ -18213,7 +18213,7 @@
             "hs": 63,
             "rating": 0.81,
             "rws": 6.26,
-            "we": 8.0,
+            "we": 8,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -18277,7 +18277,7 @@
             "hs": 20,
             "rating": 0.42,
             "rws": 1.72,
-            "we": 3.0,
+            "we": 3,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -18491,7 +18491,7 @@
             "hs": 33,
             "rating": 1.2,
             "rws": 8.05,
-            "we": 9.0,
+            "we": 9,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -18619,7 +18619,7 @@
             "hs": 64,
             "rating": 0.77,
             "rws": 5.73,
-            "we": 8.0,
+            "we": 8,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -19657,7 +19657,7 @@
             "hs": 69,
             "rating": 1.48,
             "rws": 12.9,
-            "we": 12.0,
+            "we": 12,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -19753,7 +19753,7 @@
             "hs": 25,
             "rating": 0.65,
             "rws": 2.66,
-            "we": 5.0,
+            "we": 5,
             "multiKills": null,
             "mvp": 0,
             "performance": null,
@@ -19958,7 +19958,7 @@
             }
           },
           {
-            "playerId": "p154",
+            "playerId": "p58",
             "side": "A",
             "kills": 5,
             "deaths": 15,
@@ -23714,13 +23714,13 @@
                 "killed": 3,
                 "death": 0
               },
-              "p57": {
-                "killed": 5,
-                "death": 3
-              },
               "p58": {
                 "killed": 4,
                 "death": 0
+              },
+              "p153": {
+                "killed": 5,
+                "death": 3
               }
             }
           },
@@ -23767,13 +23767,13 @@
                 "killed": 6,
                 "death": 2
               },
-              "p57": {
-                "killed": 2,
-                "death": 2
-              },
               "p58": {
                 "killed": 4,
                 "death": 1
+              },
+              "p153": {
+                "killed": 2,
+                "death": 2
               }
             }
           },
@@ -23820,11 +23820,11 @@
                 "killed": 3,
                 "death": 1
               },
-              "p57": {
+              "p58": {
                 "killed": 2,
                 "death": 2
               },
-              "p58": {
+              "p153": {
                 "killed": 2,
                 "death": 2
               }
@@ -23873,13 +23873,13 @@
                 "killed": 2,
                 "death": 2
               },
-              "p57": {
-                "killed": 2,
-                "death": 0
-              },
               "p58": {
                 "killed": 4,
                 "death": 1
+              },
+              "p153": {
+                "killed": 2,
+                "death": 0
               }
             }
           },
@@ -23926,12 +23926,12 @@
                 "killed": 1,
                 "death": 1
               },
-              "p57": {
-                "killed": 4,
-                "death": 0
-              },
               "p58": {
                 "killed": 1,
+                "death": 0
+              },
+              "p153": {
+                "killed": 4,
                 "death": 0
               }
             }
@@ -24096,7 +24096,7 @@
             }
           },
           {
-            "playerId": "p57",
+            "playerId": "p153",
             "side": "B",
             "kills": 7,
             "deaths": 15,
@@ -25484,7 +25484,7 @@
               "assists": 2,
               "adr": 76,
               "hs": 70,
-              "rating": 1.0
+              "rating": 1
             }
           },
           {
