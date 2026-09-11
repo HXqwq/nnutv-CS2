@@ -1432,3 +1432,98 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   .player-tbl th, .player-tbl td { padding: 8px 8px; }
 }
 
+/* ===== 赛后评价（选手打星 + 匿名评论） ===== */
+.post-match { padding: 14px 16px 16px; }
+.pm-hint { color: var(--muted); font-size: 12px; margin: 6px 0 12px; }
+.pm-hint code { background: var(--panel-3); padding: 1px 5px; border-radius: 3px; color: var(--text); }
+.pm-mine-tip { color: var(--accent); }
+.pm-subtitle {
+  font-size: 13px;
+  margin: 18px 0 8px;
+  padding-left: 8px;
+  border-left: 3px solid var(--accent);
+  color: #fff;
+}
+.pm-teams { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.pm-team {
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 10px 12px;
+}
+.pm-team-name { font-weight: 700; color: #fff; margin-bottom: 6px; font-size: 12px; }
+.pm-player {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--border);
+}
+.pm-player:last-child { border-bottom: 0; }
+.pm-player-name { color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rate-row { display: flex; align-items: center; gap: 8px; flex: none; }
+.rate-stars { display: flex; }
+.rate-star {
+  background: none;
+  border: 0;
+  padding: 0 1px;
+  font-size: 15px;
+  line-height: 1;
+  color: #4a5158;
+  cursor: pointer;
+  transition: color 0.12s;
+}
+.rate-star.on { color: #f0a02a; }
+.rate-star.mine { color: var(--accent); }
+.rate-star:disabled { cursor: default; }
+.rate-avg {
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+  min-width: 60px;
+  text-align: right;
+}
+.rate-avg em { font-style: normal; opacity: 0.75; font-size: 11px; }
+
+.pm-form { display: flex; flex-direction: column; gap: 8px; }
+.pm-nick, .pm-text {
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 3px;
+  padding: 7px 9px;
+  font-size: 13px;
+  font-family: inherit;
+}
+.pm-nick { max-width: 220px; }
+.pm-text { resize: vertical; }
+.pm-nick:focus, .pm-text:focus { outline: none; border-color: var(--accent); }
+.pm-form-foot { display: flex; align-items: center; gap: 10px; }
+.pm-count { color: var(--muted); font-size: 11px; margin-right: auto; }
+.pm-submit {
+  background: var(--accent);
+  border: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 6px 18px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.pm-submit:hover:not(:disabled) { background: var(--accent-hover); }
+.pm-submit:disabled { opacity: 0.5; cursor: default; }
+.pm-toast { color: var(--win); font-size: 12px; margin: 8px 0 0; }
+.pm-list { list-style: none; margin: 12px 0 0; padding: 0; }
+.pm-item { padding: 9px 0; border-top: 1px solid var(--border); }
+.pm-item-head { display: flex; gap: 10px; align-items: baseline; }
+.pm-item-nick { color: #fff; font-weight: 700; }
+.pm-item-time { color: var(--muted); font-size: 11px; }
+.pm-item-text { white-space: pre-wrap; word-break: break-word; margin-top: 3px; }
+
+@media (max-width: 768px) {
+  .pm-teams { grid-template-columns: 1fr; }
+  .pm-player { flex-wrap: wrap; }
+  .rate-avg { min-width: 52px; }
+  .pm-nick { max-width: none; }
+}
+

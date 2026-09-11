@@ -5,6 +5,7 @@ import SearchBox from "../components/SearchBox";
 export const metadata = {
   title: "NNUTV CS2 · Counter-Strike News & Coverage",
   description: "南京师范大学 CS2 · BLION 电竞社",
+  icons: { icon: "/icon.png" },
 };
 
 export const viewport = {

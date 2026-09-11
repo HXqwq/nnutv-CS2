@@ -3,9 +3,29 @@ import { Fragment } from "react";
 import { notFound } from "next/navigation";
 import { getMatch, loadMatches, loadPlayers, h2hMatrix } from "../../../lib/data";
 import MapTabs from "./MapTabs";
+import PostMatch from "../../../components/PostMatch";
 
 export async function generateStaticParams() {
   return loadMatches().map((m) => ({ id: m.id }));
+}
+
+// 本场比赛的出场名单，按 A/B 侧分组（以选手首次出现时的 side 为准）
+function buildRoster(match, players) {
+  const byId = new Map(players.map((p) => [p.id, p]));
+  const sideOf = new Map();
+  for (const f of match.maps || []) {
+    for (const s of f.stats || []) {
+      if (!sideOf.has(s.playerId)) sideOf.set(s.playerId, s.side);
+    }
+  }
+  const A = [];
+  const B = [];
+  for (const [pid, side] of sideOf) {
+    const p = byId.get(pid);
+    if (!p) continue;
+    (side === "A" ? A : B).push({ id: pid, nickname: p.nickname });
+  }
+  return { A, B };
 }
 
 // 对位矩阵：B 方为行（压制视角），A 方为列
@@ -68,6 +88,7 @@ export default async function MatchDetailPage({ params }) {
   const aWon = match.scoreA > match.scoreB;
   const matrix = h2hMatrix(id);
   const players = loadPlayers();
+  const roster = buildRoster(match, players);
 
   return (
     <div>
@@ -101,6 +122,15 @@ export default async function MatchDetailPage({ params }) {
           <H2HMatrix matrix={matrix} teamBName={match.teamB} teamAName={match.teamA} />
         </section>
       )}
+
+      {/* 赛后评价：选手打星 + 匿名评论（数据存 EdgeOne KV） */}
+      <PostMatch
+        matchId={match.id}
+        teamA={match.teamA}
+        teamB={match.teamB}
+        rosterA={roster.A}
+        rosterB={roster.B}
+      />
     </div>
   );
 }
