@@ -530,9 +530,9 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   font-size: 12px;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
-  color: var(--accent);
+  color: var(--muted);
 }
-.map-tab.active .map-tab-score { color: var(--accent); }
+.map-tab.active .map-tab-score { color: var(--muted); }
 
 /* ===== 选手页 ===== */
 .player-head {

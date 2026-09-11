@@ -9,6 +9,19 @@ function fmt(n, digits = 2) {
   return n.toFixed(digits);
 }
 
+// 比分：胜负高亮绑在「队名对应那一侧」的分数上（A 在左、B 在右）
+function SideScore({ a, b }) {
+  const aWin = a > b;
+  const bWin = b > a;
+  return (
+    <>
+      <span className={aWin ? "pos" : bWin ? "neg" : ""}>{a}</span>
+      {" : "}
+      <span className={bWin ? "pos" : aWin ? "neg" : ""}>{b}</span>
+    </>
+  );
+}
+
 // 单队数据表
 function StatsTable({ stats, side, teamName, scoreA, scoreB, players }) {
   const rows = stats
@@ -168,7 +181,7 @@ export default function MapTabs({ match, players }) {
                 {map.map && map.map !== "待补充" ? map.map : `第${idx + 1}图`}
               </span>
               <span className="map-tab-score">
-                {map.scoreA} : {map.scoreB}
+                <SideScore a={map.scoreA} b={map.scoreB} />
               </span>
             </button>
           ))}
@@ -181,8 +194,8 @@ export default function MapTabs({ match, players }) {
             <span className="map-name">
               {cur.map && cur.map !== "待补充" ? cur.map : `第${active + 1}图`}
             </span>
-            <span className={`map-score ${cur.scoreA > cur.scoreB ? "pos" : "neg"}`}>
-              {cur.scoreA} : {cur.scoreB}
+            <span className="map-score">
+              <SideScore a={cur.scoreA} b={cur.scoreB} />
             </span>
           </div>
           <StatsTable
