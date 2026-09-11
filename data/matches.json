@@ -7684,7 +7684,7 @@
                 "killed": 4,
                 "death": 3
               },
-              "p99": {
+              "p144": {
                 "killed": 5,
                 "death": 3
               }
@@ -7737,7 +7737,7 @@
                 "killed": 5,
                 "death": 1
               },
-              "p99": {
+              "p144": {
                 "killed": 3,
                 "death": 0
               }
@@ -7790,7 +7790,7 @@
                 "killed": 3,
                 "death": 1
               },
-              "p99": {
+              "p144": {
                 "killed": 4,
                 "death": 2
               }
@@ -7843,7 +7843,7 @@
                 "killed": 3,
                 "death": 1
               },
-              "p99": {
+              "p144": {
                 "killed": 2,
                 "death": 0
               }
@@ -7896,7 +7896,7 @@
                 "killed": 2,
                 "death": 0
               },
-              "p99": {
+              "p144": {
                 "killed": 3,
                 "death": 3
               }
@@ -8115,7 +8115,7 @@
             }
           },
           {
-            "playerId": "p99",
+            "playerId": "p144",
             "side": "B",
             "kills": 8,
             "deaths": 17,
@@ -8233,13 +8233,13 @@
                 "killed": 5,
                 "death": 4
               },
-              "p99": {
-                "killed": 7,
-                "death": 3
-              },
               "p142": {
                 "killed": 3,
                 "death": 2
+              },
+              "p144": {
+                "killed": 7,
+                "death": 3
               }
             }
           },
@@ -8286,13 +8286,13 @@
                 "killed": 3,
                 "death": 3
               },
-              "p99": {
-                "killed": 3,
-                "death": 3
-              },
               "p142": {
                 "killed": 4,
                 "death": 2
+              },
+              "p144": {
+                "killed": 3,
+                "death": 3
               }
             }
           },
@@ -8339,13 +8339,13 @@
                 "killed": 3,
                 "death": 1
               },
-              "p99": {
-                "killed": 3,
-                "death": 3
-              },
               "p142": {
                 "killed": 3,
                 "death": 0
+              },
+              "p144": {
+                "killed": 3,
+                "death": 3
               }
             }
           },
@@ -8392,13 +8392,13 @@
                 "killed": 3,
                 "death": 2
               },
-              "p99": {
-                "killed": 3,
-                "death": 1
-              },
               "p142": {
                 "killed": 4,
                 "death": 2
+              },
+              "p144": {
+                "killed": 3,
+                "death": 1
               }
             }
           },
@@ -8445,13 +8445,13 @@
                 "killed": 2,
                 "death": 8
               },
-              "p99": {
-                "killed": 3,
-                "death": 3
-              },
               "p142": {
                 "killed": 3,
                 "death": 4
+              },
+              "p144": {
+                "killed": 3,
+                "death": 3
               }
             }
           },
@@ -8615,7 +8615,7 @@
             }
           },
           {
-            "playerId": "p99",
+            "playerId": "p144",
             "side": "B",
             "kills": 13,
             "deaths": 19,
@@ -8941,7 +8941,7 @@
             }
           },
           {
-            "playerId": "p99",
+            "playerId": "p144",
             "side": "B",
             "kills": 5,
             "deaths": 18,
@@ -9040,7 +9040,7 @@
                 "killed": 4,
                 "death": 1
               },
-              "p99": {
+              "p144": {
                 "killed": 7,
                 "death": 1
               }
@@ -9093,7 +9093,7 @@
                 "killed": 2,
                 "death": 4
               },
-              "p99": {
+              "p144": {
                 "killed": 5,
                 "death": 0
               }
@@ -9146,7 +9146,7 @@
                 "killed": 5,
                 "death": 3
               },
-              "p99": {
+              "p144": {
                 "killed": 3,
                 "death": 0
               }
@@ -9199,7 +9199,7 @@
                 "killed": 1,
                 "death": 3
               },
-              "p99": {
+              "p144": {
                 "killed": 0,
                 "death": 3
               }
@@ -9252,7 +9252,7 @@
                 "killed": 3,
                 "death": 4
               },
-              "p99": {
+              "p144": {
                 "killed": 3,
                 "death": 1
               }
@@ -12048,7 +12048,7 @@
                 "killed": 5,
                 "death": 0
               },
-              "p99": {
+              "p144": {
                 "killed": 7,
                 "death": 0
               }
@@ -12101,7 +12101,7 @@
                 "killed": 4,
                 "death": 4
               },
-              "p99": {
+              "p144": {
                 "killed": 1,
                 "death": 3
               }
@@ -12154,7 +12154,7 @@
                 "killed": 2,
                 "death": 2
               },
-              "p99": {
+              "p144": {
                 "killed": 5,
                 "death": 2
               }
@@ -12207,7 +12207,7 @@
                 "killed": 3,
                 "death": 1
               },
-              "p99": {
+              "p144": {
                 "killed": 3,
                 "death": 0
               }
@@ -12260,7 +12260,7 @@
                 "killed": 2,
                 "death": 2
               },
-              "p99": {
+              "p144": {
                 "killed": 2,
                 "death": 1
               }
@@ -12479,7 +12479,7 @@
             }
           },
           {
-            "playerId": "p99",
+            "playerId": "p144",
             "side": "B",
             "kills": 6,
             "deaths": 18,
@@ -12752,7 +12752,7 @@
             }
           },
           {
-            "playerId": "p99",
+            "playerId": "p144",
             "side": "B",
             "kills": 2,
             "deaths": 13,
@@ -12851,7 +12851,7 @@
                 "killed": 6,
                 "death": 0
               },
-              "p99": {
+              "p144": {
                 "killed": 5,
                 "death": 1
               }
@@ -12904,7 +12904,7 @@
                 "killed": 2,
                 "death": 0
               },
-              "p99": {
+              "p144": {
                 "killed": 4,
                 "death": 0
               }
@@ -12957,7 +12957,7 @@
                 "killed": 1,
                 "death": 1
               },
-              "p99": {
+              "p144": {
                 "killed": 3,
                 "death": 0
               }
@@ -13010,7 +13010,7 @@
                 "killed": 3,
                 "death": 0
               },
-              "p99": {
+              "p144": {
                 "killed": 0,
                 "death": 1
               }
@@ -13063,7 +13063,7 @@
                 "killed": 0,
                 "death": 2
               },
-              "p99": {
+              "p144": {
                 "killed": 1,
                 "death": 0
               }
@@ -16394,7 +16394,7 @@
                 "killed": 4,
                 "death": 5
               },
-              "p99": {
+              "p144": {
                 "killed": 6,
                 "death": 0
               }
@@ -16433,7 +16433,7 @@
                 "killed": 3,
                 "death": 3
               },
-              "p99": {
+              "p144": {
                 "killed": 3,
                 "death": 2
               }
@@ -16472,7 +16472,7 @@
                 "killed": 5,
                 "death": 4
               },
-              "p99": {
+              "p144": {
                 "killed": 3,
                 "death": 2
               }
@@ -16511,7 +16511,7 @@
                 "killed": 4,
                 "death": 1
               },
-              "p99": {
+              "p144": {
                 "killed": 1,
                 "death": 3
               }
@@ -16550,7 +16550,7 @@
                 "killed": 1,
                 "death": 6
               },
-              "p99": {
+              "p144": {
                 "killed": 1,
                 "death": 1
               }
@@ -16713,7 +16713,7 @@
             }
           },
           {
-            "playerId": "p99",
+            "playerId": "p144",
             "side": "B",
             "kills": 8,
             "deaths": 14,
@@ -17860,46 +17860,6 @@
     "time": "13:05"
   },
   {
-    "id": "m10",
-    "date": "2026-03-21",
-    "event": "NNU Major S1",
-    "stage": "Group Stage",
-    "format": "BO1",
-    "teamA": "总被炸",
-    "teamB": "My Go Clan",
-    "scoreA": 13,
-    "scoreB": 2,
-    "maps": [
-      {
-        "map": "待补充",
-        "scoreA": 13,
-        "scoreB": 2,
-        "stats": []
-      }
-    ],
-    "time": "13:05"
-  },
-  {
-    "id": "m11",
-    "date": "2026-03-21",
-    "event": "NNU Major S1",
-    "stage": "Group Stage",
-    "format": "BO1",
-    "teamA": "Team 9one",
-    "teamB": "Black Horizon",
-    "scoreA": 2,
-    "scoreB": 13,
-    "maps": [
-      {
-        "map": "待补充",
-        "scoreA": 2,
-        "scoreB": 13,
-        "stats": []
-      }
-    ],
-    "time": "13:05"
-  },
-  {
     "date": "2026-03-21",
     "event": "NNU Major S1",
     "stage": "Group Stage",
@@ -19000,26 +18960,6 @@
       }
     ],
     "time": "13:05"
-  },
-  {
-    "id": "m8",
-    "date": "2026-03-21",
-    "event": "NNU Major S1",
-    "stage": "Group Stage",
-    "format": "BO1",
-    "teamA": "牢霸道了",
-    "teamB": "常务副够特",
-    "scoreA": 3,
-    "scoreB": 13,
-    "maps": [
-      {
-        "map": "待补充",
-        "scoreA": 3,
-        "scoreB": 13,
-        "stats": []
-      }
-    ],
-    "time": "13:03"
   },
   {
     "id": "m37",
