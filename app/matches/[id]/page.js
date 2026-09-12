@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Fragment } from "react";
 import { notFound } from "next/navigation";
 import { getMatch, loadMatches, loadPlayers, h2hMatrix } from "../../../lib/data";
+import { isScheduled } from "../../../lib/match-status";
 import MapTabs from "./MapTabs";
 import PostMatch from "../../../components/PostMatch";
 
@@ -85,29 +86,39 @@ export default async function MatchDetailPage({ params }) {
   const match = getMatch(id);
   if (!match) notFound();
 
-  const aWon = match.scoreA > match.scoreB;
+  const soon = isScheduled(match);
+  const aWon = !soon && match.scoreA > match.scoreB;
   const matrix = h2hMatrix(id);
   const players = loadPlayers();
   const roster = buildRoster(match, players);
 
   return (
     <div>
-      <h1 className="page-title">比赛详情 · {match.teamA} vs {match.teamB}</h1>
+      <h1 className="page-title">
+        比赛详情 · {match.teamA} vs {match.teamB || "待定"}
+      </h1>
 
       <section className="panel">
         <div className="match-header">
           <div className="teams">
-            <span className={aWon ? "winner" : "loser"}>{match.teamA}</span>
+            <span className={soon ? "" : aWon ? "winner" : "loser"}>{match.teamA}</span>
             {" vs "}
-            <span className={!aWon ? "winner" : "loser"}>{match.teamB}</span>
+            <span className={soon ? "" : !aWon ? "winner" : "loser"}>{match.teamB || "待定"}</span>
           </div>
-          <div className="big-score">
-            <span className={aWon ? "s-win" : "s-loss"}>{match.scoreA}</span>
-            <span className="sep">:</span>
-            <span className={!aWon ? "s-win" : "s-loss"}>{match.scoreB}</span>
-          </div>
+          {soon ? (
+            <div className="big-score">
+              <span className="vs">VS</span>
+            </div>
+          ) : (
+            <div className="big-score">
+              <span className={aWon ? "s-win" : "s-loss"}>{match.scoreA}</span>
+              <span className="sep">:</span>
+              <span className={!aWon ? "s-win" : "s-loss"}>{match.scoreB}</span>
+            </div>
+          )}
           <div className="meta">
             {match.date}{match.time ? ` ${match.time}` : ""} · {match.format} · {match.event}
+            {soon && <span className="pill-soon">即将开始</span>}
           </div>
         </div>
       </section>
@@ -123,14 +134,16 @@ export default async function MatchDetailPage({ params }) {
         </section>
       )}
 
-      {/* 赛后评价：选手打星 + 匿名评论（数据存 EdgeOne KV） */}
-      <PostMatch
-        matchId={match.id}
-        teamA={match.teamA}
-        teamB={match.teamB}
-        rosterA={roster.A}
-        rosterB={roster.B}
-      />
+      {/* 赛后评价：选手打星 + 匿名评论（数据存 EdgeOne KV）；未开赛的场次不显示 */}
+      {!soon && (
+        <PostMatch
+          matchId={match.id}
+          teamA={match.teamA}
+          teamB={match.teamB}
+          rosterA={roster.A}
+          rosterB={roster.B}
+        />
+      )}
     </div>
   );
 }

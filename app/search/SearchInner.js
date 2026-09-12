@@ -5,6 +5,7 @@ import Link from "next/link";
 import playersData from "../../data/players.json";
 import teamsData from "../../data/teams.json";
 import matchesData from "../../data/matches.json";
+import { isScheduled } from "../../lib/match-status";
 
 // SSR/预渲染时无 window，返回空；客户端首挂载时读 URL 的 ?q=
 function initialQ() {
@@ -126,21 +127,31 @@ export default function SearchInner() {
               <h2>比赛</h2>
               <div className="search-rows">
                 {results.matches.map((m) => {
-                  const aWon = m.scoreA > m.scoreB;
-                  const bWon = m.scoreB > m.scoreA;
+                  const soon = isScheduled(m);
+                  const aWon = !soon && m.scoreA > m.scoreB;
+                  const bWon = !soon && m.scoreB > m.scoreA;
                   return (
                     <Link className="search-row search-row-match" href={`/matches/${m.id}`} key={m.id}>
                       <span className="sr-name">
-                        <span className={`sr-team ${aWon ? "sr-win" : ""}`}>{m.teamA}</span>
+                        <span className={`sr-team ${soon ? "" : aWon ? "sr-win" : ""}`}>{m.teamA}</span>
                         <span className="sr-score">
-                          <span className={aWon ? "sr-win" : ""}>{m.scoreA}</span>
-                          {" : "}
-                          <span className={bWon ? "sr-win" : ""}>{m.scoreB}</span>
+                          {soon ? (
+                            <span className="vs">VS</span>
+                          ) : (
+                            <>
+                              <span className={aWon ? "sr-win" : ""}>{m.scoreA}</span>
+                              {" : "}
+                              <span className={bWon ? "sr-win" : ""}>{m.scoreB}</span>
+                            </>
+                          )}
                         </span>
-                        <span className={`sr-team ${bWon ? "sr-win" : ""}`}>{m.teamB}</span>
+                        <span className={`sr-team ${soon ? "" : bWon ? "sr-win" : ""}`}>
+                          {m.teamB || "待定"}
+                        </span>
                       </span>
                       <span className="sr-sub sr-right">
                         {m.date} · {m.format}
+                        {soon ? " · 即将开始" : ""}
                       </span>
                     </Link>
                   );

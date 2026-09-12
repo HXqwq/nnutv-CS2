@@ -26,6 +26,17 @@ const teamOk = (name, tag) => {
 for (const m of matches) {
   ok(!ids.has(m.id), `match id ${m.id} 唯一`);
   ids.add(m.id);
+
+  // 未开赛的场次（status: "scheduled"）只有对阵和时间，没有比分/地图数据：
+  // 对手可以是空字符串（赛程里的「胜者」这类占位），也不校验系列比分。
+  const scheduled = m.status === "scheduled";
+  if (scheduled) {
+    ok(m.maps.length === 0, `${m.id} 未开赛场次不应有地图数据`);
+    ok(m.teamA && teamNames.has(m.teamA), `${m.id} teamA 队伍不存在: ${m.teamA}`);
+    if (m.teamB) teamOk(m.teamB, `${m.id} teamB`);
+    continue;
+  }
+
   teamOk(m.teamA, `${m.id} teamA`);
   teamOk(m.teamB, `${m.id} teamB`);
 
@@ -84,7 +95,11 @@ for (const m of matches) {
 }
 
 const withStats = matches.filter((m) => m.maps.some((mp) => mp.stats && mp.stats.length));
+const scheduledList = matches.filter((m) => m.status === "scheduled");
 console.log(`比赛总数 ${matches.length}，含数据 ${withStats.length} 场：${withStats.map((m) => m.id).join(" ")}`);
+if (scheduledList.length) {
+  console.log(`未开赛 ${scheduledList.length} 场：${scheduledList.map((m) => `${m.id} ${m.teamA} vs ${m.teamB || "待定"}`).join(" / ")}`);
+}
 console.log(`选手总数 ${players.length}`);
 if (aliasUse.size) console.log(`提示：以下队名使用了别名（teams.json 中为全称）：${[...aliasUse].map((a) => a + "→" + TEAM_ALIAS[a]).join(" ")}`);
 console.log(errs ? `\n${errs} 处错误` : "\n全部通过 ✓");

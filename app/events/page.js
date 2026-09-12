@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { loadEvents, loadMatches } from "../../lib/data";
+import { isScheduled } from "../../lib/match-status";
 
 export default function EventsPage() {
   const events = loadEvents();
@@ -68,10 +69,10 @@ export default function EventsPage() {
                   </div>
                 )}
 
-                {evMatches.length > 0 && (
+                {evMatches.some((m) => !isScheduled(m)) && (
                   <div className="event-replays">
                     <div className="event-replays-title">已收录比赛数据</div>
-                    {evMatches.map((m) => {
+                    {evMatches.filter((m) => !isScheduled(m)).map((m) => {
                       const aWon = m.scoreA > m.scoreB;
                       return (
                         <Link className="replay-row" href={`/matches/${m.id}`} key={m.id}>
@@ -86,6 +87,25 @@ export default function EventsPage() {
                         </Link>
                       );
                     })}
+                  </div>
+                )}
+
+                {evMatches.some((m) => isScheduled(m)) && (
+                  <div className="event-replays">
+                    <div className="event-replays-title">即将进行</div>
+                    {evMatches.filter((m) => isScheduled(m)).map((m) => (
+                      <Link className="replay-row" href={`/matches/${m.id}`} key={m.id}>
+                        <span className="replay-stage">{m.stage}</span>
+                        <span className="replay-name">
+                          {m.teamA} <span className="vs">VS</span> {m.teamB || "待定"}{" "}
+                          <span className="pill-soon">即将开始</span>
+                        </span>
+                        <span className="replay-duration muted">
+                          {m.date}{m.time ? ` ${m.time}` : ""}
+                        </span>
+                        <span className="replay-external">›</span>
+                      </Link>
+                    ))}
                   </div>
                 )}
               </div>

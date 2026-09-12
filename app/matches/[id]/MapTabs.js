@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { isScheduled } from "../../../lib/match-status";
 
 // 纯函数格式化（避免 client 端 import 依赖 fs 的 lib/data）
 function fmt(n, digits = 2) {
@@ -161,7 +162,11 @@ export default function MapTabs({ match, players }) {
   const cur = maps[active] || maps[0];
 
   if (maps.length === 0) {
-    return <div className="empty">暂无地图数据</div>;
+    return (
+      <div className="empty">
+        {isScheduled(match) ? "比赛尚未开始，地图与选手数据待补充" : "暂无地图数据"}
+      </div>
+    );
   }
 
   // 单图（BO1）不显示 tab 栏

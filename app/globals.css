@@ -635,6 +635,23 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 .badge.w { background: rgba(143, 199, 59, 0.15); color: var(--win); }
 .badge.l { background: rgba(212, 66, 77, 0.15); color: var(--loss); }
 
+/* ===== 未开赛（status: scheduled）=====
+   比分位显示 VS，旁边跟一个「即将开始」徽标，避免 0 : 0 被误读成打完打平 */
+.pill-soon {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 2px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  background: rgba(253, 98, 81, 0.15);
+  color: var(--accent);
+  white-space: nowrap;
+}
+.vs { color: var(--muted); font-weight: 700; letter-spacing: 0.5px; }
+.big-score .vs { font-size: 18px; }
+
 .empty { padding: 32px; text-align: center; color: var(--muted); }
 
 /* ===== Sidebar ===== */
