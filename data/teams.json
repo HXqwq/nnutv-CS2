@@ -65,7 +65,8 @@
     "id": "t10",
     "name": "TeamGoldRain",
     "shortName": "TGR",
-    "country": "中华人民共和国"
+    "country": "中华人民共和国",
+    "panelId": "61QJ1Ka0S"
   },
   {
     "id": "t11",
@@ -95,7 +96,8 @@
     "id": "t15",
     "name": "惊天五条区",
     "shortName": "JTW",
-    "country": "中华人民共和国"
+    "country": "中华人民共和国",
+    "panelId": "Tzkk0wrq4"
   },
   {
     "id": "t16",
@@ -113,19 +115,22 @@
     "id": "t18",
     "name": "NU Esports",
     "shortName": "NUE",
-    "country": "中华人民共和国"
+    "country": "中华人民共和国",
+    "panelId": "JaCKnWReVR"
   },
   {
     "id": "t19",
     "name": "一轮游",
     "shortName": "YLY",
-    "country": "中华人民共和国"
+    "country": "中华人民共和国",
+    "panelId": "0ZpgDaoV0X"
   },
   {
     "id": "t20",
     "name": "四驱战车",
     "shortName": "SQCZ",
-    "country": "中华人民共和国"
+    "country": "中华人民共和国",
+    "panelId": "Ov0crnE3q3"
   },
   {
     "id": "t21",
@@ -137,13 +142,15 @@
     "id": "t22",
     "name": "强强的区区",
     "shortName": "QQQ",
-    "country": "中华人民共和国"
+    "country": "中华人民共和国",
+    "panelId": "ZmK6NAZpfB"
   },
   {
     "id": "t23",
     "name": "银河皮筏艇",
     "shortName": "YH",
-    "country": "中华人民共和国"
+    "country": "中华人民共和国",
+    "panelId": "7b8UM1lEpS"
   },
   {
     "id": "t24",
@@ -155,6 +162,7 @@
     "id": "t25",
     "name": "NNU来",
     "shortName": "NNUL",
-    "country": "中华人民共和国"
+    "country": "中华人民共和国",
+    "panelId": "LOx9myr-vt"
   }
 ]
